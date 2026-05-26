@@ -3,5 +3,5 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   site: 'https://TomRolB.github.io',
-  base: '/quizzes',
+  base: '/austral-quizzes',
 });
