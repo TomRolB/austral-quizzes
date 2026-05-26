@@ -1,0 +1,525 @@
+{
+    "courseId": "economia-politica",
+    "courseName": "Economía Política",
+    "courseIcon": "📊",
+    "id": "quiz-economia-2025",
+    "title": "Examen Parcial: Economía Política",
+    "description": "1º cuatrimestre - año 2025. Evaluación interactiva de conceptos macroeconómicos, microeconómicos e historia argentina reciente.",
+    "questions": [
+        {
+            "id": 1,
+            "originalNumber": 1,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En un monopolio la empresa puede perder dinero:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 2,
+            "originalNumber": 2,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La inflación anual se redujo en la convertibilidad antes de dos años de su lanzamiento a valores de un dígito:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 3,
+            "originalNumber": 3,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El riesgo país durante el mes de mayo 2025 está en la zona de:",
+            "options": [
+                "a) 650 puntos básicos:",
+                "b) 450 puntos básicos:",
+                "c) 950 puntos básicos:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 4,
+            "originalNumber": 4,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Durante el modelo sustitutivo de importaciones se creció aproximadamente a una tasa del:",
+            "options": [
+                "a) 1%:",
+                "b) 3%:",
+                "c) 6%:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 5,
+            "originalNumber": 5,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Si un bien es indispensable la elasticidad demanda precio tiende a ser elevada:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 6,
+            "originalNumber": 6,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Durante el gobierno de Néstor Kirchner hubo superávit gemelos, es decir, fiscal y externo:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 7,
+            "originalNumber": 7,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Por debajo de la frontera de posibilidades de producción la economía está en una zona de ineficiencia:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 8,
+            "originalNumber": 8,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Los clásicos fallos de mercado son existencia de bienes públicos, externalidades, monopolio y bienes de consumo:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 9,
+            "originalNumber": 9,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En el eje de abscisas del gráfico de una función de producción se coloca:",
+            "options": [
+                "a) Cantidad producida:",
+                "b) Demanda del bien:",
+                "c) Precio del bien:",
+                "d) Cantidad de factor de producción, por ejemplo: trabajo:",
+                "e) Todas incorrectas:"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 10,
+            "originalNumber": 10,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Desde la liberación del CEPO, el tipo de cambio se ha ubicado principalmente en el medio de la banda con presiones a la baja:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 11,
+            "originalNumber": 11,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En términos del PIB mundial, Estados Unidos representa:",
+            "options": [
+                "a) 25%:",
+                "b) 45%:",
+                "c) 18%:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 12,
+            "originalNumber": 12,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El excedente del consumidor puede ser negativo:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 13,
+            "originalNumber": 13,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El precio máximo es lógico que esté por encima del punto de equilibrio entre oferta y demanda:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 14,
+            "originalNumber": 14,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La inversión es la suma de construcción más bienes de capital e importaciones totales:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 15,
+            "originalNumber": 15,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El año 2025 tendrá un crecimiento económico de:",
+            "options": [
+                "a) 5%",
+                "b) 8%:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 16,
+            "originalNumber": 16,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En la democracia tuvimos:",
+            "options": [
+                "a) Una hiperinflación:",
+                "b) Dos hiperinflaciones:",
+                "c) Tres hiperinflaciones:",
+                "d) Todas incorrectas:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 17,
+            "originalNumber": 17,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La suba de aranceles que postula Trump dejaría a la economía de Estados Unidos con mayor inflación y caída del PIB:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 18,
+            "originalNumber": 18,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El tipo de cambio real del dólar oficial está retrasado respecto al histórico:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 19,
+            "originalNumber": 19,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Un argumento concreto a favor de la protección comercial de un país:",
+            "options": [
+                "a) Proteger la mano de obra nacional frente a una mano de obra extranjera más barata:",
+                "b) Reducir el desempleo nacional:",
+                "c) Proteger la industria nacional:",
+                "d) Todo lo anterior:"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 20,
+            "originalNumber": 20,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La variable clave para impulsar el crecimiento del modelo kirchnerista ha sido:",
+            "options": [
+                "a) El consumo:",
+                "b) La inversión:",
+                "c) La exportación:",
+                "d) El empleo:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 21,
+            "originalNumber": 21,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Desde la estimación del Gasto Bruto Interno (GBI) se puede observar el valor agregado estimado en cada etapa productiva:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 22,
+            "originalNumber": 22,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Cuando el déficit fiscal es elevado tendrá efectos potenciales en el sistema financiero dadas las necesidades de recursos financieros del sector y sus efectos sobre la tasa de interés:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 23,
+            "originalNumber": 23,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El Producto Interno Bruto es una estimación del valor agregado de la economía donde se exponen las retribuciones a los factores de producción:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 24,
+            "originalNumber": 24,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La valuación a precios corrientes del PIB se refiere a los precios de un año determinado como base de estimación dada la necesidad de eliminar los efectos de la variación de los precios de la economía:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 25,
+            "originalNumber": 25,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El PIB a precios corrientes contempla el desgaste o depreciación de los factores de producción:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 26,
+            "originalNumber": 26,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Desde la Contabilidad Nacional se pretende estimar/medir la actividad económica en un complejo interrelacionado de transacciones en simultáneo para un momento determinado:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 27,
+            "originalNumber": 27,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La política macroeconómica a los efectos de minimizar la inflación puede implicar contraer la actividad económica:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 28,
+            "originalNumber": 28,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Ante un desequilibrio en el Balance de Pagos puede comenzar un período de crecimiento de deuda externa que afecte las expectativas sobre esa economía:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 29,
+            "originalNumber": 29,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El crecimiento intensivo de precios distorsiona las decisiones económicas de las empresas y de los individuos y por lo tanto, impide una asignación eficiente de los recursos:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 30,
+            "originalNumber": 30,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Algunos de los objetivos de la macroeconomía son:",
+            "options": [
+                "a) Estabilidad de precios",
+                "b) Crecimiento económico estable y sostenible",
+                "c) Estudiar el comportamiento de un agente económico",
+                "d) a) y b):"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 31,
+            "originalNumber": 31,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El valor agregado se asocia con la riqueza productiva del país y es desde donde se determina el crecimiento económico:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 32,
+            "originalNumber": 32,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En la práctica, la estimación del valor agregado de la economía se realiza desde el proceso de gasto agregado:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 33,
+            "originalNumber": 33,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El siguiente detalle se clasifica como variables stock para la macroeconomía:",
+            "options": [
+                "a) Exportaciones:",
+                "b) Maquinarias:",
+                "c) Deuda externa bruta del sector público:",
+                "d) Ninguna de las anteriores:",
+                "e) b) y c):"
+            ],
+            "answerIndex": 4
+        },
+        {
+            "id": 34,
+            "originalNumber": 34,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La política cambiaria deberá interactuar entre el sector externo y los objetivos de la economía política lo cual estará restringido por el poder de gestión:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 35,
+            "originalNumber": 35,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Uno de los efectos de la persistencia del desempleo/desempleo de larga duración es la potencial pérdida de productividad laboral:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 36,
+            "originalNumber": 36,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La diferencia entre Producto Interno Bruto (PIB) y Producto Interno Neto (PIN) es por:",
+            "options": [
+                "a) Rentas externas:",
+                "b) Depreciaciones de los factores de producción",
+                "c) Depreciaciones de los parques nacionales:",
+                "d) Ninguna de las anteriores:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 37,
+            "originalNumber": 37,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Desde la ecuación del YBI no sería posible notar cómo se distribuye el ingreso o la renta debido a las duplicaciones de producción:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 38,
+            "originalNumber": 38,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Dada la identidad fundamental de la macroeconomía, podemos aludir a gasto como equivalente a producción, no así a producto:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 39,
+            "originalNumber": 39,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En macroeconomía la denominada oferta global no tiene en cuenta a las importaciones:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 40,
+            "originalNumber": 40,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Un programa de estabilización macroeconómica generalmente no contiene medidas de desarrollo productivo dado que éste último es una gestión de corto plazo:",
+            "options": [
+                "a) Depende:",
+                "b) Verdadero:",
+                "c) Falso:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 41,
+            "originalNumber": 41,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El denominado ciclo populista de la macroeconomía se asocia con la dominancia de las exportaciones y la inversión por sobre los demás fundamentales macroeconómicos:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 42,
+            "originalNumber": 42,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El superávit fiscal del primer cuatrimestre del año 2024 se asocia exclusivamente con el ajuste fiscal nominal, es decir, con la denominada motosierra:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 43,
+            "originalNumber": 43,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Los desequilibrios macroeconómicos, como el déficit fiscal and externo, cobran relevancia ante su persistencia:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 44,
+            "originalNumber": 44,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La incertidumbre de mercado puede expandirse abruptamente solo por efectos derivados de variables no controladas por parte de la política económica:",
+            "options": [
+                "a) Verdadero",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 45,
+            "originalNumber": 45,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Desde el inicio del año 2024 la emisión monetaria en Argentina es nula:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        }
+    ]
+}

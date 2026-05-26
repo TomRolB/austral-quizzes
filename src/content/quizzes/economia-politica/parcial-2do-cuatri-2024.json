@@ -1,0 +1,552 @@
+{
+  "courseId": "economia-politica",
+  "courseName": "Economía Política",
+  "courseIcon": "📊",
+  "id": "quiz-economia-2024-c2",
+  "title": "Examen Parcial: Economía Política (2° cuatrimestre 2024)",
+  "description": "Evaluación interactiva de conceptos macroeconómicos, microeconómicos e historia argentina reciente.",
+  "questions": [
+        {
+            "id": 1,
+            "originalNumber": 1,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El crecimiento económico de un país se cuantifica desde la expansión de la frontera de la producción:",
+            "options": [
+                "a) Si:",
+                "b) No:",
+                "c) No necesariamente:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 2,
+            "originalNumber": 2,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Existe una interacción permanente entre oferta y demanda que imposibilita la identificación de los agregados macroeconómicos que determinan el crecimiento:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 3,
+            "originalNumber": 3,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El Ingreso Bruto Interno, el Gasto Bruto Interno y el Producto Interno Bruto son equivalentes para la estimación de la producción tal como lo plantea la identidad macroeconómica fundamental:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 4,
+            "originalNumber": 4,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Algunos de los objetivos de la macroeconomía son:",
+            "options": [
+                "a) Estabilidad de precios:",
+                "b) Crecimiento económico estable y sostenible:",
+                "c) Estudiar el comportamiento de los agentes económicos:",
+                "d) a) y b):",
+                "e) Todas correctas:"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 5,
+            "originalNumber": 5,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Las funciones del dinero determinan que el dinero es fiduciario:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:",
+                "c) Depende:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 6,
+            "originalNumber": 6,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El siguiente detalle se clasifica como variables flujo para la macroeconomía:",
+            "options": [
+                "a) Exportaciones:",
+                "b) Maquinarias:",
+                "c) Deuda externa bruta del sector público:",
+                "d) Solo a) y c):"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 7,
+            "originalNumber": 7,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La producción de insumos industriales no forma parte del PIB:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 8,
+            "originalNumber": 8,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El cambio de preferencias de consumidores siempre altera directamente la oferta agregada:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:",
+                "c) No necesariamente:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 9,
+            "originalNumber": 9,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El desempleo estructural se vincula con:",
+            "options": [
+                "a) Modificaciones temporales de demanda agregada debido a la etapa del año:",
+                "b) Cambios en las preferencias de consumo:",
+                "c) Insuficiencia del gasto de la economía para un período determinado:",
+                "d) Ninguna de las anteriores:"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 10,
+            "originalNumber": 10,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Las políticas económicas de mediano y largo plazo vinculadas con la oferta para minimizar el nivel de desempleo se relacionan con:",
+            "options": [
+                "a) Crecimiento del PIB potencial y la productividad del trabajo:",
+                "b) Aumento del consumo y las exportaciones netas:",
+                "c) Disminución del gasto público:",
+                "d) Ninguna de las anteriores:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 11,
+            "originalNumber": 11,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La neutralidad tributaria se refiere a evitar la complejidad potencial del sistema impositivo:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 12,
+            "originalNumber": 12,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Se menciona que el superávit fiscal del primer cuatrimestre del año 2024 se asocia exclusivamente con la denominada licuación:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 13,
+            "originalNumber": 13,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Una perturbación económica externa genera:",
+            "options": [
+                "a) Modificaciones de conductas de los agentes por cambios en preferencias:",
+                "b) Modificaciones de conductas de los agentes como consecuencia de variaciones no determinadas por el mercado en estudio:",
+                "c) El sector público interviene en el mercado de medicamentos:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 14,
+            "originalNumber": 14,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Los desequilibrios macroeconómicos, como el déficit fiscal y externo, cobran relevancia ante su persistencia:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 15,
+            "originalNumber": 15,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El agregado monetario M2 se compone de:",
+            "options": [
+                "a) Depósitos a plazo fijo:",
+                "b) Depósitos en cajas de ahorro:",
+                "c) a) y b):",
+                "d) M1 y b):"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 16,
+            "originalNumber": 16,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El efecto regresivo del sistema tributario se puede derivar de la dominancia de impuestos directos:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 17,
+            "originalNumber": 17,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La preferencia por liquidez se vincula con la demanda de dinero con el objetivo de realizar transacciones económicas, es decir, compra y venta de bienes y/o servicios:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 18,
+            "originalNumber": 18,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Podríamos afirmar que una proporción considerable del desempleo en Argentina es estructural debido esencialmente a que el gasto agregado de la economía es insuficiente en relación a la dotación de factores productivos:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 19,
+            "originalNumber": 19,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Las variables stock se definen en relación a una fecha determinada, pues tienen sentido de acumulación tal como el consumo:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 20,
+            "originalNumber": 20,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Se alude a que el instrumento más efectivo de la política fiscal a los fines de estabilizar e impulsar la actividad económica es el gasto público:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 21,
+            "originalNumber": 21,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Una política monetaria restrictiva afecta primeramente el nivel de actividad y luego al mercado de crédito a través de la tasa de interés:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 22,
+            "originalNumber": 22,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Uno de los desafíos de la gestión de política fiscal es minimizar el nivel gasto corriente dado el nivel de gastos sociales cuyo peso relativo en el año 2022 fue:",
+            "options": [
+                "a) 64%:",
+                "b) 60%:",
+                "c) 55%:",
+                "d) Ninguna de las anteriores:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 23,
+            "originalNumber": 23,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La valuación a precios constantes del PIB se refiere a los precios de un año determinado como base de estimación dada la necesidad de eliminar los efectos de la variación de los precios de la economía:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 24,
+            "originalNumber": 24,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Un aumento del PIB potencial puede generar un desplazamiento de la oferta agregada de la economía:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 25,
+            "originalNumber": 25,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Aludimos a déficit fiscal primario cuando los pagos de intereses de deuda exceden a los ingresos fiscales:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 26,
+            "originalNumber": 26,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La sustitución de importaciones del período 1930-1975:",
+            "options": [
+                "a) Genera empleos:",
+                "b) Ahorra dólares a la economía:",
+                "c) Disminuye el valor de las importaciones:",
+                "d) todas correctas:"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 27,
+            "originalNumber": 27,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El PIB per cápita de Argentina es:",
+            "options": [
+                "a) Superior a 20.000 dólares:",
+                "b) Inferior a 10.000 dólares:",
+                "c) Un número entre 10.000 y 20.000 dólares:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 28,
+            "originalNumber": 28,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La variable clave para impulsar el crecimiento del modelo kirchnerista ha sido:",
+            "options": [
+                "a) El consumo:",
+                "b) La inversión:",
+                "c) La exportación:",
+                "d) El empleo:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 29,
+            "originalNumber": 29,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La inflación Argentina en democracia tiene que ver con:",
+            "options": [
+                "a) Expectativas:",
+                "b) Exceso de Oferta de dinero:",
+                "c) Incrementos salariales:",
+                "d) Devaluación del peso:",
+                "e) Todas correctas:"
+            ],
+            "answerIndex": 4
+        },
+        {
+            "id": 30,
+            "originalNumber": 30,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En 2006 se pagó la deuda con el FMI por casi 10.000 millones de dólares:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 31,
+            "originalNumber": 31,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Las externalidades en microeconomía siempre incrementan los costos:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 32,
+            "originalNumber": 32,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El incremento de la oferta de un bien hace descender el precio del mismo:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 33,
+            "originalNumber": 33,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El crecimiento económico del período 2002-2008 fue un impulso débil sobre de la oferta agregada:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 34,
+            "originalNumber": 34,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El déficit fiscal en Argentina desde los '70:",
+            "options": [
+                "a) Es recurrente:",
+                "b) Es esporádico e infrecuente:",
+                "c) Tiende a desaparecer:",
+                "d) Todas incorrectas:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 35,
+            "originalNumber": 35,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Los países emergentes están creciendo en el siglo XXI más que los países centrales:",
+            "options": [
+                "a) Verdadero, sólo para África:",
+                "b) Falso:",
+                "c) Verdadero, sólo para Asia:",
+                "d) Verdadero en general:"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 36,
+            "originalNumber": 36,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La suba de tasas de interés de la FED (Reserva Federal de Estados Unidos):",
+            "options": [
+                "a) Enfría la demanda interna de Estados Unidos:",
+                "b) Complica el financiamiento de países emergentes:",
+                "c) Re direcciona los flujos de capital hacia Estados Unidos:",
+                "d) Todas correctas:"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 37,
+            "originalNumber": 37,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El ciclo económico de Argentina estuvo influido históricamente por:",
+            "options": [
+                "a) Los términos de intercambio:",
+                "b) Ciclos de naturaleza política:",
+                "c) Caída de la confianza en el gobierno:",
+                "d) Las tres correctas:"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 38,
+            "originalNumber": 38,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El desarrollismo de 1958-1962, visto en clase, promovió esencialmente:",
+            "options": [
+                "a) El crecimiento consistente con el medio ambiente:",
+                "b) Las industrias básicas:",
+                "c) El sector nuclear:",
+                "d) Todas incorrectas:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 39,
+            "originalNumber": 39,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El crecimiento promedio de Argentina a lo largo de los últimos 100 años fue:",
+            "options": [
+                "a) Cercano a 3%:",
+                "b) Cercano a 1%:",
+                "c) Superior a 5%:",
+                "d) Todas incorrectas:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 40,
+            "originalNumber": 40,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La economía Argentina entre 1930 y 1990 fue mayoritariamente:",
+            "options": [
+                "a) Cerrada:",
+                "b) Abierta:",
+                "c) Promotora de la industrialización sustitutiva de importaciones:",
+                "c) a) y c):"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 41,
+            "originalNumber": 41,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El dólar blue desde octubre 2023 ha crecido más que los precios minoristas:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 42,
+            "originalNumber": 42,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El crecimiento de la población y del PIB mundiales comenzaron a darse con mayor intensidad a partir de:",
+            "options": [
+                "a) Revolución Industrial (hacia 1800):",
+                "b) Crisis de 1930:",
+                "c) Primera Guerra Mundial en 1914:",
+                "d) Todas incorrectas:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 43,
+            "originalNumber": 43,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Con respecto al comercio internacional:",
+            "options": [
+                "a) Brasil es el principal país comprador externo de Argentina:",
+                "b) China es el primer comprador:",
+                "c) La Unión Europea es la primera compradora:",
+                "d) Ninguna de las tres alternativas:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 44,
+            "originalNumber": 44,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Argentina es un país que utiliza:",
+            "options": [
+                "a) Mucho las energías renovables:",
+                "b) Mucho gas natural en su matriz de energía:",
+                "c) Mucho carbón en su matriz de energía:",
+                "d) Todas correctas:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 45,
+            "originalNumber": 45,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La composición del PIB en Argentina se caracteriza por concentrarse:",
+            "options": [
+                "a) Mayoritariamente en servicios:",
+                "b) Mayoritariamente en bienes industriales:",
+                "c) Similares proporciones de bienes y servicios:",
+                "d) Mayormente en bienes agropecuarios:"
+            ],
+            "answerIndex": 0
+        }
+    ]
+}

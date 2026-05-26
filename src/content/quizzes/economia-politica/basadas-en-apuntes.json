@@ -1,0 +1,137 @@
+{
+  "courseId": "economia-politica",
+  "courseName": "Economía Política",
+  "courseIcon": "📊",
+  "id": "quiz-coyuntura-macro-2026",
+  "title": "Examen Parcial: Macroeconomía - Preguntas de Coyuntura y Aplicación",
+  "description": "1º cuatrimestre - año 2026. Evaluación interactiva de variables macroeconómicas actuales, indicadores de coyuntura y conceptos teóricos aplicados.",
+  "questions": [
+        {
+            "id": 1,
+            "originalNumber": 1,
+            "type": "MULTIPLE_CHOICE",
+            "question": "¿Cuál es la proporción actual aproximada de personas que busca empleo y no lo consigue (tasa de desempleo) en 2026?",
+            "options": [
+                "a) Ronda el 5%:",
+                "b) Ronda el 7%:",
+                "c) Ronda el 10%:",
+                "d) Ronda el 12%:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 2,
+            "originalNumber": 2,
+            "type": "MULTIPLE_CHOICE",
+            "question": "¿Cuál es la tasa aproximada de trabajo informal (en negro) en la economía argentina actual?",
+            "options": [
+                "a) 30%:",
+                "b) 40%:",
+                "c) 50%:",
+                "d) 65%:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 3,
+            "originalNumber": 3,
+            "type": "MULTIPLE_CHOICE",
+            "question": "¿Qué porcentaje de la población total representa aproximadamente la Población Económicamente Activa (PEA)?",
+            "options": [
+                "a) 35%:",
+                "b) 46%:",
+                "c) 55%:",
+                "d) 65%:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 4,
+            "originalNumber": 4,
+            "type": "MULTIPLE_CHOICE",
+            "question": "¿En qué porcentaje ronda la utilización de la capacidad instalada industrial en la actualidad?",
+            "options": [
+                "a) 40%:",
+                "b) 50%:",
+                "c) 60%:",
+                "d) 80%:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 5,
+            "originalNumber": 5,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En cuanto a la brecha salarial, ¿de cuánto es aproximadamente la disparidad salarial de género actual en Argentina?",
+            "options": [
+                "a) 15%:",
+                "b) 20%:",
+                "c) 30%:",
+                "d) 45%:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 6,
+            "originalNumber": 6,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Según el modelo unificado del PRODE, ¿a cuánto ascenderá aproximadamente el monto total de exportaciones en 2026 apalancado por el polo agroindustrial y Vaca Muerta?",
+            "options": [
+                "a) USD 75.000 millones:",
+                "b) USD 83.500 millones:",
+                "c) USD 93.300 millones:",
+                "d) USD 105.000 millones:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 7,
+            "originalNumber": 7,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Según las justificaciones técnicas del PRODE 2026, ¿qué política se espera que adopte la Reserva Federal (Fed) de EE.UU. respecto a su tasa de interés?",
+            "options": [
+                "a) La bajará rápidamente a niveles cercanos a 1% para estimular el crédito global:",
+                "b) Mantendrá una tasa cautelosa en el rango de 3,25% a 3,50% por presiones inflacionarias residuales energéticas:",
+                "c) La subirá por encima del 6% generando un shock externo adverso masivo:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 8,
+            "originalNumber": 8,
+            "type": "MULTIPLE_CHOICE",
+            "question": "¿Puede aumentar la Población Económicamente Activa (PEA) y disminuir el desempleo al mismo tiempo?",
+            "options": [
+                "a) Sí, si la creación de nuevos puestos de trabajo supera a la cantidad de nuevos entrantes al mercado laboral:",
+                "b) No, porque un aumento de la PEA implica mecánicamente un aumento en la tasa de desempleo:",
+                "c) No, son variables inversamente proporcionales por definición contable:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 9,
+            "originalNumber": 9,
+            "type": "MULTIPLE_CHOICE",
+            "question": "¿El crecimiento de la economía puede darse solo por el crecimiento del consumo?",
+            "options": [
+                "a) Sí, el consumo es el único motor necesario para el crecimiento sostenido:",
+                "b) No, a mediano y largo plazo se requiere inversión para expandir la frontera de posibilidades de producción:",
+                "c) Depende exclusivamente de la política monetaria:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 10,
+            "originalNumber": 10,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En la economía se registra una adquisición de 1000 unidades de autos por parte de una empresa, pero el destino es el uso de todos los gerentes para vacacionar. Para la contabilidad nacional, ¿qué representa?",
+            "options": [
+                "a) Inversión, porque la compra la realiza una empresa:",
+                "b) Consumo, porque el destino final de los bienes es la satisfacción de necesidades personales (recreación):",
+                "c) Gasto Público, porque tributan impuestos:",
+                "d) Bienes intermedios:"
+            ],
+            "answerIndex": 1
+        }
+    ]
+}

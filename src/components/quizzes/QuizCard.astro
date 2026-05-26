@@ -1,0 +1,111 @@
+---
+import ProgressBar from '../shared/ProgressBar.astro';
+
+interface Props {
+  quizId: string;
+  title: string;
+  description: string;
+  questionCount: number;
+  href: string;
+}
+
+const { quizId, title, description, questionCount, href } = Astro.props;
+---
+<a href={href} class="quiz-card surface animate-fade-in-up" id={`quiz-${quizId}`} data-quiz-id={quizId} data-question-count={questionCount}>
+  <div class="quiz-card__header">
+    <h2 class="quiz-card__title">{title}</h2>
+    <span class="badge badge--muted quiz-card__count">{questionCount} preguntas</span>
+  </div>
+  <p class="quiz-card__description">{description}</p>
+  <div class="quiz-card__footer">
+    <div class="quiz-card__progress-label">
+      <span class="quiz-card__progress-text">Progreso guardado</span>
+      <span class="quiz-card__progress-count" data-progress-label>–</span>
+    </div>
+    <ProgressBar value={0} max={questionCount} id={`progress-${quizId}`} />
+  </div>
+</a>
+
+<script>
+  function restoreProgress() {
+    document.querySelectorAll<HTMLElement>('[data-quiz-id]').forEach(card => {
+      const quizId = card.dataset.quizId!;
+      const total = Number(card.dataset.questionCount);
+      const raw = localStorage.getItem(`quiz-state-${quizId}`);
+      if (!raw) return;
+
+      try {
+        const state = JSON.parse(raw) as { confirmed: Record<string, boolean> };
+        const confirmed = Object.keys(state.confirmed ?? {}).length;
+        const pct = total > 0 ? Math.round((confirmed / total) * 100) : 0;
+
+        const label = card.querySelector('[data-progress-label]');
+        if (label) label.textContent = `${confirmed} / ${total}`;
+
+        const fill = document.getElementById(`progress-${quizId}`)?.querySelector<HTMLElement>('.progress-fill');
+        if (fill) {
+          fill.style.width = `${pct}%`;
+          if (confirmed === total) fill.classList.add('progress-fill--complete');
+        }
+      } catch { /* corrupted state, ignore */ }
+    });
+  }
+
+  restoreProgress();
+</script>
+
+<style>
+  .quiz-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    padding: var(--space-xl);
+    text-decoration: none;
+    transition: box-shadow var(--transition-base), transform var(--transition-base);
+  }
+
+  .quiz-card:hover {
+    box-shadow: var(--shadow-card-hover);
+    transform: translateY(-2px);
+  }
+
+  .quiz-card__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--space-md);
+  }
+
+  .quiz-card__title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+
+  .quiz-card__count { flex-shrink: 0; }
+
+  .quiz-card__description {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    line-height: 1.55;
+  }
+
+  .quiz-card__footer { margin-top: auto; }
+
+  .quiz-card__progress-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--space-sm);
+  }
+
+  .quiz-card__progress-text {
+    font-size: 0.75rem;
+    color: var(--color-text-subtle);
+  }
+
+  .quiz-card__progress-count {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    font-weight: 500;
+  }
+</style>

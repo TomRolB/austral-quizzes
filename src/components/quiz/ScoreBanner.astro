@@ -1,0 +1,73 @@
+---
+interface Props {
+  quizId: string;
+  confirmedCount: number;
+  totalCount: number;
+  score: number;
+}
+
+const { quizId, confirmedCount, totalCount, score } = Astro.props;
+const percentage = totalCount > 0 ? Math.round((score / totalCount) * 100) : 0;
+---
+<div class="score-banner surface--raised" id={`score-banner-${quizId}`} data-quiz-id={quizId}>
+  <div class="score-banner__stat">
+    <span class="score-banner__value" data-confirmed>{confirmedCount}</span>
+    <span class="score-banner__label">de {totalCount} respondidas</span>
+  </div>
+  <div class="score-banner__divider" />
+  <div class="score-banner__stat">
+    <span class="score-banner__value score-banner__value--accent" data-score>{score}</span>
+    <span class="score-banner__label">correctas</span>
+  </div>
+  <div class="score-banner__divider" />
+  <div class="score-banner__stat">
+    <span class="score-banner__value score-banner__value--pct" data-percentage>{percentage}%</span>
+    <span class="score-banner__label">aciertos</span>
+  </div>
+</div>
+
+<style>
+  .score-banner {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    padding: var(--space-md) var(--space-xl);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border);
+    flex-wrap: wrap;
+  }
+
+  .score-banner__stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+    min-width: 5rem;
+  }
+
+  .score-banner__value {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-text);
+    line-height: 1;
+  }
+
+  .score-banner__value--accent { color: var(--color-accent-hover); }
+  .score-banner__value--pct    { color: var(--color-correct);       }
+
+  .score-banner__label {
+    font-size: 0.7rem;
+    color: var(--color-text-subtle);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+
+  .score-banner__divider {
+    width: 1px;
+    height: 2.5rem;
+    background: var(--color-border);
+    flex-shrink: 0;
+  }
+</style>

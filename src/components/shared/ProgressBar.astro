@@ -1,0 +1,25 @@
+---
+interface Props {
+  value: number;
+  max: number;
+  complete?: boolean;
+  id?: string;
+}
+
+const { value, max, complete = false, id } = Astro.props;
+const percentage = max > 0 ? Math.round((value / max) * 100) : 0;
+---
+<div
+  class="progress-track"
+  role="progressbar"
+  aria-valuenow={value}
+  aria-valuemin={0}
+  aria-valuemax={max}
+  aria-label="Progreso"
+  id={id}
+>
+  <div
+    class:list={['progress-fill', { 'progress-fill--complete': complete }]}
+    style={`width: ${percentage}%`}
+  />
+</div>

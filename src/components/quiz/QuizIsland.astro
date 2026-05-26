@@ -1,0 +1,122 @@
+---
+import ScoreBanner from './ScoreBanner.astro';
+import CompletionSummary from './CompletionSummary.astro';
+import ProgressBar from '../shared/ProgressBar.astro';
+import QuestionCard from './QuestionCard.astro';
+
+interface Question {
+  id: number;
+  question: string;
+  options: string[];
+  answerIndex: number;
+}
+
+interface Props {
+  quizId: string;
+  questions: Question[];
+  courseHref: string;
+  homeHref: string;
+}
+
+const { quizId, questions, courseHref, homeHref } = Astro.props;
+const total = questions.length;
+---
+<div
+  class="quiz-island"
+  id={`island-${quizId}`}
+  data-quiz-id={quizId}
+  data-questions={JSON.stringify(questions)}
+>
+
+  <div class="quiz-island__sticky-header glass">
+    <div class="page-container--narrow quiz-island__header-inner">
+      <ScoreBanner quizId={quizId} confirmedCount={0} totalCount={total} score={0} />
+      <ProgressBar value={0} max={total} id={`quiz-progress-${quizId}`} />
+    </div>
+  </div>
+
+  <div class="page-container--narrow quiz-island__body">
+
+    <div class="question-list" id={`question-list-${quizId}`}>
+      {questions.map((question, index) => (
+        <QuestionCard quizId={quizId} question={question} index={index} />
+      ))}
+    </div>
+
+    <div class="quiz-island__actions">
+      <button class="btn btn--secondary reveal-btn" id={`reveal-${quizId}`} data-quiz-id={quizId}>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/>
+          <circle cx="12" cy="12" r="3"/>
+        </svg>
+        Revelar todas las respuestas
+      </button>
+    </div>
+
+    <div class="quiz-island__completion" id={`completion-wrapper-${quizId}`} style="display:none">
+      <CompletionSummary quizId={quizId} score={0} total={total} courseHref={courseHref} homeHref={homeHref} />
+    </div>
+
+  </div>
+</div>
+
+<script>
+  import { QuizController } from './quizController';
+
+  const islands = document.querySelectorAll('.quiz-island');
+  islands.forEach(island => {
+    const quizId = island.getAttribute('data-quiz-id');
+    const questionsRaw = island.getAttribute('data-questions');
+    if (quizId && questionsRaw) {
+      try {
+        const questions = JSON.parse(questionsRaw);
+        const controller = new QuizController(quizId, questions);
+        controller.init();
+      } catch (e) {
+        console.error('Failed to parse quiz questions', e);
+      }
+    }
+  });
+</script>
+
+<style>
+  .quiz-island__sticky-header {
+    position: sticky;
+    top: 3.5rem;
+    z-index: 90;
+    padding: var(--space-md) 0;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .quiz-island__header-inner {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .quiz-island__body {
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-3xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+  }
+
+  .question-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+
+  .quiz-island__actions {
+    display: flex;
+    justify-content: center;
+  }
+
+  .reveal-btn {
+    transition: all var(--transition-fast);
+  }
+</style>

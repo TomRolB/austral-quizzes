@@ -1,0 +1,192 @@
+---
+interface Question {
+  id: number;
+  question: string;
+  options: string[];
+  answerIndex: number;
+}
+
+interface Props {
+  quizId: string;
+  question: Question;
+  index: number;
+}
+
+const { quizId, question, index } = Astro.props;
+---
+<div
+  class="question-card surface animate-fade-in-up"
+  id={`question-${quizId}-${question.id}`}
+  data-question-id={question.id}
+  data-answer-index={question.answerIndex}
+  style={`animation-delay: ${Math.min(index * 0.04, 0.3)}s`}
+>
+  <div class="question-card__header" id={`qheader-${quizId}-${question.id}`}>
+    <span class="question-number badge badge--accent">#{question.id}</span>
+    <p class="question-card__text">{question.question}</p>
+  </div>
+
+  <div class="question-card__options">
+    {question.options.map((option, optionIndex) => (
+      <button
+        class="option-btn"
+        id={`option-${quizId}-${question.id}-${optionIndex}`}
+        data-question-id={question.id}
+        data-option-index={optionIndex}
+      >
+        <span class="option-indicator" id={`indicator-${quizId}-${question.id}-${optionIndex}`}>
+          <span class="dot"></span>
+        </span>
+        <span class="option-text">{option}</span>
+        <span class="option-icon" id={`icon-${quizId}-${question.id}-${optionIndex}`}>
+          <span class="icon-correct" style="display: none;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          </span>
+          <span class="icon-incorrect" style="display: none;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+          </span>
+        </span>
+      </button>
+    ))}
+  </div>
+
+  <div class="question-card__result" id={`result-${quizId}-${question.id}`} aria-live="polite">
+    <div class="result-banner result-banner--correct" data-banner-type="correct" style="display: none;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+      <span>¡Respuesta correcta!</span>
+    </div>
+    <div class="result-banner result-banner--incorrect" data-banner-type="incorrect" style="display: none;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      <span>Incorrecto · Correcta: <strong>{question.options[question.answerIndex]}</strong></span>
+    </div>
+  </div>
+</div>
+
+<style>
+  .question-card {
+    overflow: hidden;
+    transition: box-shadow var(--transition-base);
+  }
+
+  .question-card__header {
+    padding: var(--space-lg) var(--space-xl);
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-md);
+    background: var(--color-surface);
+    transition: border-color var(--transition-base);
+  }
+
+  .question-card--correct .question-card__header {
+    border-bottom-color: var(--color-correct-border);
+  }
+
+  .question-card--incorrect .question-card__header {
+    border-bottom-color: var(--color-incorrect-border);
+  }
+
+  .question-number {
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+  }
+
+  .question-card__text {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--color-text);
+    line-height: 1.55;
+  }
+
+  .question-card__options {
+    padding: var(--space-lg) var(--space-xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .option-btn {
+    position: relative;
+  }
+
+  .option-indicator {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .option-btn:disabled .option-indicator {
+    display: none;
+  }
+
+  .option-text {
+    flex: 1;
+  }
+
+  .option-icon {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-correct, .icon-incorrect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .option-btn--correct .icon-correct {
+    display: flex !important;
+  }
+
+  .option-btn--incorrect .icon-incorrect {
+    display: flex !important;
+  }
+
+  .dot {
+    display: block;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    border: 1.5px solid var(--color-text-subtle);
+    transition: background-color var(--transition-fast), border-color var(--transition-fast);
+  }
+
+  .option-btn--selected .dot {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+  }
+
+  .question-card__result {
+    padding: 0 var(--space-xl) var(--space-lg);
+  }
+
+  .result-banner {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-md);
+    font-size: 0.875rem;
+    font-weight: 500;
+    animation: fadeIn 0.2s ease;
+  }
+
+  .result-banner--correct {
+    background: var(--color-correct-bg);
+    color: var(--color-correct);
+    border: 1px solid var(--color-correct-border);
+  }
+
+  .result-banner--incorrect {
+    background: var(--color-incorrect-bg);
+    color: var(--color-incorrect);
+    border: 1px solid var(--color-incorrect-border);
+  }
+</style>

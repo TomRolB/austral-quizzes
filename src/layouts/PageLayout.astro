@@ -1,0 +1,143 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  breadcrumbs?: Array<{ label: string; href?: string }>;
+}
+
+const { title, description, breadcrumbs = [] } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title={title} description={description}>
+  <div class="app-shell">
+    <header class="navbar glass">
+      <div class="page-container navbar__inner">
+        <a href={base} class="navbar__brand">
+          <span class="navbar__brand-icon">🎓</span>
+          <span class="navbar__brand-name">Simulador</span>
+        </a>
+
+        {breadcrumbs.length > 0 && (
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            {breadcrumbs.map((crumb, index) => (
+              <span class="breadcrumb__item">
+                {index > 0 && <span class="breadcrumb__sep">›</span>}
+                {crumb.href
+                  ? <a href={crumb.href} class="breadcrumb__link">{crumb.label}</a>
+                  : <span class="breadcrumb__current">{crumb.label}</span>
+                }
+              </span>
+            ))}
+          </nav>
+        )}
+      </div>
+    </header>
+
+    <main class="main-content">
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <div class="page-container footer__inner">
+        <span class="footer__text">Simulador de Exámenes · Universidad Austral</span>
+      </div>
+    </footer>
+  </div>
+</BaseLayout>
+
+<style>
+  .app-shell {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .navbar__inner {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    height: 3.5rem;
+  }
+
+  .navbar__brand {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    flex-shrink: 0;
+  }
+
+  .navbar__brand-icon { font-size: 1.2rem; }
+
+  .navbar__brand-name {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--color-text);
+  }
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    overflow: hidden;
+  }
+
+  .breadcrumb__item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    min-width: 0;
+  }
+
+  .breadcrumb__sep { color: var(--color-text-subtle); }
+
+  .breadcrumb__link {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    white-space: nowrap;
+    transition: color var(--transition-fast);
+  }
+  .breadcrumb__link:hover { color: var(--color-accent-hover); }
+
+  .breadcrumb__current {
+    color: var(--color-text);
+    font-size: 0.875rem;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .main-content {
+    flex: 1;
+    padding: var(--space-2xl) 0;
+  }
+
+  .footer {
+    border-top: 1px solid var(--color-border);
+    padding: var(--space-lg) 0;
+  }
+
+  .footer__inner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__text {
+    font-size: 0.8rem;
+    color: var(--color-text-subtle);
+  }
+</style>

@@ -1,0 +1,83 @@
+---
+interface Props {
+  quizId: string;
+  score: number;
+  total: number;
+  courseHref: string;
+  homeHref: string;
+}
+
+const { quizId, score, total, courseHref, homeHref } = Astro.props;
+const percentage = total > 0 ? Math.round((score / total) * 100) : 0;
+---
+<div class="completion surface animate-fade-in" id={`completion-${quizId}`}>
+  <div class="completion__emoji">🎉</div>
+  <h3 class="completion__title">¡Examen Completado!</h3>
+  <p class="completion__subtitle">
+    Obtuviste
+    <span class="completion__score" data-final-score>{score}</span>
+    de {total} correctas
+  </p>
+  <div class="completion__pct" data-final-pct>{percentage}%</div>
+  <div class="completion__actions">
+    <button class="btn btn--ghost" id={`retry-${quizId}`} data-quiz-id={quizId}>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+        <path d="M3 3v5h5"/>
+      </svg>
+      Intentar de nuevo
+    </button>
+    <a href={courseHref} class="btn btn--secondary">Ver otros exámenes</a>
+    <a href={homeHref} class="btn btn--primary">Inicio</a>
+  </div>
+</div>
+
+<style>
+  .completion {
+    text-align: center;
+    padding: var(--space-2xl) var(--space-xl);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-md);
+  }
+
+  .completion__emoji { font-size: 3rem; line-height: 1; }
+
+  .completion__title {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--color-text);
+  }
+
+  .completion__subtitle {
+    color: var(--color-text-muted);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+  }
+
+  .completion__score {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--color-accent-hover);
+  }
+
+  .completion__pct {
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--color-correct);
+    line-height: 1;
+  }
+
+  .completion__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-md);
+    margin-top: var(--space-md);
+  }
+</style>

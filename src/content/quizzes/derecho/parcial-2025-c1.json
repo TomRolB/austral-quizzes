@@ -1,0 +1,28 @@
+{
+  "courseId": "derecho",
+  "courseName": "Introducción al Derecho",
+  "courseIcon": "⚖️",
+  "id": "parcial-2025-c1",
+  "title": "Parcial 1° cuatrimestre 2025",
+  "description": "Evaluación de conceptos fundamentales de derecho, normas jurídicas y fuentes del derecho.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "El derecho positivo es aquel que emana de la voluntad del legislador:",
+      "options": ["a) Verdadero", "b) Falso"],
+      "answerIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "La costumbre es considerada fuente del derecho en el sistema jurídico argentino:",
+      "options": ["a) Verdadero", "b) Falso", "c) Solo en el derecho comercial"],
+      "answerIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "La analogía como método de integración del derecho se aplica cuando:",
+      "options": ["a) Existe norma expresa", "b) Hay vacío legal", "c) La costumbre lo exige", "d) Ninguna de las anteriores"],
+      "answerIndex": 1
+    }
+  ]
+}

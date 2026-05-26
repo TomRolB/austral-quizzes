@@ -1,17 +1,123 @@
 ---
+import { getCollection } from "astro:content";
+import PageLayout from "../layouts/PageLayout.astro";
+import CourseCard from "../components/courses/CourseCard.astro";
 
+const allQuizzes = await getCollection("quizzes");
+
+const courseMap = new Map<
+  string,
+  { id: string; name: string; icon: string; quizCount: number }
+>();
+
+allQuizzes.forEach((quiz) => {
+  const { courseId, courseName, courseIcon } = quiz.data;
+  if (!courseMap.has(courseId)) {
+    courseMap.set(courseId, {
+      id: courseId,
+      name: courseName,
+      icon: courseIcon,
+      quizCount: 0,
+    });
+  }
+  courseMap.get(courseId)!.quizCount++;
+});
+
+const courses = Array.from(courseMap.values());
+const base = import.meta.env.BASE_URL;
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<PageLayout title="Inicio" breadcrumbs={[{ label: "Inicio" }]}>
+  <div class="home-page">
+    <section class="hero hero-gradient">
+      <div class="page-container hero__inner">
+        <div class="hero__content animate-fade-in-up">
+          <div class="hero__eyebrow badge badge--accent">
+            Universidad Austral
+          </div>
+          <h1 class="hero__title">Simulador de Exámenes</h1>
+          <p class="hero__subtitle">
+            Exámenes reales o preguntas basadas en las clases.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="courses-section">
+      <div class="page-container">
+        <h2 class="section-title">Materias disponibles</h2>
+        <div class="course-list">
+          {
+            courses.map((course, index) => (
+              <CourseCard
+                courseId={course.id}
+                courseName={course.name}
+                courseIcon={course.icon}
+                quizCount={course.quizCount}
+                href={`${base}${course.id}`}
+              />
+            ))
+          }
+        </div>
+      </div>
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .hero {
+    padding: var(--space-3xl) 0 var(--space-2xl);
+    margin-bottom: var(--space-2xl);
+  }
+
+  .hero__inner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero__content {
+    max-width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-lg);
+  }
+
+  .hero__eyebrow {
+    margin-bottom: var(--space-xs);
+  }
+
+  .hero__title {
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--color-text);
+  }
+
+  .hero__subtitle {
+    font-size: 1.05rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+
+  .courses-section {
+    padding-bottom: var(--space-3xl);
+  }
+
+  .section-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-text-subtle);
+    margin-bottom: var(--space-lg);
+  }
+
+  .course-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    max-width: 680px;
+  }
+</style>

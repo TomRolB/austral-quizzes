@@ -1,0 +1,67 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+import QuizIsland from '../../components/quiz/QuizIsland.astro';
+import BackButton from '../../components/shared/BackButton.astro';
+
+export async function getStaticPaths() {
+  const allQuizzes = await getCollection('quizzes');
+
+  return allQuizzes.map(quiz => ({
+    params: { course: quiz.data.courseId, quiz: quiz.data.id },
+    props: { quiz: quiz.data },
+  }));
+}
+
+const { quiz } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const courseHref = `${base}${quiz.courseId}`;
+const homeHref   = base;
+---
+<PageLayout
+  title={quiz.title}
+  description={quiz.description}
+  breadcrumbs={[
+    { label: 'Inicio',          href: homeHref   },
+    { label: quiz.courseName,   href: courseHref  },
+    { label: quiz.title                           },
+  ]}
+>
+  <div class="quiz-page">
+    <div class="quiz-page__heading page-container--narrow">
+      <BackButton href={courseHref} label={quiz.courseName} />
+      <h1 class="quiz-page__title">{quiz.title}</h1>
+      <p class="quiz-page__description">{quiz.description}</p>
+    </div>
+
+    <QuizIsland
+      quizId={quiz.id}
+      questions={quiz.questions}
+      courseHref={courseHref}
+      homeHref={homeHref}
+    />
+  </div>
+</PageLayout>
+
+<style>
+  .quiz-page { display: flex; flex-direction: column; gap: var(--space-xl); }
+
+  .quiz-page__heading {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .quiz-page__title {
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    font-weight: 800;
+    letter-spacing: -0.01em;
+  }
+
+  .quiz-page__description {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    max-width: 55ch;
+  }
+</style>
