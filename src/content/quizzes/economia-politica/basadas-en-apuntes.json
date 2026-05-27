@@ -75,31 +75,6 @@
             "id": 6,
             "originalNumber": 6,
             "type": "MULTIPLE_CHOICE",
-            "question": "Según el modelo unificado del PRODE, ¿a cuánto ascenderá aproximadamente el monto total de exportaciones en 2026 apalancado por el polo agroindustrial y Vaca Muerta?",
-            "options": [
-                "a) USD 75.000 millones:",
-                "b) USD 83.500 millones:",
-                "c) USD 93.300 millones:",
-                "d) USD 105.000 millones:"
-            ],
-            "answerIndex": 2
-        },
-        {
-            "id": 7,
-            "originalNumber": 7,
-            "type": "MULTIPLE_CHOICE",
-            "question": "Según las justificaciones técnicas del PRODE 2026, ¿qué política se espera que adopte la Reserva Federal (Fed) de EE.UU. respecto a su tasa de interés?",
-            "options": [
-                "a) La bajará rápidamente a niveles cercanos a 1% para estimular el crédito global:",
-                "b) Mantendrá una tasa cautelosa en el rango de 3,25% a 3,50% por presiones inflacionarias residuales energéticas:",
-                "c) La subirá por encima del 6% generando un shock externo adverso masivo:"
-            ],
-            "answerIndex": 1
-        },
-        {
-            "id": 8,
-            "originalNumber": 8,
-            "type": "MULTIPLE_CHOICE",
             "question": "¿Puede aumentar la Población Económicamente Activa (PEA) y disminuir el desempleo al mismo tiempo?",
             "options": [
                 "a) Sí, si la creación de nuevos puestos de trabajo supera a la cantidad de nuevos entrantes al mercado laboral:",
@@ -109,8 +84,8 @@
             "answerIndex": 0
         },
         {
-            "id": 9,
-            "originalNumber": 9,
+            "id": 7,
+            "originalNumber": 7,
             "type": "MULTIPLE_CHOICE",
             "question": "¿El crecimiento de la economía puede darse solo por el crecimiento del consumo?",
             "options": [
@@ -121,8 +96,8 @@
             "answerIndex": 1
         },
         {
-            "id": 10,
-            "originalNumber": 10,
+            "id": 8,
+            "originalNumber": 8,
             "type": "MULTIPLE_CHOICE",
             "question": "En la economía se registra una adquisición de 1000 unidades de autos por parte de una empresa, pero el destino es el uso de todos los gerentes para vacacionar. Para la contabilidad nacional, ¿qué representa?",
             "options": [

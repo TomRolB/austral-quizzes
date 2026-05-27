@@ -1,0 +1,337 @@
+{
+    "courseId": "economia-politica",
+    "courseName": "Macroeconomía",
+    "courseIcon": "📊",
+    "id": "quiz-parcialitos-macro-2026",
+    "title": "Preguntas basadas en parcialitos",
+    "description": "1º cuatrimestre - año 2026. Preguntas basadas en parcialitos",
+    "questions": [
+        {
+            "id": 1,
+            "originalNumber": 1,
+            "type": "MULTIPLE_CHOICE",
+            "question": "¿Cuánto pesan los servicios en porcentaje respecto al PIB en la Argentina?",
+            "options": [
+                "a) 20%:",
+                "b) 40%:",
+                "c) 60%:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 2,
+            "originalNumber": 2,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La compra de dólares que hace actualmente el Banco Central para acrecentar las Reservas hace:",
+            "options": [
+                "a) Subir el tipo de cambio:",
+                "b) El tipo de cambio queda igual:",
+                "c) Bajar el tipo de cambio:",
+                "d) Nada se puede afirmar:"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 3,
+            "originalNumber": 3,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Si la moneda de Brasil se revalúa (lo opuesto a devaluar) respecto del dólar, los argentinos que harán turismo en Brasil serán:",
+            "options": [
+                "a) Más:",
+                "b) Menos:",
+                "c) Igual:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 4,
+            "originalNumber": 4,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Si la suba de las tasas de interés que recibe el ahorrista en el Banco Nación sube, entonces el dólar financiero (Ej. dólar blue):",
+            "options": [
+                "a) Sube:",
+                "b) Baja:",
+                "c) No se puede saber:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 5,
+            "originalNumber": 5,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La recaudación fiscal a moneda constante (sin considerar inflación) en el primer cuatrimestre de 2026:",
+            "options": [
+                "a) Sube:",
+                "b) Baja:",
+                "c) Está igual:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 6,
+            "originalNumber": 6,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Dado que la industria está en problemas al igual que construcción y supermercados, la Argentina transita una recesión:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 7,
+            "originalNumber": 7,
+            "type": "MULTIPLE_CHOICE",
+            "question": "¿Cuántas preguntas recibió el jefe de gabinete Adorni cuando disertó en el Congreso? (Las recibió por escrito con anterioridad)",
+            "options": [
+                "a) Entre 2000 y 4000:",
+                "b) Entre 200 y 400:",
+                "c) Entre 20 y 40:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 8,
+            "originalNumber": 8,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El dólar de equilibrio (el dólar \"real\") está actualmente en zona de:",
+            "options": [
+                "a) 1400 (el actual):",
+                "b) 1700:",
+                "c) 2100:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 9,
+            "originalNumber": 9,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La Argentina tiene una estructura industrial:",
+            "options": [
+                "a) Avanzada como la del campo:",
+                "b) Retrasada y no competitiva:",
+                "c) Un mix de a) y b):"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 10,
+            "originalNumber": 10,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Vaca Muerta puede significar que tengamos una participación en el total mundial del petróleo hacia el 2035 del:",
+            "options": [
+                "a) Menos del 1,2%:",
+                "b) 1,2%:",
+                "c) 2%:",
+                "d) Más del 2%:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 11,
+            "originalNumber": 11,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La tasa de interés vigente en la economía actual está:",
+            "options": [
+                "a) Baja:",
+                "b) Alta:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 12,
+            "originalNumber": 12,
+            "type": "MULTIPLE_CHOICE",
+            "question": "¿Qué pasó con la confianza del consumidor y del gobierno en abril 2026? (Fuente Di Tella)",
+            "options": [
+                "a) Bajaron:",
+                "b) Están igual:",
+                "c) Subieron:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 13,
+            "originalNumber": 13,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Un país es pobre cuando tiene un PBI per cápita menor a:",
+            "options": [
+                "a) 6000 dólares:",
+                "b) 15.000 dólares:",
+                "c) 30.000 dólares:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 14,
+            "originalNumber": 14,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La inflación por aumento del precio del petróleo es una inflación de costos:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 15,
+            "originalNumber": 15,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Las pymes emplean un porcentaje importante del empleo, del orden del:",
+            "options": [
+                "a) 40%:",
+                "b) 60%:",
+                "c) 80%:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 16,
+            "originalNumber": 16,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Los servicios pesan en la economía más que los bienes:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 17,
+            "originalNumber": 17,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La tasa de crecimiento del PIB en los países ricos está asociada a la difusión de la inteligencia artificial:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 18,
+            "originalNumber": 18,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En el mundo, la proporción de países que tienen una inflación anual superior al 10% es de:",
+            "options": [
+                "a) 0%:",
+                "b) 15%:",
+                "c) 25%:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 19,
+            "originalNumber": 19,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Las guerras siempre generan una caída del PIB:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 20,
+            "originalNumber": 20,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Las importaciones son perjudiciales porque las empresas del país no pueden vender todo lo que produjeron y esto arrastra a mayor desempleo:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 21,
+            "originalNumber": 21,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El dólar está:",
+            "options": [
+                "a) Atrasado:",
+                "b) En niveles normales:",
+                "c) Adelantado:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 22,
+            "originalNumber": 22,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El riesgo país está hoy en la zona de:",
+            "options": [
+                "a) 400:",
+                "b) 600:",
+                "c) 800:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 23,
+            "originalNumber": 23,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El nivel de pobreza en el país está en la zona de:",
+            "options": [
+                "a) 30%:",
+                "b) 40%:",
+                "c) 50%:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 24,
+            "originalNumber": 24,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La suba del precio del petróleo por la guerra es conveniente para la Argentina:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 25,
+            "originalNumber": 25,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La causa única del aumento de los precios es la emisión de pesos:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 26,
+            "originalNumber": 26,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La tasa de inflación anual deseable en USA es del:",
+            "options": [
+                "a) 0%:",
+                "b) 2%:",
+                "c) 4%:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 27,
+            "originalNumber": 27,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La inteligencia artificial está haciendo aumentar el PIB en el mundo:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 28,
+            "originalNumber": 28,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Vaca Muerta es intensiva en:",
+            "options": [
+                "a) Capital:",
+                "b) Trabajo:"
+            ],
+            "answerIndex": 0
+        }
+    ]
+}
