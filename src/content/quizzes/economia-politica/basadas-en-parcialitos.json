@@ -12,11 +12,11 @@
             "type": "MULTIPLE_CHOICE",
             "question": "¿Cuánto pesan los servicios en porcentaje respecto al PIB en la Argentina?",
             "options": [
-                "a) 20%:",
-                "b) 40%:",
-                "c) 60%:"
+                "a) 30%:",
+                "b) 50%:",
+                "c) 70%:"
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "id": 2,
