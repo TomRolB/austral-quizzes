@@ -22,17 +22,18 @@ export async function getStaticPaths() {
 
 const { courseId, courseName, courseIcon, quizzes } = Astro.props;
 const base = import.meta.env.BASE_URL;
+const cleanBase = base.endsWith('/') ? base : `${base}/`;
 ---
 <PageLayout
   title={courseName}
   breadcrumbs={[
-    { label: 'Inicio', href: base },
+    { label: 'Inicio', href: cleanBase },
     { label: courseName },
   ]}
 >
   <div class="course-page page-container--narrow">
     <div class="course-page__heading">
-      <BackButton href={base} label="Todas las materias" />
+      <BackButton href={cleanBase} label="Todas las materias" />
       <div class="course-page__title-row">
         <span class="course-icon">{courseIcon}</span>
         <h1 class="course-page__title">{courseName}</h1>
@@ -47,7 +48,7 @@ const base = import.meta.env.BASE_URL;
           title={quiz.data.title}
           description={quiz.data.description}
           questionCount={quiz.data.questions.length}
-          href={`${base}${courseId}/${quiz.data.id}`}
+          href={`${cleanBase}${courseId}/${quiz.data.id}`}
         />
       ))}
     </div>

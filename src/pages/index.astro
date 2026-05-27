@@ -25,6 +25,7 @@ allQuizzes.forEach((quiz) => {
 
 const courses = Array.from(courseMap.values());
 const base = import.meta.env.BASE_URL;
+const cleanBase = base.endsWith('/') ? base : `${base}/`;
 ---
 
 <PageLayout title="Inicio" breadcrumbs={[{ label: "Inicio" }]}>
@@ -54,7 +55,7 @@ const base = import.meta.env.BASE_URL;
                 courseName={course.name}
                 courseIcon={course.icon}
                 quizCount={course.quizCount}
-                href={`${base}${course.id}`}
+                href={`${cleanBase}${course.id}`}
               />
             ))
           }

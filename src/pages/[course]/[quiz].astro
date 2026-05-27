@@ -15,8 +15,9 @@ export async function getStaticPaths() {
 
 const { quiz } = Astro.props;
 const base = import.meta.env.BASE_URL;
-const courseHref = `${base}${quiz.courseId}`;
-const homeHref   = base;
+const cleanBase = base.endsWith('/') ? base : `${base}/`;
+const courseHref = `${cleanBase}${quiz.courseId}`;
+const homeHref   = cleanBase;
 ---
 <PageLayout
   title={quiz.title}
