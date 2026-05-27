@@ -1,11 +1,11 @@
 {
-  "courseId": "economia-politica",
-  "courseName": "Economía Política",
-  "courseIcon": "📊",
-  "id": "quiz-economia-2024-c2",
-  "title": "Examen Parcial: Economía Política (2° cuatrimestre 2024)",
-  "description": "Evaluación interactiva de conceptos macroeconómicos, microeconómicos e historia argentina reciente.",
-  "questions": [
+    "courseId": "economia-politica",
+    "courseName": "Macroeconomía",
+    "courseIcon": "📊",
+    "id": "quiz-economia-2024-c2",
+    "title": "Modelo 2do Cuatrimestre 2024",
+    "description": "Preguntas de un modelo real",
+    "questions": [
         {
             "id": 1,
             "originalNumber": 1,

@@ -1,11 +1,11 @@
 {
-  "courseId": "economia-politica",
-  "courseName": "Economía Política",
-  "courseIcon": "📊",
-  "id": "quiz-coyuntura-macro-2026",
-  "title": "Examen Parcial: Macroeconomía - Preguntas de Coyuntura y Aplicación",
-  "description": "1º cuatrimestre - año 2026. Evaluación interactiva de variables macroeconómicas actuales, indicadores de coyuntura y conceptos teóricos aplicados.",
-  "questions": [
+    "courseId": "economia-politica",
+    "courseName": "Macroeconomía",
+    "courseIcon": "📊",
+    "id": "quiz-coyuntura-macro-2026",
+    "title": "Preguntas basadas en apuntes",
+    "description": "1º cuatrimestre - año 2026. Preguntas basadas en apuntes de clase",
+    "questions": [
         {
             "id": 1,
             "originalNumber": 1,

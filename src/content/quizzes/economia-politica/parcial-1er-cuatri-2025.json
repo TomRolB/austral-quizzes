@@ -1,10 +1,10 @@
 {
     "courseId": "economia-politica",
-    "courseName": "Economía Política",
+    "courseName": "Macroeconomía",
     "courseIcon": "📊",
     "id": "quiz-economia-2025",
-    "title": "Examen Parcial: Economía Política",
-    "description": "1º cuatrimestre - año 2025. Evaluación interactiva de conceptos macroeconómicos, microeconómicos e historia argentina reciente.",
+    "title": "Modelo 1er Cuatrimestre 2025",
+    "description": "Preguntas de un modelo real",
     "questions": [
         {
             "id": 1,
@@ -390,7 +390,7 @@
             "id": 34,
             "originalNumber": 34,
             "type": "MULTIPLE_CHOICE",
-            "question": "La política cambiaria deberá interactuar entre el sector externo y los objetivos de la economía política lo cual estará restringido por el poder de gestión:",
+            "question": "La política cambiaria deberá interactuar entre el sector externo y los objetivos de la Macroeconomía lo cual estará restringido por el poder de gestión:",
             "options": [
                 "a) Verdadero",
                 "b) Falso:"
