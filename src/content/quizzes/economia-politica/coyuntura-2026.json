@@ -1,0 +1,189 @@
+{
+    "courseId": "economia-politica",
+    "courseName": "Macroeconomía",
+    "courseIcon": "📊",
+    "id": "quiz-datos-coyuntura-2026",
+    "title": "Coyuntura 2026",
+    "description": "Preguntas de coyuntura, basadas en investigación",
+    "questions": [
+        {
+            "id": 1,
+            "originalNumber": 1,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Según estimaciones del REM y bancos internacionales, el crecimiento económico esperado del PBI para Argentina en 2026 se ubica en el rango de:",
+            "options": [
+                "a) 0% a 1%:",
+                "b) 2,8% a 4%:",
+                "c) 6% a 8%:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 2,
+            "originalNumber": 2,
+            "type": "MULTIPLE_CHOICE",
+            "question": "¿Cuál es el valor aproximado del PBI per cápita en dólares corrientes en Argentina, actualizado a mayo 2026?",
+            "options": [
+                "a) ~6.000 USD:",
+                "b) ~15.000 USD:",
+                "c) ~30.000 USD:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 3,
+            "originalNumber": 3,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En cuanto a los precios, la inflación interanual de Argentina en mayo de 2026 se ubica en torno al:",
+            "options": [
+                "a) 12,3%:",
+                "b) 32,4%:",
+                "c) 150%:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 4,
+            "originalNumber": 4,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El nivel de Riesgo País en Argentina en mayo de 2026 ronda los:",
+            "options": [
+                "a) 520-530 puntos básicos:",
+                "b) 1200 puntos básicos:",
+                "c) 2700 puntos básicos:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 5,
+            "originalNumber": 5,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El mercado considera que la variable clave y más importante para bajar el riesgo país a niveles menores de 400 puntos es:",
+            "options": [
+                "a) Aumentar la emisión monetaria:",
+                "b) Acumular reservas netas positivas:",
+                "c) Fijar el tipo de cambio oficial de forma permanente:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 6,
+            "originalNumber": 6,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En relación con el tipo de cambio (ubicado en ~$1410 en mayo 2026), muchos analistas consideran que el dólar en Argentina está:",
+            "options": [
+                "a) Atrasado y relativamente barato (pérdida de competitividad):",
+                "b) En equilibrio histórico perfecto:",
+                "c) Altamente adelantado (muy caro en términos reales):"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 7,
+            "originalNumber": 7,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El nivel de pobreza estimado en Argentina, tras la desaceleración inflacionaria y recuperación de ingresos, se sitúa en la zona del:",
+            "options": [
+                "a) 15% - 20%:",
+                "b) 30% - 32%:",
+                "c) 50% - 55%:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 8,
+            "originalNumber": 8,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La tasa de desempleo en Argentina para el primer trimestre de 2026 es de aproximadamente:",
+            "options": [
+                "a) 4,5%:",
+                "b) 7,7%:",
+                "c) 12,4%:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 9,
+            "originalNumber": 9,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Actualmente las reservas brutas rondan los 42.000 millones de USD, mientras que las reservas netas del BCRA se encuentran:",
+            "options": [
+                "a) Cercanas a cero o en terreno negativo:",
+                "b) Positivas en 10.000 millones de USD:",
+                "c) Positivas en 20.000 millones de USD:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 10,
+            "originalNumber": 10,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El resultado fiscal de Argentina en 2026 se caracteriza por mantener la política de ancla fiscal presentando:",
+            "options": [
+                "a) Un abultado déficit primario:",
+                "b) Un superávit primario en torno al 1% - 1,5% del PBI:",
+                "c) Un equilibrio exacto pero con fuerte emisión monetaria:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 11,
+            "originalNumber": 11,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En términos de participación sobre el PBI Mundial, el orden correcto de mayor a menor peso es:",
+            "options": [
+                "a) China (~25%), EEUU (~17%), Unión Europea (~14%):",
+                "b) EEUU (~25%), China (~17%), Unión Europea (~14%-15%):",
+                "c) Unión Europea (~25%), EEUU (~17%), Argentina (~5%):"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 12,
+            "originalNumber": 12,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En la tendencia global actual, las economías de países emergentes están creciendo a un ritmo más lento que las economías desarrolladas:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 13,
+            "originalNumber": 13,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La relación histórica en la economía argentina entre el tipo de cambio real y el salario real es:",
+            "options": [
+                "a) Inversa (dólar real alto equivale a salarios reales bajos):",
+                "b) Directa (dólar real alto equivale a salarios reales altos):",
+                "c) Inexistente:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 14,
+            "originalNumber": 14,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Los denominados 'déficits gemelos' (déficit fiscal más déficit externo) suelen estar asociados históricamente a:",
+            "options": [
+                "a) Atraso cambiario, niveles altos de consumo e importaciones elevadas:",
+                "b) Superávit comercial, recesión económica y caída del gasto:",
+                "c) Tipo de cambio muy competitivo y bajas importaciones:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 15,
+            "originalNumber": 15,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Si el gobierno y el BCRA deciden subir las tasas de interés en pesos, el efecto macroeconómico esperado sobre el mercado cambiario es que:",
+            "options": [
+                "a) Suba fuertemente la presión sobre los dólares financieros:",
+                "b) Baje la presión sobre el dólar financiero al aumentar la demanda de pesos:",
+                "c) No haya ningún tipo de impacto sobre la brecha cambiaria:"
+            ],
+            "answerIndex": 1
+        }
+    ]
+}
