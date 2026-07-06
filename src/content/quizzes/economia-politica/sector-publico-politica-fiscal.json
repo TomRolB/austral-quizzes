@@ -1,0 +1,254 @@
+{
+    "courseId": "economia-politica",
+    "courseName": "Macroeconomía",
+    "courseIcon": "📊",
+    "id": "quiz-sector-publico-2026",
+    "title": "Sector Público y Política Fiscal",
+    "description": "1º cuatrimestre - año 2026. Preguntas basadas en apuntes de clase (contenido para el final)",
+    "questions": [
+        {
+            "id": 1,
+            "originalNumber": 1,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Según la teoría de Keynes, ante fluctuaciones no esperadas que afectan al largo plazo, el sector público puede intervenir de forma temporal para resolver un problema de insuficiencia de demanda:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 2,
+            "originalNumber": 2,
+            "type": "MULTIPLE_CHOICE",
+            "question": "¿Cuáles son los tres instrumentos con los que el sector público actúa sobre la economía?",
+            "options": [
+                "a) Impuestos, gasto público y transferencias:",
+                "b) Impuestos, emisión monetaria y tasa de interés:",
+                "c) Gasto público, encaje bancario y tipo de cambio:",
+                "d) Reservas internacionales, deuda y aranceles:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 3,
+            "originalNumber": 3,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Un impuesto cuya alícuota se mantiene constante cualquiera sea el monto de la actividad gravada (como el impuesto a los débitos y créditos bancarios) se denomina:",
+            "options": [
+                "a) Progresivo:",
+                "b) Regresivo:",
+                "c) Proporcional:",
+                "d) Directo:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 4,
+            "originalNumber": 4,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El Impuesto a las Ganancias, cuya alícuota crece a medida que aumenta la base imponible, es un ejemplo de impuesto:",
+            "options": [
+                "a) Regresivo:",
+                "b) Progresivo:",
+                "c) Proporcional:",
+                "d) Indirecto:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 5,
+            "originalNumber": 5,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El IVA, para la clasificación de impuestos, es un impuesto:",
+            "options": [
+                "a) Directo, porque grava la posesión de riqueza:",
+                "b) Indirecto, porque grava la transacción o el uso del ingreso:",
+                "c) Progresivo, porque respeta la capacidad de pago:",
+                "d) Directo y progresivo a la vez:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 6,
+            "originalNumber": 6,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El principio tributario que busca que el impuesto afecte lo menos posible el funcionamiento del mercado se denomina:",
+            "options": [
+                "a) Equidad:",
+                "b) Simplicidad:",
+                "c) Neutralidad:",
+                "d) Progresividad:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 7,
+            "originalNumber": 7,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El principio de equidad sostiene que quien más se beneficia de los bienes públicos debería soportar una mayor carga impositiva:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 8,
+            "originalNumber": 8,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Un aumento del gasto público, manteniendo todo lo demás constante, constituye una política fiscal:",
+            "options": [
+                "a) Contractiva:",
+                "b) Expansiva:",
+                "c) Neutra:",
+                "d) Monetaria:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 9,
+            "originalNumber": 9,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El instrumento más efectivo de la política fiscal para estabilizar e impulsar la actividad económica es el gasto público:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 10,
+            "originalNumber": 10,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Un aumento de los impuestos, al reducir el ingreso disponible, tiende a:",
+            "options": [
+                "a) Expandir la demanda agregada:",
+                "b) Contraer la demanda agregada:",
+                "c) No tener efectos sobre la demanda agregada:",
+                "d) Aumentar la inversión privada:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 11,
+            "originalNumber": 11,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En una recesión, la recaudación tributaria cae automáticamente (sin decisión discrecional del gobierno), amortiguando la caída de la demanda. Esto se conoce como estabilizador automático:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 12,
+            "originalNumber": 12,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El resultado fiscal primario u operativo se calcula como:",
+            "options": [
+                "a) Recaudación - Gasto público - Transferencias:",
+                "b) Recaudación - Intereses de la deuda pública:",
+                "c) Gasto público - Recaudación:",
+                "d) Recaudación - Gasto público + Intereses de la deuda:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 13,
+            "originalNumber": 13,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La diferencia entre el resultado primario y el resultado financiero del sector público está dada por:",
+            "options": [
+                "a) Los subsidios:",
+                "b) Las transferencias:",
+                "c) Los intereses de la deuda pública:",
+                "d) La inflación:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 14,
+            "originalNumber": 14,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Existe déficit fiscal primario cuando el gasto público más las transferencias superan la recaudación, sin considerar los intereses de la deuda:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 15,
+            "originalNumber": 15,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El stock de deuda pública es una variable de flujo, ya que se acumula período a período:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 16,
+            "originalNumber": 16,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El coeficiente de GINI mide:",
+            "options": [
+                "a) La tasa de inflación de la economía:",
+                "b) Qué proporción del ingreso total se apropia cada porción de la población (desigualdad):",
+                "c) El nivel de gasto público sobre el PIB:",
+                "d) La presión tributaria total:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 17,
+            "originalNumber": 17,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Un aumento del IVA afecta proporcionalmente más al decil de menores ingresos de la población:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 18,
+            "originalNumber": 18,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Cuando la recaudación nominal aumenta con la inflación mientras el gasto público no se ajusta al mismo ritmo, se produce:",
+            "options": [
+                "a) Una licuación del gasto que puede generar superávit:",
+                "b) Un aumento automático del déficit primario:",
+                "c) Una devaluación de la moneda:",
+                "d) Una caída de la recaudación real:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 19,
+            "originalNumber": 19,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Si el Congreso rechaza la Ley de Presupuesto Público, el sector público queda sin marco legal para gastar hasta que se apruebe una nueva:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso, continúa vigente la ley de presupuesto del año en curso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 20,
+            "originalNumber": 20,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Una política fiscal anticíclica, ante una caída del producto, consiste en:",
+            "options": [
+                "a) Reducir el gasto público para equilibrar las cuentas:",
+                "b) Aumentar el gasto público para suavizar la caída:",
+                "c) Subir la tasa de interés de referencia:",
+                "d) Aumentar el encaje bancario:"
+            ],
+            "answerIndex": 1
+        }
+    ]
+}
