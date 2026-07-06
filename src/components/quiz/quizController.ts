@@ -5,16 +5,42 @@ interface Question {
   answerIndex: number;
 }
 
-interface QuizState {
-  answers: Record<number, number | null>;
-  confirmed: Record<number, boolean>;
+type AnswerMap = Record<number, number | null>;
+type ConfirmedMap = Record<number, boolean>;
+
+interface CurrentRun {
+  answers: AnswerMap;
+  confirmed: ConfirmedMap;
 }
 
+interface ArchivedRun {
+  completedAt: number;
+  score: number;
+  total: number;
+}
+
+interface PersistedState {
+  version: number;
+  current: CurrentRun;
+  history: ArchivedRun[];
+}
+
+interface RunView {
+  label: string;
+  when: string;
+  score: number;
+  total: number;
+  isCurrent: boolean;
+}
+
+const STATE_VERSION = 2;
+
 export class QuizController {
-  private quizId: string;
-  private questions: Question[];
-  private storageKey: string;
-  private state: QuizState = { answers: {}, confirmed: {} };
+  private readonly quizId: string;
+  private readonly questions: Question[];
+  private readonly storageKey: string;
+  private state: PersistedState = QuizController.emptyState();
+  private island: HTMLElement | null = null;
 
   constructor(quizId: string, questions: Question[]) {
     this.quizId = quizId;
@@ -23,49 +49,73 @@ export class QuizController {
   }
 
   public init(): void {
+    this.island = document.getElementById(`island-${this.quizId}`);
     this.loadFromStorage();
-    this.questions.forEach(q => this.refreshQuestion(q.id));
-    this.updateBanner();
-    this.updateProgressBar();
+    this.questions.forEach(question => this.refreshQuestion(question.id));
+    this.refreshGlobalUi();
     this.attachEventListeners();
     if (this.isCompleted()) {
       this.showCompletionIfDone();
     }
   }
 
+  private static emptyState(): PersistedState {
+    return { version: STATE_VERSION, current: { answers: {}, confirmed: {} }, history: [] };
+  }
+
+  private get answers(): AnswerMap {
+    return this.state.current.answers;
+  }
+
+  private get confirmed(): ConfirmedMap {
+    return this.state.current.confirmed;
+  }
+
   private loadFromStorage(): void {
     try {
       const raw = localStorage.getItem(this.storageKey);
       if (!raw) return;
-      const saved = JSON.parse(raw);
-      this.state.answers = saved.answers ?? {};
-      this.state.confirmed = saved.confirmed ?? {};
+      this.state = QuizController.migrate(JSON.parse(raw));
     } catch {
-      // Ignore corrupted state
+      this.state = QuizController.emptyState();
     }
+  }
+
+  private static migrate(saved: any): PersistedState {
+    if (saved?.version === STATE_VERSION && saved.current) {
+      return {
+        version: STATE_VERSION,
+        current: {
+          answers: saved.current.answers ?? {},
+          confirmed: saved.current.confirmed ?? {},
+        },
+        history: Array.isArray(saved.history) ? saved.history : [],
+      };
+    }
+    return {
+      version: STATE_VERSION,
+      current: { answers: saved?.answers ?? {}, confirmed: saved?.confirmed ?? {} },
+      history: [],
+    };
   }
 
   private persistToStorage(): void {
     localStorage.setItem(this.storageKey, JSON.stringify(this.state));
   }
 
-  private clearStorage(): void {
-    localStorage.removeItem(this.storageKey);
-  }
-
   private isCorrect(questionId: number, answerIndex: number | null): boolean {
-    const question = this.questions.find(q => q.id === questionId);
+    const question = this.questions.find(candidate => candidate.id === questionId);
     return question !== undefined && answerIndex === question.answerIndex;
   }
 
   private countConfirmed(): number {
-    return Object.keys(this.state.confirmed).length;
+    return Object.keys(this.confirmed).length;
   }
 
   private countScore(): number {
-    return Object.keys(this.state.confirmed).reduce((acc, qId) => {
-      const numId = Number(qId);
-      return acc + (this.isCorrect(numId, this.state.answers[numId]) ? 1 : 0);
+    return Object.keys(this.confirmed).reduce((total, questionId) => {
+      const numericId = Number(questionId);
+      return total + (this.isCorrect(numericId, this.answers[numericId]) ? 1 : 0);
     }, 0);
   }
 
@@ -73,28 +123,27 @@ export class QuizController {
     return this.countConfirmed() === this.questions.length;
   }
 
+  private percentageOf(score: number): number {
+    return this.questions.length > 0 ? Math.round((score / this.questions.length) * 100) : 0;
+  }
+
   private updateBanner(): void {
     const banner = document.getElementById(`score-banner-${this.quizId}`);
     if (!banner) return;
 
-    const confirmed = this.countConfirmed();
     const score = this.countScore();
-    const pct = this.questions.length > 0 ? Math.round((score / this.questions.length) * 100) : 0;
+    this.setText(banner.querySelector('[data-confirmed]'), String(this.countConfirmed()));
+    this.setText(banner.querySelector('[data-score]'), String(score));
+    this.setText(banner.querySelector('[data-percentage]'), `${this.percentageOf(score)}%`);
+  }
 
-    const confirmedEl = banner.querySelector('[data-confirmed]');
-    const scoreEl = banner.querySelector('[data-score]');
-    const pctEl = banner.querySelector('[data-percentage]');
-
-    if (confirmedEl) confirmedEl.textContent = String(confirmed);
-    if (scoreEl) scoreEl.textContent = String(score);
-    if (pctEl) pctEl.textContent = `${pct}%`;
+  private setText(element: Element | null, value: string): void {
+    if (element) element.textContent = value;
   }
 
   private updateProgressBar(): void {
     const progressEl = document.getElementById(`quiz-progress-${this.quizId}`);
-    if (!progressEl) return;
-
-    const fill = progressEl.querySelector('.progress-fill') as HTMLElement;
+    const fill = progressEl?.querySelector('.progress-fill') as HTMLElement | null;
     if (!fill) return;
 
     const confirmed = this.countConfirmed();
@@ -104,57 +153,44 @@ export class QuizController {
   }
 
   private applyOptionStates(questionId: number): void {
-    const question = this.questions.find(q => q.id === questionId);
+    const question = this.questions.find(candidate => candidate.id === questionId);
     if (!question) return;
 
-    const confirmed = this.state.confirmed[questionId] === true;
-    const selected = this.state.answers[questionId] ?? null;
+    const confirmed = this.confirmed[questionId] === true;
+    const selected = this.answers[questionId] ?? null;
 
-    question.options.forEach((_, optIdx) => {
-      const btn = document.getElementById(`option-${this.quizId}-${questionId}-${optIdx}`) as HTMLButtonElement | null;
+    question.options.forEach((_, optionIndex) => {
+      const btn = document.getElementById(`option-${this.quizId}-${questionId}-${optionIndex}`) as HTMLButtonElement | null;
       if (!btn) return;
 
       btn.classList.remove('option-btn--selected', 'option-btn--correct', 'option-btn--incorrect', 'option-btn--dimmed');
       btn.disabled = confirmed;
 
       if (confirmed) {
-        this.setConfirmedOptionStyles(btn, optIdx, question.answerIndex, selected);
-      } else {
-        this.setPendingOptionStyles(btn, optIdx, selected);
+        this.setConfirmedOptionStyles(btn, optionIndex, question.answerIndex, selected);
+      } else if (optionIndex === selected) {
+        btn.classList.add('option-btn--selected');
       }
     });
   }
 
   private setConfirmedOptionStyles(
     btn: HTMLButtonElement,
-    optIdx: number,
+    optionIndex: number,
     answerIndex: number,
     selected: number | null
   ): void {
-    const isAnswer = optIdx === answerIndex;
-    const isChosen = optIdx === selected;
-
-    if (isAnswer) btn.classList.add('option-btn--correct');
-    else if (isChosen) btn.classList.add('option-btn--incorrect');
+    if (optionIndex === answerIndex) btn.classList.add('option-btn--correct');
+    else if (optionIndex === selected) btn.classList.add('option-btn--incorrect');
     else btn.classList.add('option-btn--dimmed');
-  }
-
-  private setPendingOptionStyles(
-    btn: HTMLButtonElement,
-    optIdx: number,
-    selected: number | null
-  ): void {
-    const isSelected = optIdx === selected;
-    if (isSelected) btn.classList.add('option-btn--selected');
   }
 
   private applyCardState(questionId: number): void {
     const card = document.getElementById(`question-${this.quizId}-${questionId}`);
     if (!card) return;
-    const confirmed = this.state.confirmed[questionId] === true;
     card.classList.remove('question-card--correct', 'question-card--incorrect');
-    if (confirmed) {
-      const correct = this.isCorrect(questionId, this.state.answers[questionId]);
+    if (this.confirmed[questionId] === true) {
+      const correct = this.isCorrect(questionId, this.answers[questionId]);
       card.classList.add(correct ? 'question-card--correct' : 'question-card--incorrect');
     }
   }
@@ -163,21 +199,15 @@ export class QuizController {
     const resultEl = document.getElementById(`result-${this.quizId}-${questionId}`);
     if (!resultEl) return;
 
-    const confirmed = this.state.confirmed[questionId] === true;
     const correctBanner = resultEl.querySelector('[data-banner-type="correct"]') as HTMLElement | null;
     const incorrectBanner = resultEl.querySelector('[data-banner-type="incorrect"]') as HTMLElement | null;
-
     if (correctBanner) correctBanner.style.display = 'none';
     if (incorrectBanner) incorrectBanner.style.display = 'none';
 
-    if (confirmed) {
-      const correct = this.isCorrect(questionId, this.state.answers[questionId]);
-      if (correct && correctBanner) {
-        correctBanner.style.display = 'flex';
-      } else if (!correct && incorrectBanner) {
-        incorrectBanner.style.display = 'flex';
-      }
-    }
+    if (this.confirmed[questionId] !== true) return;
+    const correct = this.isCorrect(questionId, this.answers[questionId]);
+    const activeBanner = correct ? correctBanner : incorrectBanner;
+    if (activeBanner) activeBanner.style.display = 'flex';
   }
 
   private refreshQuestion(questionId: number): void {
@@ -186,92 +216,185 @@ export class QuizController {
     this.applyResultBanner(questionId);
   }
 
-  private confirmAnswer(questionId: number, optionIndex: number): void {
-    this.state.answers[questionId] = optionIndex;
-    this.state.confirmed[questionId] = true;
-    this.persistToStorage();
-    this.refreshQuestion(questionId);
+  private refreshGlobalUi(): void {
     this.updateBanner();
     this.updateProgressBar();
+    this.updateRetryVisibility();
+  }
+
+  private confirmAnswer(questionId: number, optionIndex: number): void {
+    this.answers[questionId] = optionIndex;
+    this.confirmed[questionId] = true;
+    this.persistToStorage();
+    this.refreshQuestion(questionId);
+    this.refreshGlobalUi();
     this.showCompletionIfDone();
   }
 
   private revealAll(): void {
-    this.questions.forEach(q => {
-      if (!this.state.confirmed[q.id]) {
-        this.state.confirmed[q.id] = true;
-        if (this.state.answers[q.id] === undefined) {
-          this.state.answers[q.id] = null;
+    this.questions.forEach(question => {
+      if (!this.confirmed[question.id]) {
+        this.confirmed[question.id] = true;
+        if (this.answers[question.id] === undefined) {
+          this.answers[question.id] = null;
         }
       }
-      this.refreshQuestion(q.id);
+      this.refreshQuestion(question.id);
     });
     this.persistToStorage();
-    this.updateBanner();
-    this.updateProgressBar();
+    this.refreshGlobalUi();
     this.showCompletionIfDone();
   }
 
-  private resetQuiz(): void {
-    this.state.answers = {};
-    this.state.confirmed = {};
-    this.clearStorage();
-    this.questions.forEach(q => this.refreshQuestion(q.id));
-    this.updateBanner();
-    this.updateProgressBar();
+  private retryQuiz(): void {
+    this.archiveCurrentRun();
+    this.state.current = { answers: {}, confirmed: {} };
+    this.persistToStorage();
+    this.questions.forEach(question => this.refreshQuestion(question.id));
+    this.refreshGlobalUi();
     this.hideCompletion();
+  }
+
+  private archiveCurrentRun(): void {
+    if (!this.isCompleted()) return;
+    this.state.history.push({
+      completedAt: Date.now(),
+      score: this.countScore(),
+      total: this.questions.length,
+    });
   }
 
   private showCompletionIfDone(): void {
     if (!this.isCompleted()) return;
-    const wrapper = document.getElementById(`completion-wrapper-${this.quizId}`);
-    if (wrapper) wrapper.style.display = '';
-
-    const revealBtn = document.getElementById(`reveal-${this.quizId}`);
-    if (revealBtn) revealBtn.style.display = 'none';
-
+    this.toggleCompletion(true);
     this.updateCompletionSummary();
+    this.renderRunHistory();
   }
 
   private hideCompletion(): void {
-    const wrapper = document.getElementById(`completion-wrapper-${this.quizId}`);
-    if (wrapper) wrapper.style.display = 'none';
+    this.toggleCompletion(false);
+  }
 
-    const revealBtn = document.getElementById(`reveal-${this.quizId}`);
-    if (revealBtn) revealBtn.style.display = '';
+  private toggleCompletion(completed: boolean): void {
+    const wrapper = document.getElementById(`completion-wrapper-${this.quizId}`);
+    if (wrapper) wrapper.style.display = completed ? '' : 'none';
+    this.forEachAction('reveal', btn => (btn.style.display = completed ? 'none' : ''));
+  }
+
+  private updateRetryVisibility(): void {
+    const hasProgress = this.countConfirmed() > 0;
+    this.forEachAction('retry-request', btn => {
+      if (btn.dataset.scope === 'toolbar') btn.style.display = hasProgress ? '' : 'none';
+    });
   }
 
   private updateCompletionSummary(): void {
     const score = this.countScore();
-    const pct = this.questions.length > 0 ? Math.round((score / this.questions.length) * 100) : 0;
+    this.setText(document.querySelector(`#completion-${this.quizId} [data-final-score]`), String(score));
+    this.setText(document.querySelector(`#completion-${this.quizId} [data-final-pct]`), `${this.percentageOf(score)}%`);
+  }
 
-    const scoreEl = document.querySelector(`#completion-${this.quizId} [data-final-score]`);
-    const pctEl = document.querySelector(`#completion-${this.quizId} [data-final-pct]`);
-    if (scoreEl) scoreEl.textContent = String(score);
-    if (pctEl) pctEl.textContent = `${pct}%`;
+  private comparableRuns(): RunView[] {
+    const runs: RunView[] = this.state.history.map((run, index) => ({
+      label: `Intento ${index + 1}`,
+      when: this.formatDate(run.completedAt),
+      score: run.score,
+      total: run.total,
+      isCurrent: false,
+    }));
+
+    if (this.isCompleted()) {
+      runs.push({
+        label: `Intento ${runs.length + 1}`,
+        when: 'Actual',
+        score: this.countScore(),
+        total: this.questions.length,
+        isCurrent: true,
+      });
+    }
+    return runs;
+  }
+
+  private formatDate(timestamp: number): string {
+    return new Date(timestamp).toLocaleDateString('es-AR', {
+      day: '2-digit',
+      month: 'short',
+      hour: '2-digit',
+      minute: '2-digit',
+    });
+  }
+
+  private renderRunHistory(): void {
+    const wrapper = document.getElementById(`run-history-${this.quizId}`);
+    const body = document.getElementById(`run-history-body-${this.quizId}`);
+    if (!wrapper || !body) return;
+
+    const runs = this.comparableRuns();
+    if (runs.length < 2) {
+      wrapper.style.display = 'none';
+      return;
+    }
+
+    const bestScore = Math.max(...runs.map(run => run.score));
+    wrapper.style.display = '';
+    body.innerHTML = runs.map(run => this.runRowHtml(run, bestScore)).join('');
+  }
+
+  private runRowHtml(run: RunView, bestScore: number): string {
+    const isBest = run.score === bestScore;
+    const rowClass = run.isCurrent ? 'run-history__row run-history__row--current' : 'run-history__row';
+    const bestBadge = isBest ? '<span class="run-history__best">Mejor</span>' : '';
+    return `
+      <tr class="${rowClass}">
+        <th scope="row">${run.label}${bestBadge}</th>
+        <td>${run.when}</td>
+        <td>${run.score} / ${run.total}</td>
+        <td class="run-history__pct">${this.percentageOf(run.score)}%</td>
+      </tr>`;
+  }
+
+  private forEachAction(action: string, apply: (btn: HTMLElement) => void): void {
+    this.island?.querySelectorAll<HTMLElement>(`[data-action="${action}"]`).forEach(apply);
+  }
+
+  private toggleRetryDialog(open: boolean): void {
+    const dialog = document.getElementById(`retry-dialog-${this.quizId}`);
+    dialog?.classList.toggle('dialog--open', open);
   }
 
   private attachEventListeners(): void {
-    const island = document.getElementById(`island-${this.quizId}`);
-    if (!island) return;
+    if (!this.island) return;
+    this.island.addEventListener('click', event => this.handleIslandClick(event));
+  }
 
-    island.addEventListener('click', event => {
-      const target = (event.target as HTMLElement).closest('[data-option-index]') as HTMLButtonElement | null;
-      if (target && !target.disabled) {
-        const questionId = Number(target.dataset.questionId);
-        const optionIndex = Number(target.dataset.optionIndex);
-        this.confirmAnswer(questionId, optionIndex);
-      }
-    });
+  private handleIslandClick(event: Event): void {
+    const target = event.target as HTMLElement;
 
-    const revealBtn = document.getElementById(`reveal-${this.quizId}`);
-    if (revealBtn) {
-      revealBtn.addEventListener('click', () => this.revealAll());
+    const option = target.closest('[data-option-index]') as HTMLButtonElement | null;
+    if (option && !option.disabled) {
+      this.confirmAnswer(Number(option.dataset.questionId), Number(option.dataset.optionIndex));
+      return;
     }
 
-    const retryBtn = document.getElementById(`retry-${this.quizId}`);
-    if (retryBtn) {
-      retryBtn.addEventListener('click', () => this.resetQuiz());
+    const actionEl = target.closest('[data-action]') as HTMLElement | null;
+    if (actionEl) this.runAction(actionEl.dataset.action);
+  }
+
+  private runAction(action: string | undefined): void {
+    switch (action) {
+      case 'reveal':
+        this.revealAll();
+        break;
+      case 'retry-request':
+        this.toggleRetryDialog(true);
+        break;
+      case 'retry-confirm':
+        this.toggleRetryDialog(false);
+        this.retryQuiz();
+        break;
+      case 'retry-cancel':
+        this.toggleRetryDialog(false);
+        break;
     }
   }
 }

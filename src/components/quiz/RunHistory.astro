@@ -1,0 +1,111 @@
+---
+interface Props {
+  quizId: string;
+}
+
+const { quizId } = Astro.props;
+---
+<div class="run-history surface" id={`run-history-${quizId}`} style="display:none">
+  <h4 class="run-history__title">Comparación de intentos</h4>
+  <div class="run-history__scroll">
+    <table class="run-history__table">
+      <thead>
+        <tr>
+          <th scope="col">Intento</th>
+          <th scope="col">Fecha</th>
+          <th scope="col">Aciertos</th>
+          <th scope="col">%</th>
+        </tr>
+      </thead>
+      <tbody id={`run-history-body-${quizId}`}></tbody>
+    </table>
+  </div>
+</div>
+
+<style>
+  .run-history {
+    padding: var(--space-lg) var(--space-xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .run-history__title {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .run-history__scroll {
+    overflow-x: auto;
+  }
+
+  .run-history__table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+
+  .run-history__table th,
+  .run-history__table td {
+    padding: var(--space-sm) var(--space-md);
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .run-history__table thead th {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-subtle);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  /* Rows are injected at runtime via innerHTML, so they never receive Astro's
+     scope attribute; these selectors must be global to reach them. */
+  .run-history__table :global(tbody th),
+  .run-history__table :global(tbody td) {
+    padding: var(--space-sm) var(--space-md);
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .run-history__table :global(tbody th) {
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .run-history__table :global(tbody td) {
+    color: var(--color-text-muted);
+  }
+
+  .run-history__table :global(.run-history__row + .run-history__row th),
+  .run-history__table :global(.run-history__row + .run-history__row td) {
+    border-top: 1px solid var(--color-border);
+  }
+
+  .run-history__table :global(.run-history__row--current th),
+  .run-history__table :global(.run-history__row--current td) {
+    color: var(--color-text);
+  }
+
+  .run-history__table :global(.run-history__pct) {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--color-correct);
+  }
+
+  .run-history__table :global(.run-history__best) {
+    display: inline-block;
+    margin-left: var(--space-sm);
+    padding: 0.05rem var(--space-sm);
+    border-radius: var(--radius-sm);
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    vertical-align: middle;
+    background: var(--color-correct-bg);
+    color: var(--color-correct);
+    border: 1px solid var(--color-correct-border);
+  }
+</style>

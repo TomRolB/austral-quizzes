@@ -1,0 +1,78 @@
+---
+interface Props {
+  id: string;
+  title: string;
+  message: string;
+  confirmLabel: string;
+  cancelLabel: string;
+  confirmAction: string;
+  cancelAction: string;
+}
+
+const { id, title, message, confirmLabel, cancelLabel, confirmAction, cancelAction } = Astro.props;
+---
+<div class="dialog" id={id} role="dialog" aria-modal="true" aria-labelledby={`${id}-title`}>
+  <div class="dialog__backdrop" data-action={cancelAction}></div>
+  <div class="dialog__panel surface--raised">
+    <h3 class="dialog__title" id={`${id}-title`}>{title}</h3>
+    <p class="dialog__message">{message}</p>
+    <div class="dialog__actions">
+      <button class="btn btn--ghost" data-action={cancelAction}>{cancelLabel}</button>
+      <button class="btn btn--primary" data-action={confirmAction}>{confirmLabel}</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .dialog {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-lg);
+  }
+
+  .dialog.dialog--open {
+    display: flex;
+  }
+
+  .dialog__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+  }
+
+  .dialog__panel {
+    position: relative;
+    width: 100%;
+    max-width: 26rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    animation: fadeInUp 0.2s ease both;
+  }
+
+  .dialog__title {
+    font-size: 1.15rem;
+    font-weight: 800;
+  }
+
+  .dialog__message {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    line-height: 1.55;
+  }
+
+  .dialog__actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--space-sm);
+    margin-top: var(--space-xs);
+  }
+</style>

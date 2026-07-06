@@ -1,7 +1,11 @@
 ---
 import ScoreBanner from './ScoreBanner.astro';
 import CompletionSummary from './CompletionSummary.astro';
+import QuizToolbar from './QuizToolbar.astro';
+import RunHistory from './RunHistory.astro';
 import ProgressBar from '../shared/ProgressBar.astro';
+import ConfirmDialog from '../shared/ConfirmDialog.astro';
+import ScrollToTopButton from '../shared/ScrollToTopButton.astro';
 import QuestionCard from './QuestionCard.astro';
 
 interface Question {
@@ -32,6 +36,7 @@ const total = questions.length;
     <div class="page-container--narrow quiz-island__header-inner">
       <ScoreBanner quizId={quizId} confirmedCount={0} totalCount={total} score={0} />
       <ProgressBar value={0} max={total} id={`quiz-progress-${quizId}`} />
+      <QuizToolbar quizId={quizId} />
     </div>
   </div>
 
@@ -44,7 +49,7 @@ const total = questions.length;
     </div>
 
     <div class="quiz-island__actions">
-      <button class="btn btn--secondary reveal-btn" id={`reveal-${quizId}`} data-quiz-id={quizId}>
+      <button class="btn btn--secondary reveal-btn" data-action="reveal" id={`reveal-${quizId}`}>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/>
           <circle cx="12" cy="12" r="3"/>
@@ -55,10 +60,23 @@ const total = questions.length;
 
     <div class="quiz-island__completion" id={`completion-wrapper-${quizId}`} style="display:none">
       <CompletionSummary quizId={quizId} score={0} total={total} courseHref={courseHref} homeHref={homeHref} />
+      <RunHistory quizId={quizId} />
     </div>
 
   </div>
+
+  <ConfirmDialog
+    id={`retry-dialog-${quizId}`}
+    title="¿Volver a responder?"
+    message="Se archivará tu intento actual para que puedas compararlo, y las respuestas se limpiarán para empezar de nuevo."
+    confirmLabel="Sí, empezar de nuevo"
+    cancelLabel="Cancelar"
+    confirmAction="retry-confirm"
+    cancelAction="retry-cancel"
+  />
 </div>
+
+<ScrollToTopButton />
 
 <script>
   import { QuizController } from './quizController';
@@ -114,6 +132,12 @@ const total = questions.length;
   .quiz-island__actions {
     display: flex;
     justify-content: center;
+  }
+
+  .quiz-island__completion {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
   }
 
   .reveal-btn {
