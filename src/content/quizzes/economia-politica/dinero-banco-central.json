@@ -1,0 +1,280 @@
+{
+    "courseId": "economia-politica",
+    "courseName": "Macroeconomía",
+    "courseIcon": "📊",
+    "id": "quiz-dinero-banco-central-2026",
+    "title": "Dinero, Banco Central y Sistema Financiero",
+    "description": "1º cuatrimestre - año 2026. Preguntas basadas en apuntes de clase (contenido para el final)",
+    "questions": [
+        {
+            "id": 1,
+            "originalNumber": 1,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El dinero cuyo valor está respaldado por la autoridad monetaria (y no por un bien físico como el oro) y que es aceptado por el mercado se denomina dinero:",
+            "options": [
+                "a) Mercancía:",
+                "b) Convertible:",
+                "c) Fiduciario:",
+                "d) Metálico:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 2,
+            "originalNumber": 2,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El patrón oro se abandonó definitivamente en 1973, en el marco de la crisis del precio del petróleo:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 3,
+            "originalNumber": 3,
+            "type": "MULTIPLE_CHOICE",
+            "question": "¿Cuáles son las tres funciones del dinero?",
+            "options": [
+                "a) Medio de pago, unidad de cuenta y reserva de valor:",
+                "b) Emisión, encaje y crédito:",
+                "c) Consumo, inversión y ahorro:",
+                "d) Liquidez, solvencia y rentabilidad:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 4,
+            "originalNumber": 4,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La base monetaria (M0) se compone de:",
+            "options": [
+                "a) Billetes y monedas en poder del público más los depósitos a plazo fijo:",
+                "b) El dinero en poder del público más las reservas de los bancos:",
+                "c) Únicamente los depósitos en cajas de ahorro:",
+                "d) Las reservas internacionales del BCRA:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 5,
+            "originalNumber": 5,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El agregado monetario M2 se compone de:",
+            "options": [
+                "a) M1 más los depósitos a plazo fijo:",
+                "b) M1 más los depósitos en cajas de ahorro:",
+                "c) La base monetaria más los depósitos judiciales:",
+                "d) Solo billetes y monedas en poder del público:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 6,
+            "originalNumber": 6,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Los depósitos a plazo fijo forman parte del agregado monetario M3:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 7,
+            "originalNumber": 7,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La demanda de dinero por motivo transaccional se relaciona con:",
+            "options": [
+                "a) Guardar dinero anticipando períodos futuros sin generación de ingresos:",
+                "b) El uso del dinero para la compra y venta de bienes y servicios:",
+                "c) La preferencia por mantener riqueza en un activo líquido ante la incertidumbre:",
+                "d) El pago de impuestos al sector público:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 8,
+            "originalNumber": 8,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La relación entre la tasa de interés y la demanda de dinero como activo es negativa: un aumento esperado de la tasa reduce la demanda de dinero:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 9,
+            "originalNumber": 9,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La situación en la que reducciones consistentes de la tasa de interés hasta niveles mínimos generan una preferencia extrema por la liquidez se denomina:",
+            "options": [
+                "a) Estanflación:",
+                "b) Trampa de liquidez:",
+                "c) Esterilización monetaria:",
+                "d) Convertibilidad:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 10,
+            "originalNumber": 10,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Una de las funciones principales del Banco Central es:",
+            "options": [
+                "a) Maximizar el crecimiento del PIB en el corto plazo:",
+                "b) Garantizar la estabilidad del nivel de precios y preservar el valor de la moneda:",
+                "c) Fijar el nivel de gasto público del año siguiente:",
+                "d) Recaudar los impuestos nacionales:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 11,
+            "originalNumber": 11,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El Banco Central actúa como prestamista de última instancia, y cuando otorga créditos aumenta la base monetaria (M0):",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 12,
+            "originalNumber": 12,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En un sistema de flotación por bandas, los límites (inferior y superior) entre los que puede moverse el tipo de cambio están condicionados por:",
+            "options": [
+                "a) El nivel de gasto público:",
+                "b) La cantidad de reservas internacionales del BCRA:",
+                "c) La tasa de interés de la FED:",
+                "d) El coeficiente de GINI:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 13,
+            "originalNumber": 13,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Las LELIQs eran títulos emitidos por el BCRA con el objetivo de:",
+            "options": [
+                "a) Financiar directamente el gasto social:",
+                "b) Absorber el excedente de pesos de la economía (esterilización monetaria):",
+                "c) Aumentar las reservas internacionales:",
+                "d) Reemplazar al peso como moneda de curso legal:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 14,
+            "originalNumber": 14,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El encaje bancario es:",
+            "options": [
+                "a) La tasa que el banco paga al depositante por su dinero:",
+                "b) La proporción de los depósitos que los bancos deben mantener como reservas:",
+                "c) El crédito total que un banco puede otorgar:",
+                "d) El interés que cobra el Banco Central por sus préstamos:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 15,
+            "originalNumber": 15,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Si el encaje bancario es del 20%, un depósito de $1.000 en el sistema bancario puede generar una creación total de dinero (por el multiplicador bancario) de:",
+            "options": [
+                "a) $1.200:",
+                "b) $2.000:",
+                "c) $5.000:",
+                "d) $20.000:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 16,
+            "originalNumber": 16,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La creación primaria de dinero es realizada por:",
+            "options": [
+                "a) Los bancos comerciales mediante la generación de crédito:",
+                "b) El Banco Central mediante la emisión de base monetaria (M0):",
+                "c) Las cooperativas de crédito:",
+                "d) El Tesoro mediante la recaudación de impuestos:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 17,
+            "originalNumber": 17,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El canal del crédito es el mecanismo por el cual el dinero generado por el sistema bancario impulsa la demanda agregada:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 18,
+            "originalNumber": 18,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Una política monetaria expansiva puede llevarse a cabo:",
+            "options": [
+                "a) Subiendo la tasa de interés de referencia:",
+                "b) Aumentando la base monetaria o bajando la tasa de interés:",
+                "c) Aumentando el encaje bancario:",
+                "d) Vendiendo reservas internacionales:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 19,
+            "originalNumber": 19,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Una política monetaria contractiva sube la tasa de interés, encarece el crédito y desplaza el dinero hacia bonos o títulos, retrayendo la demanda agregada:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 20,
+            "originalNumber": 20,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Según el enfoque monetarista, un aumento de la cantidad de dinero en una economía en equilibrio:",
+            "options": [
+                "a) No tiene efectos sobre el nivel de precios:",
+                "b) Se traduce directamente en un aumento del nivel de precios:",
+                "c) Siempre genera crecimiento del PIB sin inflación:",
+                "d) Reduce la inflación de forma sostenida:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 21,
+            "originalNumber": 21,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La suba del precio de los fertilizantes por la guerra en Ucrania, que encareció los alimentos, es un ejemplo de inflación de costos (no explicada únicamente por la cantidad de dinero):",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 22,
+            "originalNumber": 22,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En Argentina, el peso cumple plenamente las tres funciones del dinero, mientras que el dólar solo funciona como medio de pago:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso, el peso no cumple bien ninguna y el dólar opera como reserva de valor y unidad de cuenta de facto:"
+            ],
+            "answerIndex": 1
+        }
+    ]
+}
