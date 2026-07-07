@@ -1,0 +1,470 @@
+{
+    "courseId": "economia-politica",
+    "courseName": "Macroeconomía",
+    "courseIcon": "📊",
+    "id": "quiz-economia-2026",
+    "title": "Modelo 1er Cuatrimestre 2026",
+    "description": "Preguntas de un modelo real",
+    "questions": [
+        {
+            "id": 1,
+            "originalNumber": 1,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Desde la estimación del Gasto Bruto Interno se puede observar el valor agregado estimado en cada etapa productiva:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 2,
+            "originalNumber": 2,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Cuando el déficit fiscal es elevado tendrá efectos potenciales en el sistema financiero dadas las necesidades de recursos financieros del sector y sus efectos sobre la tasa de interés:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 3,
+            "originalNumber": 3,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El Producto Interno Bruto es una estimación del valor agregado de la economía donde se exponen las retribuciones a los factores de producción:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 4,
+            "originalNumber": 4,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El PIB a precios corrientes contempla el desgaste o depreciación de los factores de producción:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 5,
+            "originalNumber": 5,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El crecimiento intensivo de precios distorsiona las decisiones económicas de las empresas y de los individuos y, por lo tanto, impide una asignación eficiente de los recursos:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 6,
+            "originalNumber": 6,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El valor agregado se asocia con la riqueza productiva del país y es desde donde se determina el crecimiento económico:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 7,
+            "originalNumber": 7,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El siguiente detalle se clasifica como variables stock para la macroeconomía:",
+            "options": [
+                "a) Exportaciones:",
+                "b) Maquinarias:",
+                "c) Deuda externa bruta del sector público:",
+                "d) Ninguna de las anteriores:",
+                "e) b) y c):"
+            ],
+            "answerIndex": 4
+        },
+        {
+            "id": 8,
+            "originalNumber": 8,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Uno de los efectos de la persistencia del desempleo/desempleo de larga duración es la potencial pérdida de productividad laboral:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 9,
+            "originalNumber": 9,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La diferencia entre Producto Interno Bruto (PIB) y Producto Interno Neto (PIN) es por:",
+            "options": [
+                "a) Rentas externas:",
+                "b) Depreciaciones de los factores de producción:",
+                "c) Depreciaciones de los parques nacionales:",
+                "d) Ninguna de las anteriores:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 10,
+            "originalNumber": 10,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Desde la ecuación del YBI no sería posible notar cómo se distribuye el ingreso o la renta debido a las duplicaciones de producción:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 11,
+            "originalNumber": 11,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Dada la identidad fundamental de la macroeconomía, podemos aludir a gasto como equivalente a producción, no así a producto:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 12,
+            "originalNumber": 12,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En macroeconomía la denominada oferta global no tiene en cuenta a las importaciones:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 13,
+            "originalNumber": 13,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En el largo plazo el desempleo friccional determina desajustes de oferta y demanda en el mercado laboral:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:",
+                "c) Depende:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 14,
+            "originalNumber": 14,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El denominado ciclo populista de la macroeconomía se asocia con la dominancia de las exportaciones y la inversión por sobre los demás fundamentales macroeconómicos:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 15,
+            "originalNumber": 15,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La incertidumbre de mercado puede expandirse abruptamente solo por efectos derivados de variables no controladas por parte de la política económica:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 16,
+            "originalNumber": 16,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Una perturbación externa puede afectar la demanda agregada mediante una perturbación interna posterior:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 17,
+            "originalNumber": 17,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La Contabilidad Nacional tiene el objetivo de describir el proceso de producción, distribución y uso de los bienes y servicios desde una visión del conjunto de las empresas:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 18,
+            "originalNumber": 18,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En el desempleo de larga duración se destacan consecuencias en la estructura social y la productividad laboral:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 19,
+            "originalNumber": 19,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Los insumos de producción forman parte de la estimación del Ingreso Bruto de la economía:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 20,
+            "originalNumber": 20,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Las variables flujo se definen en relación a una fecha determinada, pues tienen sentido de acumulación:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 21,
+            "originalNumber": 21,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La producción de insumos industriales forma parte del PIB:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 22,
+            "originalNumber": 22,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Las perturbaciones afectan intensamente a las economías aunque dependiendo de:",
+            "options": [
+                "a) El período de estabilidad:",
+                "b) La habitualidad de los ciclos macroeconómicos:",
+                "c) a) y b):",
+                "d) Ninguna:"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 23,
+            "originalNumber": 23,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Se menciona que el superávit fiscal del primer cuatrimestre del año 2024 se asocia exclusivamente con la denominada licuación:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 24,
+            "originalNumber": 24,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Las reservas internacionales que registra el Banco Central están compuestas esencialmente de depósitos totales de divisas de las empresas y personas:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 25,
+            "originalNumber": 25,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En los años de gestión de Néstor Kirchner:",
+            "options": [
+                "a) La tasa de crecimiento fue elevada:",
+                "b) La inflación fue baja:",
+                "c) Creció el empleo:",
+                "d) Hubo superávit comercial:",
+                "e) Subió la pobreza:",
+                "f) Todas correctas:",
+                "g) Correctas las primeras cuatro:"
+            ],
+            "answerIndex": 6
+        },
+        {
+            "id": 26,
+            "originalNumber": 26,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En el año 2011 se estatizó el sistema de previsión social (jubilaciones):",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 27,
+            "originalNumber": 27,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Las privatizaciones del menemismo ayudaron a:",
+            "options": [
+                "a) Mejorar la caja fiscal:",
+                "b) Hacer más eficientes a las empresas públicas privatizadas:",
+                "c) Traer capitales del exterior:",
+                "d) Aumentar la deuda externa:",
+                "e) Todas correctas:",
+                "f) Correctas las tres primeras:"
+            ],
+            "answerIndex": 5
+        },
+        {
+            "id": 28,
+            "originalNumber": 28,
+            "type": "MULTIPLE_CHOICE",
+            "question": "En democracia los únicos períodos largos de crecimiento fueron los de Menem 1991-1998, Néstor Kirchner 2003-2007 y Macri 2017-2019:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 29,
+            "originalNumber": 29,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El conflicto del gobierno en el 2008 con el campo se originó luego del anuncio de una desproporcionada suba de las retenciones a la soja:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 30,
+            "originalNumber": 30,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La existencia de muy buenos precios de materias primas explica en parte la buena gestión económica durante la administración de Néstor Kirchner:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 31,
+            "originalNumber": 31,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El problema del default de la deuda a fines de la Convertibilidad se resolvió en 2005 con la quita de la deuda durante la gestión del ministro Lavagna:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 32,
+            "originalNumber": 32,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Las compras de dólares para aumentar las reservas durante 2026 aumentaron el valor del dólar oficial de modo claro:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 33,
+            "originalNumber": 33,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El tipo de cambio bajo de nuestro país explicó el importante flujo de turismo hacia Brasil en el verano pasado:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 34,
+            "originalNumber": 34,
+            "type": "MULTIPLE_CHOICE",
+            "question": "Las reservas netas del Banco Central siguen siendo negativas:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 35,
+            "originalNumber": 35,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La hidrovía es clave porque pasa por allí el 80% de las exportaciones agrarias:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 36,
+            "originalNumber": 36,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La economía argentina se encuentra en recesión dado que los supermercados venden menos:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 37,
+            "originalNumber": 37,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La recaudación de impuestos a moneda constante sigue siendo creciente a lo largo de este año ya que el país crece a un ritmo de 3% anual:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 38,
+            "originalNumber": 38,
+            "type": "MULTIPLE_CHOICE",
+            "question": "La pobreza en el segundo semestre de 2025 se ubicó en la zona de:",
+            "options": [
+                "a) 25%:",
+                "b) 28%:",
+                "c) 33%:",
+                "d) 3%:",
+                "e) Todas mal:"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 39,
+            "originalNumber": 39,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El agro, Vaca Muerta y la minería son sectores no intensivos en empleo directo:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 40,
+            "originalNumber": 40,
+            "type": "MULTIPLE_CHOICE",
+            "question": "El gobierno de Milei ha suprimido el cepo en todas sus dimensiones:",
+            "options": [
+                "a) Verdadero:",
+                "b) Falso:"
+            ],
+            "answerIndex": 1
+        }
+    ]
+}
