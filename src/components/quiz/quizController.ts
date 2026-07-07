@@ -1,28 +1,17 @@
+import {
+  type AnswerMap,
+  type ConfirmedMap,
+  type QuizState,
+  emptyQuizState,
+  parseQuizState,
+  storageKeyFor,
+} from './quizStorage';
+
 interface Question {
   id: number;
   question: string;
   options: string[];
   answerIndex: number;
-}
-
-type AnswerMap = Record<number, number | null>;
-type ConfirmedMap = Record<number, boolean>;
-
-interface CurrentRun {
-  answers: AnswerMap;
-  confirmed: ConfirmedMap;
-}
-
-interface ArchivedRun {
-  completedAt: number;
-  score: number;
-  total: number;
-}
-
-interface PersistedState {
-  version: number;
-  current: CurrentRun;
-  history: ArchivedRun[];
 }
 
 interface RunView {
@@ -33,19 +22,17 @@ interface RunView {
   isCurrent: boolean;
 }
 
-const STATE_VERSION = 2;
-
 export class QuizController {
   private readonly quizId: string;
   private readonly questions: Question[];
   private readonly storageKey: string;
-  private state: PersistedState = QuizController.emptyState();
+  private state: QuizState = emptyQuizState();
   private island: HTMLElement | null = null;
 
   constructor(quizId: string, questions: Question[]) {
     this.quizId = quizId;
     this.questions = questions;
-    this.storageKey = `quiz-state-${quizId}`;
+    this.storageKey = storageKeyFor(quizId);
   }
 
   public init(): void {
@@ -59,10 +46,6 @@ export class QuizController {
     }
   }
 
-  private static emptyState(): PersistedState {
-    return { version: STATE_VERSION, current: { answers: {}, confirmed: {} }, history: [] };
-  }
-
   private get answers(): AnswerMap {
     return this.state.current.answers;
   }
@@ -72,31 +55,7 @@ export class QuizController {
   }
 
   private loadFromStorage(): void {
-    try {
-      const raw = localStorage.getItem(this.storageKey);
-      if (!raw) return;
-      this.state = QuizController.migrate(JSON.parse(raw));
-    } catch {
-      this.state = QuizController.emptyState();
-    }
-  }
-
-  private static migrate(saved: any): PersistedState {
-    if (saved?.version === STATE_VERSION && saved.current) {
-      return {
-        version: STATE_VERSION,
-        current: {
-          answers: saved.current.answers ?? {},
-          confirmed: saved.current.confirmed ?? {},
-        },
-        history: Array.isArray(saved.history) ? saved.history : [],
-      };
-    }
-    return {
-      version: STATE_VERSION,
-      current: { answers: saved?.answers ?? {}, confirmed: saved?.confirmed ?? {} },
-      history: [],
-    };
+    this.state = parseQuizState(localStorage.getItem(this.storageKey));
   }
 
   private persistToStorage(): void {

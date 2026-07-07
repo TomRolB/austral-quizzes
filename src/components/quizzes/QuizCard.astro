@@ -19,7 +19,7 @@ const { quizId, title, description, questionCount, href } = Astro.props;
   <p class="quiz-card__description">{description}</p>
   <div class="quiz-card__footer">
     <div class="quiz-card__progress-label">
-      <span class="quiz-card__progress-text">Progreso guardado</span>
+      <span class="quiz-card__progress-text" data-progress-text>Sin comenzar</span>
       <span class="quiz-card__progress-count" data-progress-label>–</span>
     </div>
     <ProgressBar value={0} max={questionCount} id={`progress-${quizId}`} />
@@ -27,31 +27,45 @@ const { quizId, title, description, questionCount, href } = Astro.props;
 </a>
 
 <script>
-  function restoreProgress() {
-    document.querySelectorAll<HTMLElement>('[data-quiz-id]').forEach(card => {
-      const quizId = card.dataset.quizId!;
-      const total = Number(card.dataset.questionCount);
-      const raw = localStorage.getItem(`quiz-state-${quizId}`);
-      if (!raw) return;
+  import { parseQuizState, summarizeProgress, storageKeyFor, type QuizProgress } from '../quiz/quizStorage';
 
-      try {
-        const state = JSON.parse(raw) as { confirmed: Record<string, boolean> };
-        const confirmed = Object.keys(state.confirmed ?? {}).length;
-        const pct = total > 0 ? Math.round((confirmed / total) * 100) : 0;
+  const STATUS_TEXT: Record<string, string> = {
+    none: 'Sin comenzar',
+    'in-progress': 'En progreso',
+    retrying: 'Reintentando',
+    completed: 'Completado',
+  };
 
-        const label = card.querySelector('[data-progress-label]');
-        if (label) label.textContent = `${confirmed} / ${total}`;
-
-        const fill = document.getElementById(`progress-${quizId}`)?.querySelector<HTMLElement>('.progress-fill');
-        if (fill) {
-          fill.style.width = `${pct}%`;
-          if (confirmed === total) fill.classList.add('progress-fill--complete');
-        }
-      } catch { /* corrupted state, ignore */ }
-    });
+  function presentationKey(progress: QuizProgress): string {
+    return progress.retrying ? 'retrying' : progress.status;
   }
 
-  restoreProgress();
+  function renderCard(card: HTMLElement): void {
+    const quizId = card.dataset.quizId!;
+    const total = Number(card.dataset.questionCount);
+    const progress = summarizeProgress(parseQuizState(localStorage.getItem(storageKeyFor(quizId))), total);
+
+    const key = presentationKey(progress);
+    card.dataset.progressStatus = key;
+
+    const textEl = card.querySelector('[data-progress-text]');
+    if (textEl) textEl.textContent = STATUS_TEXT[key];
+
+    const countEl = card.querySelector('[data-progress-label]');
+    if (countEl) countEl.textContent = progress.status === 'none' ? '–' : `${progress.confirmed} / ${total}`;
+
+    renderProgressBar(quizId, progress);
+  }
+
+  function renderProgressBar(quizId: string, progress: QuizProgress): void {
+    const fill = document.getElementById(`progress-${quizId}`)?.querySelector<HTMLElement>('.progress-fill');
+    if (!fill) return;
+    const pct = progress.total > 0 ? Math.round((progress.confirmed / progress.total) * 100) : 0;
+    fill.style.width = `${pct}%`;
+    fill.classList.toggle('progress-fill--complete', progress.status === 'completed');
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-quiz-id]').forEach(renderCard);
 </script>
 
 <style>
@@ -99,6 +113,27 @@ const { quizId, title, description, questionCount, href } = Astro.props;
   .quiz-card__progress-text {
     font-size: 0.75rem;
     color: var(--color-text-subtle);
+    font-weight: 500;
+  }
+
+  .quiz-card[data-progress-status="in-progress"] .quiz-card__progress-text {
+    color: var(--color-accent-hover);
+  }
+
+  .quiz-card[data-progress-status="retrying"] .quiz-card__progress-text {
+    color: var(--color-accent-hover);
+  }
+
+  .quiz-card[data-progress-status="retrying"] .quiz-card__progress-text::before {
+    content: "↻ ";
+  }
+
+  .quiz-card[data-progress-status="completed"] .quiz-card__progress-text {
+    color: var(--color-correct);
+  }
+
+  .quiz-card[data-progress-status="completed"] .quiz-card__progress-text::after {
+    content: " ✓";
   }
 
   .quiz-card__progress-count {
