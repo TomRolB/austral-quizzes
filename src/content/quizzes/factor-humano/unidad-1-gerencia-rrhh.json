@@ -1,0 +1,271 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-u1",
+    "title": "Unidad 1 - Gerencia de RRHH",
+    "description": "Preguntas de práctica sobre empresa, cultura organizacional y roles de RRHH (no es un modelo real)",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Las variables que afectan al desempeño de una persona operan como:",
+            "options": [
+                "a) Factores independientes entre sí, que se miden por separado",
+                "b) Impulsores o barreras, que se combinan o compensan entre sí",
+                "c) Causas únicas y siempre visibles del desempeño observado"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 2,
+            "question": "Señale cuáles de las siguientes son variables que afectan al desempeño según el modelo visto en clase:",
+            "options": [
+                "a) Actuación del líder",
+                "b) Recompensas y castigos",
+                "c) Métodos, procedimientos y recursos",
+                "d) Antigüedad en la empresa",
+                "e) Capacidades personales"
+            ],
+            "answerIndexes": [0, 1, 2, 4]
+        },
+        {
+            "id": 3,
+            "question": "Señale cuáles de las siguientes son variables que afectan al desempeño según el modelo visto en clase:",
+            "options": [
+                "a) Motivos propios",
+                "b) Relación con el entorno",
+                "c) Nivel salarial del mercado",
+                "d) La antigüedad del colaborador en el puesto"
+            ],
+            "answerIndexes": [0, 1]
+        },
+        {
+            "id": 4,
+            "question": "¿Quiénes son los actores principales de una empresa?",
+            "options": [
+                "a) Propietarios o inversores, empleados y sindicatos",
+                "b) Accionistas, proveedores y organismos de control",
+                "c) Propietarios o inversores, empleados y clientes"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 5,
+            "question": "Según el esquema de contribuciones e incentivos, los empleados contribuyen con trabajo, esfuerzo, dedicación, desempeño, conocimiento y competencias. ¿Por qué están motivados principalmente?",
+            "options": [
+                "a) Por la rentabilidad y las ganancias que obtienen de su inversión en la compañía",
+                "b) Por el precio, la calidad y las condiciones de pago del bien o servicio adquirido",
+                "c) Por el salario, los beneficios, el reconocimiento, las oportunidades y la posibilidad de aprender"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 6,
+            "question": "Según el esquema de contribuciones e incentivos, ¿qué motiva a los inversionistas o propietarios?",
+            "options": [
+                "a) La permanencia en el empleo, el reconocimiento y las oportunidades de aprender",
+                "b) La rentabilidad, las ganancias, la liquidez y la sustentabilidad de su negocio y su capital",
+                "c) La satisfacción de sus necesidades y aspiraciones por el consumo del bien o servicio adquirido"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 7,
+            "question": "En el esquema de funcionamiento de una empresa (insumos → procesos de conversión → salida), señale cuáles corresponden a los PROCESOS DE CONVERSIÓN:",
+            "options": [
+                "a) Desempeño del personal",
+                "b) Estructura",
+                "c) Estrategia y objetivos",
+                "d) Recursos financieros y materiales",
+                "e) Productos, servicios y soluciones"
+            ],
+            "answerIndexes": [0, 1, 2]
+        },
+        {
+            "id": 8,
+            "question": "¿Qué es la estrategia empresarial?",
+            "options": [
+                "a) La declaración del futuro que la empresa quiere conquistar e indica hacia dónde se dirige en el largo plazo",
+                "b) La manera en que una organización define cómo creará valor, con los objetivos, acciones y recursos para cumplirlos",
+                "c) El sistema de creencias y valores compartidos que guía y orienta la conducta de sus miembros de forma cotidiana"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 9,
+            "question": "¿Qué es la cultura organizacional?",
+            "options": [
+                "a) Un sistema de creencias y valores compartidos que se desarrolla dentro de una organización y que guía y orienta la conducta de sus miembros",
+                "b) El conjunto de normas y procedimientos documentados que la empresa publica y comunica formalmente a sus miembros",
+                "c) La estructura jerárquica que define quién manda y quiénes toman las decisiones dentro de la organización"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 10,
+            "question": "Según Edgar Schein, la cultura organizacional está formada por 3 niveles de conocimientos. Señale cuáles son:",
+            "options": [
+                "a) Artefactos",
+                "b) Valores",
+                "c) Supuestos inconscientes"
+            ],
+            "answerIndexes": [0, 1, 2]
+        },
+        {
+            "id": 11,
+            "question": "Dentro de los niveles de cultura de Edgar Schein, ¿a qué hace referencia el nivel \"Artefactos\"?",
+            "options": [
+                "a) A los principios, normas y modelos importantes que dirigen el comportamiento de quienes conforman la organización",
+                "b) A todo lo que se puede ver, oír y sentir dentro de una compañía: la comunicación no verbal de la entidad",
+                "c) A las creencias adquiridas y compartidas en relación con la empresa y la naturaleza humana"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 12,
+            "question": "Dentro de los niveles de cultura de Edgar Schein, ¿a qué hace referencia el nivel \"Supuestos inconscientes\"?",
+            "options": [
+                "a) Al mobiliario, la decoración de las oficinas y el tipo de ropa que llevan los trabajadores",
+                "b) A creencias adquiridas y compartidas en relación con la empresa y la naturaleza humana",
+                "c) A los procesos que vigilan lo que sucede dentro de la organización"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 13,
+            "question": "Señale cuáles de los siguientes son elementos que componen la cultura organizacional:",
+            "options": [
+                "a) Identidad",
+                "b) Estructura salarial",
+                "c) Estructuras de poder",
+                "d) Sistemas de control",
+                "e) Rituales y rutinas"
+            ],
+            "answerIndexes": [0, 2, 3, 4]
+        },
+        {
+            "id": 14,
+            "question": "Dentro de los elementos de la cultura organizacional, \"Rituales y rutinas\" se refiere a:",
+            "options": [
+                "a) Los procedimientos para desempeñar las tareas, o la forma en la que la empresa decide que se llevará a cabo el trabajo",
+                "b) Los relatos sobre cómo surgió la organización, cómo creció y cómo consiguió posicionarse en su mercado",
+                "c) La definición de quién manda y quiénes están a cargo de tomar las decisiones"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 15,
+            "question": "Dentro de los elementos de la cultura organizacional, la \"Identidad\" está constituida por:",
+            "options": [
+                "a) Misión, Visión y Valores",
+                "b) Visión, Valores y Estructura",
+                "c) Misión, Estrategia y Objetivos"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 16,
+            "question": "¿Cuál es estas 4 palabras es la correcta para completar esta declaración? La ....... de una empresa es una declaración del futuro que quiere conquistar e indica hacia dónde se dirige en el largo plazo.",
+            "options": [
+                "a) Visión",
+                "b) Promesa institucional",
+                "c) Estrategia",
+                "d) Misión"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 17,
+            "question": "Señale la afirmación correcta respecto de la Misión y la Visión de una empresa:",
+            "options": [
+                "a) La Misión se enfoca en el presente y la Visión marca el rumbo hacia el futuro",
+                "b) La Misión se enfoca en el futuro y la Visión describe el presente de la organización",
+                "c) Ambas describen el futuro que la empresa quiere conquistar"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 18,
+            "question": "¿Para qué se establecen los valores o comportamientos organizacionales?",
+            "options": [
+                "a) Para definir las acciones y los recursos que se emplearán para cumplir con los objetivos fijados por la dirección",
+                "b) Para impulsar y orientar las decisiones, acciones y comportamientos de los miembros, y alinearlos con la forma de ser de la empresa",
+                "c) Para mostrar a clientes y proveedores qué productos o servicios ofrece la empresa y en qué ámbito se desarrolla"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 19,
+            "question": "¿Cuál es la Misión de Recursos Humanos?",
+            "options": [
+                "a) Atraer, desarrollar y retener profesionales alineados con la cultura organizacional, promoviendo un ambiente de confianza y compromiso",
+                "b) Liquidar los sueldos y administrar el legajo del personal cumpliendo en tiempo y forma con la normativa laboral vigente",
+                "c) Controlar el desempeño de los colaboradores y aplicar los premios y castigos que correspondan en cada caso"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 20,
+            "question": "Señale cuáles de los siguientes son procesos \"duros\" de una Gerencia de Recursos Humanos:",
+            "options": [
+                "a) Compensaciones y beneficios",
+                "b) Comunicación interna y encuestas de clima",
+                "c) Capacitación y desarrollo",
+                "d) Liquidación de sueldos"
+            ],
+            "answerIndexes": [0, 3]
+        },
+        {
+            "id": 21,
+            "question": "Señale cuáles de los siguientes son procesos \"blandos\" de una Gerencia de Recursos Humanos:",
+            "options": [
+                "a) Comunicación interna y gestión del cambio",
+                "b) Liquidación de sueldos",
+                "c) Empleos (selección e inducción)"
+            ],
+            "answerIndexes": [0, 2]
+        },
+        {
+            "id": 22,
+            "question": "En la estructura de una \"clásica\" Gerencia de Recursos Humanos, ¿cuál de estas áreas no siempre depende de RRHH?",
+            "options": [
+                "a) Desarrollo de personas",
+                "b) Administración y Servicios a recursos humanos",
+                "c) Seguridad e Higiene"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 23,
+            "question": "Según Dave Ulrich, para crear valor y obtener resultados, RRHH debe concentrarse en:",
+            "options": [
+                "a) Los resultados o aportes de RRHH, y a partir de ellos estipular los roles",
+                "b) La cantidad de procesos que administra y su nivel de automatización",
+                "c) Las tareas y actividades que ejecuta el área de RRHH"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 24,
+            "question": "Dave Ulrich identifica cada rol de RRHH con una metáfora. ¿Cuál corresponde al rol \"Management de los Recursos Humanos Estratégicos\"?",
+            "options": [
+                "a) Experto Administrativo",
+                "b) Socio Estratégico",
+                "c) Agente de cambio",
+                "d) Adalid de los empleados"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 25,
+            "question": "Dave Ulrich identifica cada rol de RRHH con una metáfora. ¿Cuál corresponde al rol \"Management de la contribución de los empleados\"?",
+            "options": [
+                "a) Adalid de los empleados",
+                "b) Agente de cambio",
+                "c) Socio Estratégico",
+                "d) Experto Administrativo"
+            ],
+            "answerIndex": 0
+        }
+    ]
+}

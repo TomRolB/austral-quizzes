@@ -1,0 +1,244 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-u3",
+    "title": "Unidad 3 - Relaciones Laborales",
+    "description": "Preguntas de práctica sobre sistema sindical, derecho laboral, teletrabajo y reforma laboral (no es un modelo real)",
+    "questions": [
+        {
+            "id": 1,
+            "question": "El sindicalismo a nivel mundial tiene su origen en:",
+            "options": [
+                "a) La creación de la Organización Internacional del Trabajo tras la Primera Guerra Mundial",
+                "b) La Revolución Industrial de los siglos XVIII y XIX, con raíces en los gremios de la Edad Media",
+                "c) La sanción de las primeras leyes de contrato de trabajo en el siglo XX"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 2,
+            "question": "Con la Revolución Industrial aparece una nueva clase social emergente que vende su fuerza de trabajo. ¿Cómo se la denomina?",
+            "options": [
+                "a) El artesanado gremial",
+                "b) El proletariado",
+                "c) La burguesía industrial"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 3,
+            "question": "¿Qué fueron las \"Combination Acts\" sancionadas en Gran Bretaña en 1800?",
+            "options": [
+                "a) Normas que prohibían las asociaciones y movimientos sindicales de trabajadores",
+                "b) Acuerdos salariales entre los gremios y los empleadores británicos",
+                "c) Normas que reconocieron por primera vez el derecho de huelga en Europa"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 4,
+            "question": "¿Por qué la derogación de las Combination Acts en 1824 se considera un hito fundacional del sindicalismo?",
+            "options": [
+                "a) Porque estableció la personería gremial por rama de industria en lugar de por oficios en Gran Bretaña",
+                "b) Porque legalizó las organizaciones obreras en Gran Bretaña, dándoles estatus legal y derecho a huelga",
+                "c) Porque creó la primera federación sindical nacional del mundo en Alemania"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 5,
+            "question": "¿Cuál fue el primer gremio de Argentina, protagonista de la primera huelga nacional?",
+            "options": [
+                "a) La Unión Obrera de la Construcción (UOCRA)",
+                "b) El sindicato de Camioneros",
+                "c) La Unión Tipográfica, del sector gráfico"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 6,
+            "question": "En 1930 se produce un hito del sindicalismo argentino. ¿Cuál fue?",
+            "options": [
+                "a) La creación de la CTA (Central de los Trabajadores Argentinos)",
+                "b) El nacimiento de la CGT (Confederación General del Trabajo)",
+                "c) La sanción de la Ley de Asociaciones Sindicales"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 7,
+            "question": "La etapa peronista (1943-1955) consolidó una característica central del modelo sindical argentino. ¿Cuál es?",
+            "options": [
+                "a) La negociación individual del salario entre trabajador y empleador",
+                "b) La libertad sindical plena, con múltiples sindicatos compitiendo por actividad",
+                "c) La personería gremial con monopolio por rama de industria, y no por oficios"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 8,
+            "question": "¿Qué derecho, vigente hasta hoy, obtuvieron los gremios durante la etapa peronista?",
+            "options": [
+                "a) La potestad de fijar unilateralmente la jornada de trabajo de sus afiliados",
+                "b) Las paritarias, es decir, la negociación colectiva del salario de los agremiados",
+                "c) La facultad de designar a los gerentes de recursos humanos de las empresas"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 9,
+            "question": "En 1992 se formó una central que agrupó a sectores disidentes de la CGT, movimientos sociales y gremios de empleados públicos. ¿Cuál es?",
+            "options": [
+                "a) La CTA (Central de los Trabajadores Argentinos)",
+                "b) Las 62 Organizaciones",
+                "c) El MTA (Movimiento de los Trabajadores Argentinos)"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 10,
+            "question": "Señale la declaración que describe correctamente los tres grados del \"Sistema Sindical Argentino\":",
+            "options": [
+                "a) 1er grado las Federaciones, 2do grado los Sindicatos y 3er grado las Confederaciones",
+                "b) 1er grado los Sindicatos, 2do grado las Federaciones y 3er grado las Confederaciones",
+                "c) 1er grado las Confederaciones, 2do grado los Sindicatos y 3er grado las Federaciones"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 11,
+            "question": "Según el derecho del trabajo argentino, el \"Ius Variandi\" es la facultad que tiene el empleador de:",
+            "options": [
+                "a) Despedir sin expresión de causa durante el período de prueba",
+                "b) Designar a los delegados gremiales de cada establecimiento",
+                "c) Modificar las formas y modalidades del trabajo, dentro de ciertos límites"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 12,
+            "question": "Establecer un manual de la empresa y un manual de comportamiento corresponde al ejercicio de:",
+            "options": [
+                "a) La facultad de organización y dirección",
+                "b) La facultad de ius variandi",
+                "c) La facultad disciplinaria"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 13,
+            "question": "¿Qué protege el fuero o tutela sindical?",
+            "options": [
+                "a) Al empleador frente a medidas de fuerza ilegítimas adoptadas por el gremio",
+                "b) Al trabajador no afiliado frente al pago de la cuota sindical obligatoria",
+                "c) Al Delegado Gremial frente a un posible comportamiento antisindical del empleador"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 14,
+            "question": "El derecho del trabajo argentino busca lograr:",
+            "options": [
+                "a) Mantener la disparidad de poder que existe entre trabajador y empleador",
+                "b) Eliminar la intervención del Estado en la relación laboral",
+                "c) Equilibrar la disparidad de poder que existe entre trabajador y empleador"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 15,
+            "question": "La Ley Bases (Ley 27.742) extendió el período de prueba. Según lo visto, el nuevo esquema es:",
+            "options": [
+                "a) Grandes empresas: 6 meses, PYMES: 8 meses, Microempresas: 12 meses",
+                "b) Grandes empresas: 8 meses, PYMES: 6 meses, Microempresas: 3 meses",
+                "c) 3 meses para todas las empresas, sin distinción de tamaño"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 16,
+            "question": "Señale cuáles de estos cambios introdujo la reforma laboral respecto del poder gremial:",
+            "options": [
+                "a) Se eliminó la figura del delegado gremial en los establecimientos",
+                "b) Se limitó el tiempo que el delegado puede destinar a la actividad gremial",
+                "c) Se eliminó la negociación colectiva por rama de actividad",
+                "d) Se limitó la posibilidad de que un gremio paralice la producción de una planta"
+            ],
+            "answerIndexes": [1, 3]
+        },
+        {
+            "id": 17,
+            "question": "¿Qué es el Fondo de Cese Laboral (FAL) incorporado por la reforma laboral?",
+            "options": [
+                "a) Un fondo, financiado con parte de la contribución del empleador, destinado a afrontar indemnizaciones y evitar juicios laborales",
+                "b) Un seguro de desempleo financiado íntegramente con aportes que el propio trabajador realiza durante la relación laboral",
+                "c) Un aporte sindical obligatorio destinado a financiar las obras sociales"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 18,
+            "question": "Señale cuáles de los siguientes fueron efectos buscados por la reforma laboral:",
+            "options": [
+                "a) Eliminar las multas por trabajo no registrado",
+                "b) Aumentar el porcentaje de aporte sindical obligatorio",
+                "c) Dar previsibilidad y estabilidad para favorecer la inversión",
+                "d) Promover la contratación registrada (\"en blanco\")",
+                "e) Extender la cobertura de los convenios colectivos a los monotributistas"
+            ],
+            "answerIndexes": [0, 2, 3]
+        },
+        {
+            "id": 19,
+            "question": "¿Cuál de las siguientes afirmaciones NO es correcta según la Ley de Teletrabajo en Argentina?",
+            "options": [
+                "a) La jornada laboral debe ser pactada previamente respetando los límites legales",
+                "b) El teletrabajador tiene los mismos derechos y obligaciones que quienes trabajan de manera presencial",
+                "c) El empleador debe proveer los elementos de trabajo necesarios para la prestación de tareas",
+                "d) El teletrabajador no tiene derecho a revertir el teletrabajo y regresar a la modalidad presencial"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 20,
+            "question": "¿La Ley de Teletrabajo permite que el trabajador renuncie voluntariamente a su derecho a la desconexión digital?",
+            "options": [
+                "a) Sí, pero solo durante el período de prueba",
+                "b) No, porque el derecho a la desconexión es irrenunciable",
+                "c) Sí, si lo acuerdan las partes en el contrato individual de trabajo"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 21,
+            "question": "Según la Ley de Teletrabajo, ¿qué establece el principio de VOLUNTARIEDAD?",
+            "options": [
+                "a) Que la empresa decide voluntariamente qué elementos de trabajo provee",
+                "b) Que el trabajador puede elegir voluntariamente su horario sin límite alguno",
+                "c) Que el traslado a la modalidad de teletrabajo debe ser voluntario y prestarse por escrito"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 22,
+            "question": "Señale cuáles de los siguientes son derechos reconocidos por la Ley de Teletrabajo:",
+            "options": [
+                "a) Derecho a percibir un adicional salarial por teletrabajar",
+                "b) Derecho a coordinar la jornada con las tareas de cuidados",
+                "c) Derecho a la desconexión digital"
+            ],
+            "answerIndexes": [1, 2]
+        },
+        {
+            "id": 23,
+            "question": "Según la Ley de Teletrabajo, ¿quién debe hacerse cargo de los mayores gastos de conectividad y servicios que genera trabajar desde el domicilio?",
+            "options": [
+                "a) El trabajador, ya que utiliza esos servicios también para su vida personal",
+                "b) El empleador, mediante una compensación al trabajador",
+                "c) Se reparten en partes iguales entre ambas partes"
+            ],
+            "answerIndex": 1
+        }
+    ]
+}

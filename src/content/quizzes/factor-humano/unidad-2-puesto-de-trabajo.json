@@ -1,0 +1,274 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-u2",
+    "title": "Unidad 2 - El puesto de trabajo",
+    "description": "Preguntas de práctica sobre descripción y valuación de puestos, estructura salarial, selección e inducción (no es un modelo real)",
+    "questions": [
+        {
+            "id": 1,
+            "question": "¿Qué es un puesto de trabajo?",
+            "options": [
+                "a) La posición que ocupa una persona dentro de la banda salarial definida por la organización",
+                "b) El conjunto de tareas que realiza una persona determinada dentro de la empresa",
+                "c) La unidad básica de la estructura organizacional que ayuda a la empresa a alcanzar su propósito"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 2,
+            "question": "Los resultados esperados de un puesto se alcanzan a través del cumplimiento de responsabilidades que contribuyen a:",
+            "options": [
+                "a) Satisfacer las necesidades y requisitos de los clientes internos y externos",
+                "b) Contribuir al logro de los objetivos de la organización",
+                "c) Mejorar la posición del ocupante en la banda salarial",
+                "d) Cumplir la misión y los objetivos del puesto",
+                "e) Reducir el costo de la mano de obra del sector"
+            ],
+            "answerIndexes": [0, 1, 3]
+        },
+        {
+            "id": 3,
+            "question": "¿Cuál de estas afirmaciones describe correctamente el principio de la \"silla vacía\" al describir un puesto?",
+            "options": [
+                "a) Se analiza el puesto y no a la persona que lo ocupa",
+                "b) Se analiza a la persona que ocupa el puesto y sus competencias actuales",
+                "c) Se describe el puesto solo cuando la posición está vacante"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 4,
+            "question": "Señale cuáles son las claves para hacer correctamente una descripción de un puesto de trabajo:",
+            "options": [
+                "a) Ser completa, clara y concisa",
+                "b) Describir en detalle las competencias de la persona que hoy ocupa el puesto",
+                "c) Explicar o evitar los términos muy técnicos y las siglas",
+                "d) Retratar responsabilidades actuales y permanentes",
+                "e) Analizar el puesto y no a la persona que lo ocupa"
+            ],
+            "answerIndexes": [0, 2, 3, 4]
+        },
+        {
+            "id": 5,
+            "question": "Al redactar las responsabilidades de una descripción de puesto, éstas siempre se deben iniciar con:",
+            "options": [
+                "a) Un verbo en infinitivo (definir, ejecutar, controlar…)",
+                "b) El nombre del sector al que pertenece la responsabilidad",
+                "c) Un verbo en gerundio (definiendo, ejecutando, controlando…)"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 6,
+            "question": "¿Por qué en una descripción de puesto se distingue entre \"Definir o Proponer\" y \"Ejecutar\"?",
+            "options": [
+                "a) Porque permite considerar el nivel de responsabilidad o influencia del ocupante sobre la tarea",
+                "b) Porque define si el puesto pertenece a un proceso duro o a uno blando de la organización",
+                "c) Porque determina el orden cronológico en que se realizan las tareas del puesto"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 7,
+            "question": "Señale cuáles son formas válidas de relevar la información para una descripción de puesto:",
+            "options": [
+                "a) Consultar la encuesta de remuneraciones del mercado",
+                "b) Apoyarse en un cuestionario estándar para todas las posiciones",
+                "c) Realizar entrevistas al jefe y/u ocupante de la posición",
+                "d) Observar en forma directa al trabajador",
+                "e) Revisar el convenio colectivo de la actividad"
+            ],
+            "answerIndexes": [1, 2, 3]
+        },
+        {
+            "id": 8,
+            "question": "¿Quién lidera el proceso de descripción de puestos?",
+            "options": [
+                "a) La Dirección, que es quien aprueba las estructuras",
+                "b) La línea en forma exclusiva, ya que conoce mejor las tareas",
+                "c) RRHH, con la participación activa de la línea"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 9,
+            "question": "Dentro del contenido de una descripción de puesto, ¿a qué hace referencia la \"Misión\" del puesto?",
+            "options": [
+                "a) A los aspectos mensurables de la posición sobre los que el puesto ejerce impacto directo, como presupuestos, facturación o cantidad de personal a cargo",
+                "b) Al listado ordenado por importancia de todas las funciones que realiza el ocupante del puesto en su actividad regular",
+                "c) Al resumen, en una o dos oraciones, de las funciones por las que el puesto es responsable y el resultado final que se espera: su razón de ser"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 10,
+            "question": "Dentro del contenido de una descripción de puesto, ¿a qué hacen referencia las \"Dimensiones\"?",
+            "options": [
+                "a) A la formación, los conocimientos y la experiencia requeridos para desempeñar correctamente las funciones y responsabilidades del puesto",
+                "b) A la red de contactos, internos y externos a la organización, con los que deberá interactuar la posición",
+                "c) A los aspectos mensurables de la posición sobre los que ejerce impacto directo: presupuestos, facturación, personal a cargo, alcance del rol"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 11,
+            "question": "Dentro del contenido de una descripción de puesto, la \"Identidad\" incluye:",
+            "options": [
+                "a) Conocimientos, experiencia y competencias requeridas para el puesto",
+                "b) Nombre del puesto, sector y gerencia, a quién reporta y quiénes le reportan",
+                "c) Misión, visión y valores del puesto dentro de la organización"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 12,
+            "question": "Las responsabilidades principales de una descripción de puesto son el listado de funciones que:",
+            "options": [
+                "a) El ocupante realiza de manera ocasional o ante situaciones de contingencia",
+                "b) Están previstas para el puesto en los próximos tres años según el plan",
+                "c) Se llevan a cabo en la actividad regular y que insumen el 80% o más del tiempo"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 13,
+            "question": "Señale para qué sirve una buena descripción de puestos:",
+            "options": [
+                "a) Para clarificar la estructura organizativa y la \"soberanía\" de los procesos",
+                "b) Para determinar el nivel de satisfacción de los clientes externos",
+                "c) Como base para la valuación de puestos y la estructura salarial",
+                "d) Para mejorar los procesos de selección e inducción",
+                "e) Para determinar el presupuesto anual de capacitación del sector"
+            ],
+            "answerIndexes": [0, 2, 3]
+        },
+        {
+            "id": 14,
+            "question": "¿Qué es la valuación de puestos?",
+            "options": [
+                "a) Un proceso por el cual se identifica el contenido significativo del puesto desde un punto de vista organizacional y su contribución a la empresa",
+                "b) Un proceso que permite analizar, comparar y jerarquizar los diferentes cargos de una organización para asignarles una compensación justa y equitativa",
+                "c) Una encuesta que recopila información sobre la remuneración y los beneficios de los empleados del mercado de referencia"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 15,
+            "question": "Señale cuáles son principios básicos de la administración de la compensación:",
+            "options": [
+                "a) Equiparación de todos los salarios dentro de un mismo sector",
+                "b) Mantenimiento de una estructura salarial coherente respecto del mercado de remuneraciones",
+                "c) Existencia de igual valor base para tareas de igual o similar significación dentro de la organización",
+                "d) Individualidad en la administración de las remuneraciones"
+            ],
+            "answerIndexes": [1, 2, 3]
+        },
+        {
+            "id": 16,
+            "question": "Señale cuáles son medios operativos de la administración de la compensación:",
+            "options": [
+                "a) El convenio colectivo de trabajo de la actividad",
+                "b) La descripción de puestos",
+                "c) La encuesta de remuneraciones",
+                "d) La gestión y evaluación del desempeño",
+                "e) La valuación de puestos"
+            ],
+            "answerIndexes": [1, 2, 3, 4]
+        },
+        {
+            "id": 17,
+            "question": "¿Qué es una encuesta salarial?",
+            "options": [
+                "a) Una encuesta que recopila información sobre remuneraciones y beneficios, por sector o clasificación de puestos, con fines de comparación con el mercado",
+                "b) Una consulta interna que releva el nivel de satisfacción de los empleados respecto de su salario y del conjunto de los beneficios que perciben actualmente",
+                "c) Un relevamiento sistemático de las responsabilidades de cada puesto que sirve de base para valuarlo"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 18,
+            "question": "Una empresa ubica a un Analista Funcional Trainee en el nivel ALTO de su banda salarial. ¿Qué razón lo explica mejor?",
+            "options": [
+                "a) Hay alta demanda en el mercado por este perfil y la empresa quiere atraer al mejor talento",
+                "b) La empresa tiene un presupuesto ajustado y hay muchos candidatos disponibles en el mercado",
+                "c) La empresa quiere ofrecer un salario competitivo sin exceder su estructura salarial"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 19,
+            "question": "Seleccionar personal no es \"elegir al mejor\", sino reducir incertidumbre. Señale cuáles son objetivos de un proceso de selección:",
+            "options": [
+                "a) Tomar una decisión explicable y libre de sesgos irrelevantes",
+                "b) Cubrir la vacante en el menor tiempo posible, por encima de cualquier otro criterio",
+                "c) Obtener evidencia comparable entre candidatos",
+                "d) Priorizar siempre al candidato con mayor experiencia previa"
+            ],
+            "answerIndexes": [0, 2]
+        },
+        {
+            "id": 20,
+            "question": "Respecto de la cobertura de una vacante, ¿cuál es el riesgo principal de la cobertura EXTERNA?",
+            "options": [
+                "a) La inequidad percibida por los colaboradores actuales",
+                "b) La adaptación de la persona ingresante y el costo asociado",
+                "c) Las expectativas mal gestionadas entre los candidatos internos"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 21,
+            "question": "En un proceso de selección, la fuente de cobertura (interna, externa o mixta) se define:",
+            "options": [
+                "a) Una vez recibidas las primeras postulaciones",
+                "b) Antes de definir el perfil, para acotar la búsqueda",
+                "c) Después de definir el perfil del puesto, no antes"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 22,
+            "question": "Señale cuáles son señales de confianza en un proceso de job posting:",
+            "options": [
+                "a) Criterios que cambian durante el proceso",
+                "b) Criterios publicados",
+                "c) Vacante \"con nombre\"",
+                "d) Permiso para postular sin represalias"
+            ],
+            "answerIndexes": [1, 3]
+        },
+        {
+            "id": 23,
+            "question": "Respecto del uso de ATS e inteligencia artificial en los procesos de selección, ¿cuál es la afirmación correcta?",
+            "options": [
+                "a) Eliminan por completo los sesgos del proceso de selección al automatizar la comparación entre candidatos con criterios objetivos",
+                "b) Pueden ordenar información y automatizar tareas, pero no reemplazan la validación humana, la transparencia ni la revisión de sesgos",
+                "c) Reemplazan la entrevista humana cuando el volumen de candidatos es alto y los plazos son ajustados"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 24,
+            "question": "La contratación no termina con la firma: empieza el onboarding. Ordene qué corresponde a la etapa \"DÍA 1\":",
+            "options": [
+                "a) Autonomía, evaluación y ajustes",
+                "b) Objetivos, acompañamiento y feedback",
+                "c) Propósito, seguridad y personas clave",
+                "d) Documentación, agenda y equipo preparado"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 25,
+            "question": "¿De quién es la responsabilidad del onboarding de un ingresante?",
+            "options": [
+                "a) Exclusivamente de RR.HH., que administra el proceso de ingreso",
+                "b) Exclusivamente del líder directo, que conoce las tareas del puesto",
+                "c) Es una responsabilidad compartida: líder, RR.HH., equipo e ingresante"
+            ],
+            "answerIndex": 2
+        }
+    ]
+}

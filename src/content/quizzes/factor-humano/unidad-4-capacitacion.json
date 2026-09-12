@@ -1,0 +1,274 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-u4",
+    "title": "Unidad 4 - Capacitación",
+    "description": "Preguntas de práctica sobre necesidades de capacitación, su detección y evaluación de eficacia (no es un modelo real)",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Según Blake, ¿qué axioma se observa frecuentemente en las organizaciones cuando se toman decisiones que cambian las expectativas sobre el desempeño?",
+            "options": [
+                "a) El conocimiento de las personas es una variable independiente de las demás",
+                "b) Siempre hay una brecha entre lo que se tiene y lo que se necesita",
+                "c) La capacitación siempre resuelve los problemas de desempeño"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 2,
+            "question": "De la brecha entre lo que se necesita y lo que se tiene, ¿qué es lo más difícil de definir?",
+            "options": [
+                "a) Qué se tiene actualmente",
+                "b) QUÉ SE NECESITA",
+                "c) Cuánto cuesta cerrar la brecha"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 3,
+            "question": "La brecha entre lo que se tiene y lo que se necesita se agranda con los cambios, crisis e innovación, y se achica solo con una cosa:",
+            "options": [
+                "a) La incorporación de nueva tecnología y maquinaria",
+                "b) La reducción de los objetivos de negocio que se fijan al sector",
+                "c) El desarrollo de las personas que componen la organización"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 4,
+            "question": "¿Qué es una necesidad de capacitación?",
+            "options": [
+                "a) Cuando una función o tarea requerida por la organización no se desempeña, o no podría desempeñarse con la calidad necesaria, por carecer quienes deben hacerlo de los conocimientos y/o habilidades necesarios",
+                "b) Cuando un colaborador manifiesta interés en participar de una actividad de formación de su preferencia profesional y solicita a su jefe que se la incluya en el plan del sector",
+                "c) Cuando el presupuesto anual asignado a capacitación no ha sido ejecutado en su totalidad y el área debe proponer actividades antes del cierre del ejercicio"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 5,
+            "question": "Señale los tres componentes que deben estar presentes para que exista una necesidad de capacitación:",
+            "options": [
+                "a) Un \"presupuesto\": los fondos asignados a la actividad",
+                "b) Un \"requerimiento\": la función que debe desempeñar",
+                "c) Un \"no saber hacer\": la carencia que genera la necesidad",
+                "d) Un \"alguien\": la persona a capacitar"
+            ],
+            "answerIndexes": [1, 2, 3]
+        },
+        {
+            "id": 6,
+            "question": "Señale cuáles son los tres tipos de necesidad de capacitación:",
+            "options": [
+                "a) Promoción",
+                "b) Discrepancia",
+                "c) Cambio",
+                "d) Incorporación"
+            ],
+            "answerIndexes": [1, 2, 3]
+        },
+        {
+            "id": 7,
+            "question": "Una necesidad de capacitación por INCORPORACIÓN se origina cuando:",
+            "options": [
+                "a) Una tarea o función no se está cumpliendo del modo esperado",
+                "b) Se modifica la tarea o función, exigiendo nuevos aprendizajes para ejecutarla",
+                "c) Se incorpora una nueva actividad o tarea a algo que ya se está haciendo"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 8,
+            "question": "Una necesidad de capacitación por DISCREPANCIA se origina cuando:",
+            "options": [
+                "a) Cambia la tecnología con la que se trabaja",
+                "b) Una tarea o función no se está cumpliendo del modo esperado",
+                "c) Se incorpora una nueva tarea a algo que ya se está haciendo"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 9,
+            "question": "Frente a una necesidad de capacitación por DISCREPANCIA, ¿cuál es el principal problema que se presenta?",
+            "options": [
+                "a) Que la persona no quiera hacer algo nuevo por el mismo sueldo que cobra actualmente",
+                "b) La necesidad de producir un desaprendizaje de la forma anterior de trabajar",
+                "c) Que los involucrados (el ocupante del puesto y/o su jefe) no reconozcan la discrepancia"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 10,
+            "question": "Frente a una necesidad de capacitación por INCORPORACIÓN aparece una resistencia similar a la del cambio, pero:",
+            "options": [
+                "a) Sin el plus de tener que desaprender",
+                "b) Sin ninguna forma de resistencia por parte del colaborador",
+                "c) Con una mayor exigencia de desaprendizaje"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 11,
+            "question": "Si una necesidad de capacitación se origina por un cambio en el puesto de trabajo o en la organización, se considera enmarcada dentro del área de:",
+            "options": [
+                "a) Ninguna de las dos",
+                "b) Corrección",
+                "c) Prevención"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 12,
+            "question": "En el esquema de detección de necesidades de capacitación, el área de CORRECCIÓN se asocia con:",
+            "options": [
+                "a) Un rol administrativo, que se limita a ejecutar el plan anual de capacitación aprobado",
+                "b) Un \"rol proyectista\", que actúa por anticipación sobre las asignaciones de trabajo aún no vigentes",
+                "c) Un \"rol forense\", que actúa por reacción sobre asignaciones de trabajo vigentes y reclamables"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 13,
+            "question": "En el esquema de detección de necesidades de capacitación, el área de PREVENCIÓN se asocia con:",
+            "options": [
+                "a) Un \"rol proyectista\", que actúa por acción sobre asignaciones de trabajo futuras, aún no reclamables",
+                "b) La evaluación de la eficacia de las actividades de capacitación que ya fueron realizadas durante el ejercicio",
+                "c) Un \"rol forense\", que investiga desvíos ya ocurridos en el desempeño actual de los colaboradores"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 14,
+            "question": "Señale cuáles son las categorías de decisiones que originan necesidades de capacitación según Blake:",
+            "options": [
+                "a) Modificaciones estructurales o del modo de gestión",
+                "b) Decisiones que afectan los procedimientos operativos o la tecnología con que se trabaja",
+                "c) Decisiones vinculadas al financiamiento y la línea de crédito",
+                "d) Decisiones relacionadas con marketing y ventas",
+                "e) Decisiones sobre la política de dividendos de los accionistas"
+            ],
+            "answerIndexes": [0, 1, 3]
+        },
+        {
+            "id": 15,
+            "question": "Señale cuáles de las siguientes son fuentes de información para detectar necesidades de capacitación:",
+            "options": [
+                "a) Evaluación de desempeño e indicadores de gestión del negocio",
+                "b) La guía salarial publicada por las consultoras del mercado",
+                "c) El listado de cursos disponibles en el mercado de capacitación",
+                "d) Entrevistas con niveles de conducción y ejecución"
+            ],
+            "answerIndexes": [0, 3]
+        },
+        {
+            "id": 16,
+            "question": "¿Cuál es el orden correcto de los cuatro niveles del modelo de Donald Kirkpatrick?",
+            "options": [
+                "a) Reacción / Comportamiento / Aprendizaje / Resultados",
+                "b) Aprendizaje / Reacción / Resultados / Comportamiento",
+                "c) Reacción / Aprendizaje / Comportamiento / Resultados"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 17,
+            "question": "¿Cuál es la secuencia correcta para detectar una necesidad de aprendizaje?",
+            "options": [
+                "a) Objetivos de negocio/sector/puesto → Requerimientos de performance → Necesidades de aprendizaje",
+                "b) Requerimientos de performance → Objetivos de negocio → Necesidades de aprendizaje",
+                "c) Necesidades de aprendizaje → Requerimientos de performance → Objetivos de negocio"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 18,
+            "question": "Señale cuáles de las siguientes afirmaciones corresponden al VIEJO paradigma (los mitos) de la capacitación:",
+            "options": [
+                "a) El problema de aprendizaje es un problema de toda la organización",
+                "b) La capacitación es un tema de los capacitadores",
+                "c) La capacitación debe satisfacer a los participantes",
+                "d) La capacitación siempre hace la diferencia",
+                "e) El propósito de la capacitación es cumplir los objetivos de aprendizaje"
+            ],
+            "answerIndexes": [1, 2, 3, 4]
+        },
+        {
+            "id": 19,
+            "question": "Señale cuáles de las siguientes afirmaciones corresponden al NUEVO paradigma de la capacitación:",
+            "options": [
+                "a) El propósito de la capacitación es cumplir los objetivos de aprendizaje",
+                "b) No hay respuestas rápidas para problemas complejos",
+                "c) Mide sus resultados en el rendimiento/desempeño de la gente",
+                "d) El negocio de capacitación es el negocio de la organización",
+                "e) La capacitación es un tema exclusivo de los capacitadores"
+            ],
+            "answerIndexes": [1, 2, 3]
+        },
+        {
+            "id": 20,
+            "question": "El nuevo paradigma plantea la necesidad de construir alianzas. ¿Cuáles?",
+            "options": [
+                "a) Entre capacitadores/RRHH y el negocio, y entre los participantes y sus líderes",
+                "b) Entre la empresa y los proveedores externos de capacitación que dictan las actividades",
+                "c) Entre los participantes y el área de administración de personal de la empresa"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 21,
+            "question": "Señale qué se le debe requerir a RRHH para que sea un consultor interno en materia de capacitación:",
+            "options": [
+                "a) Dominio técnico de los contenidos de cada actividad que se dicte",
+                "b) Conocimiento del negocio del cliente interno: objetivos, estrategias, procesos y recursos",
+                "c) Dominio de la \"ingeniería del desempeño\"",
+                "d) Habilidades de asesoramiento para facilitar el proceso de \"darse cuenta\""
+            ],
+            "answerIndexes": [1, 2, 3]
+        },
+        {
+            "id": 22,
+            "question": "La expresión \"de la lista de supermercado a la receta magistral\" significa que el resultado de la reunión entre RRHH y un sector debe ser:",
+            "options": [
+                "a) Un presupuesto cerrado de actividades para el año siguiente, definido a partir de los cursos disponibles en el mercado",
+                "b) Algo deliberado, surgido de analizar qué conocimientos precisa la gente para cumplir lo que se espera de cada uno",
+                "c) Un listado exhaustivo de todos los cursos que el jefe del sector considera necesarios para su equipo"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 23,
+            "question": "Señale qué le pide el negocio a la capacitación:",
+            "options": [
+                "a) Que la actividad tenga la mayor asistencia posible",
+                "b) Que lo que se enseñe sea aprendido y luego trasladado a la tarea",
+                "c) Que lo que se enseñe responda a una necesidad de la empresa",
+                "d) Que lo trasladado a la tarea se sostenga en el tiempo",
+                "e) Que el costo por participante sea el más bajo del mercado",
+                "f) Que la actividad se dicte íntegramente fuera del horario laboral"
+            ],
+            "answerIndexes": [1, 2, 3]
+        },
+        {
+            "id": 24,
+            "question": "Al diagnosticar una necesidad de capacitación, indicar el POR QUÉ del requerimiento (discrepancia, incorporación o modificación de la tarea) corresponde a:",
+            "options": [
+                "a) Los objetivos de la actividad",
+                "b) La comprobación",
+                "c) El origen"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 25,
+            "question": "En el modelo de Donald Kirkpatrick, ¿a qué nivel corresponde \"el grado en que los participantes encuentran a la capacitación favorable, atractiva y relevante para sus trabajos\"?",
+            "options": [
+                "a) Nivel 3 - Comportamiento",
+                "b) Nivel 1 - Reacción",
+                "c) Nivel 4 - Resultados",
+                "d) Nivel 2 - Aprendizaje"
+            ],
+            "answerIndex": 1
+        }
+    ]
+}
