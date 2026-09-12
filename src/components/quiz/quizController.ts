@@ -6,13 +6,13 @@ import {
   parseQuizState,
   storageKeyFor,
 } from './quizStorage';
-
-interface Question {
-  id: number;
-  question: string;
-  options: string[];
-  answerIndex: number;
-}
+import {
+  type Question,
+  allowsMultipleAnswers,
+  correctOptionIndexes,
+  isSelectionCorrect,
+  toggleOption,
+} from './question';
 
 interface RunView {
   label: string;
@@ -62,9 +62,17 @@ export class QuizController {
     localStorage.setItem(this.storageKey, JSON.stringify(this.state));
   }
 
-  private isCorrect(questionId: number, answerIndex: number | null): boolean {
-    const question = this.questions.find(candidate => candidate.id === questionId);
-    return question !== undefined && answerIndex === question.answerIndex;
+  private questionById(questionId: number): Question | undefined {
+    return this.questions.find(candidate => candidate.id === questionId);
+  }
+
+  private selectionFor(questionId: number): number[] {
+    return this.answers[questionId] ?? [];
+  }
+
+  private isCorrect(questionId: number): boolean {
+    const question = this.questionById(questionId);
+    return question !== undefined && isSelectionCorrect(question, this.selectionFor(questionId));
   }
 
   private countConfirmed(): number {
@@ -72,10 +80,10 @@ export class QuizController {
   }
 
   private countScore(): number {
-    return Object.keys(this.confirmed).reduce((total, questionId) => {
-      const numericId = Number(questionId);
-      return total + (this.isCorrect(numericId, this.answers[numericId]) ? 1 : 0);
-    }, 0);
+    return Object.keys(this.confirmed).reduce(
+      (total, questionId) => total + (this.isCorrect(Number(questionId)) ? 1 : 0),
+      0
+    );
   }
 
   private isCompleted(): boolean {
@@ -112,11 +120,11 @@ export class QuizController {
   }
 
   private applyOptionStates(questionId: number): void {
-    const question = this.questions.find(candidate => candidate.id === questionId);
+    const question = this.questionById(questionId);
     if (!question) return;
 
     const confirmed = this.confirmed[questionId] === true;
-    const selected = this.answers[questionId] ?? null;
+    const selection = this.selectionFor(questionId);
 
     question.options.forEach((_, optionIndex) => {
       const btn = document.getElementById(`option-${this.quizId}-${questionId}-${optionIndex}`) as HTMLButtonElement | null;
@@ -124,10 +132,11 @@ export class QuizController {
 
       btn.classList.remove('option-btn--selected', 'option-btn--correct', 'option-btn--incorrect', 'option-btn--dimmed');
       btn.disabled = confirmed;
+      btn.setAttribute('aria-pressed', String(selection.includes(optionIndex)));
 
       if (confirmed) {
-        this.setConfirmedOptionStyles(btn, optionIndex, question.answerIndex, selected);
-      } else if (optionIndex === selected) {
+        this.setConfirmedOptionStyles(btn, optionIndex, correctOptionIndexes(question), selection);
+      } else if (selection.includes(optionIndex)) {
         btn.classList.add('option-btn--selected');
       }
     });
@@ -136,12 +145,21 @@ export class QuizController {
   private setConfirmedOptionStyles(
     btn: HTMLButtonElement,
     optionIndex: number,
-    answerIndex: number,
-    selected: number | null
+    correctIndexes: number[],
+    selection: number[]
   ): void {
-    if (optionIndex === answerIndex) btn.classList.add('option-btn--correct');
-    else if (optionIndex === selected) btn.classList.add('option-btn--incorrect');
+    if (correctIndexes.includes(optionIndex)) btn.classList.add('option-btn--correct');
+    else if (selection.includes(optionIndex)) btn.classList.add('option-btn--incorrect');
     else btn.classList.add('option-btn--dimmed');
+  }
+
+  private applyConfirmButtonState(questionId: number): void {
+    const confirmBtn = document.getElementById(`confirm-${this.quizId}-${questionId}`) as HTMLButtonElement | null;
+    if (!confirmBtn) return;
+
+    const confirmed = this.confirmed[questionId] === true;
+    confirmBtn.style.display = confirmed ? 'none' : '';
+    confirmBtn.disabled = this.selectionFor(questionId).length === 0;
   }
 
   private applyCardState(questionId: number): void {
@@ -149,7 +167,7 @@ export class QuizController {
     if (!card) return;
     card.classList.remove('question-card--correct', 'question-card--incorrect');
     if (this.confirmed[questionId] === true) {
-      const correct = this.isCorrect(questionId, this.answers[questionId]);
+      const correct = this.isCorrect(questionId);
       card.classList.add(correct ? 'question-card--correct' : 'question-card--incorrect');
     }
   }
@@ -164,13 +182,14 @@ export class QuizController {
     if (incorrectBanner) incorrectBanner.style.display = 'none';
 
     if (this.confirmed[questionId] !== true) return;
-    const correct = this.isCorrect(questionId, this.answers[questionId]);
+    const correct = this.isCorrect(questionId);
     const activeBanner = correct ? correctBanner : incorrectBanner;
     if (activeBanner) activeBanner.style.display = 'flex';
   }
 
   private refreshQuestion(questionId: number): void {
     this.applyOptionStates(questionId);
+    this.applyConfirmButtonState(questionId);
     this.applyCardState(questionId);
     this.applyResultBanner(questionId);
   }
@@ -181,8 +200,14 @@ export class QuizController {
     this.updateRetryVisibility();
   }
 
-  private confirmAnswer(questionId: number, optionIndex: number): void {
-    this.answers[questionId] = optionIndex;
+  private selectOption(questionId: number, optionIndex: number): void {
+    this.answers[questionId] = toggleOption(this.selectionFor(questionId), optionIndex);
+    this.persistToStorage();
+    this.refreshQuestion(questionId);
+  }
+
+  private confirmAnswer(questionId: number): void {
+    if (this.selectionFor(questionId).length === 0) return;
     this.confirmed[questionId] = true;
     this.persistToStorage();
     this.refreshQuestion(questionId);
@@ -194,9 +219,7 @@ export class QuizController {
     this.questions.forEach(question => {
       if (!this.confirmed[question.id]) {
         this.confirmed[question.id] = true;
-        if (this.answers[question.id] === undefined) {
-          this.answers[question.id] = null;
-        }
+        this.answers[question.id] ??= [];
       }
       this.refreshQuestion(question.id);
     });
@@ -331,12 +354,30 @@ export class QuizController {
 
     const option = target.closest('[data-option-index]') as HTMLButtonElement | null;
     if (option && !option.disabled) {
-      this.confirmAnswer(Number(option.dataset.questionId), Number(option.dataset.optionIndex));
+      this.handleOptionClick(Number(option.dataset.questionId), Number(option.dataset.optionIndex));
       return;
     }
 
     const actionEl = target.closest('[data-action]') as HTMLElement | null;
-    if (actionEl) this.runAction(actionEl.dataset.action);
+    if (!actionEl) return;
+
+    if (actionEl.dataset.action === 'confirm') {
+      this.confirmAnswer(Number(actionEl.dataset.questionId));
+      return;
+    }
+    this.runAction(actionEl.dataset.action);
+  }
+
+  private handleOptionClick(questionId: number, optionIndex: number): void {
+    const question = this.questionById(questionId);
+    if (!question) return;
+
+    if (allowsMultipleAnswers(question)) {
+      this.selectOption(questionId, optionIndex);
+      return;
+    }
+    this.answers[questionId] = [optionIndex];
+    this.confirmAnswer(questionId);
   }
 
   private runAction(action: string | undefined): void {

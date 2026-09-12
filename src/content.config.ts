@@ -1,12 +1,18 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
-const questionSchema = z.object({
-  id: z.number(),
-  question: z.string(),
-  options: z.array(z.string()),
-  answerIndex: z.number(),
-});
+const questionSchema = z
+  .object({
+    id: z.number(),
+    question: z.string(),
+    options: z.array(z.string()),
+    answerIndex: z.number().optional(),
+    answerIndexes: z.array(z.number()).optional(),
+  })
+  .refine(
+    question => (question.answerIndex === undefined) !== (question.answerIndexes === undefined),
+    'Una pregunta define answerIndex (respuesta única) o answerIndexes (respuesta múltiple), pero no ambos'
+  );
 
 const quizzes = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/quizzes' }),

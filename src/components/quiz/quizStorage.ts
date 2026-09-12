@@ -1,4 +1,4 @@
-export type AnswerMap = Record<number, number | null>;
+export type AnswerMap = Record<number, number[]>;
 export type ConfirmedMap = Record<number, boolean>;
 
 export interface CurrentRun {
@@ -18,7 +18,7 @@ export interface QuizState {
   history: ArchivedRun[];
 }
 
-export const STATE_VERSION = 2;
+export const STATE_VERSION = 3;
 
 export function storageKeyFor(quizId: string): string {
   return `quiz-state-${quizId}`;
@@ -38,21 +38,29 @@ export function parseQuizState(raw: string | null): QuizState {
 }
 
 function migrate(saved: any): QuizState {
-  if (saved?.version === STATE_VERSION && saved.current) {
-    return {
-      version: STATE_VERSION,
-      current: {
-        answers: saved.current.answers ?? {},
-        confirmed: saved.current.confirmed ?? {},
-      },
-      history: Array.isArray(saved.history) ? saved.history : [],
-    };
-  }
+  const run = saved?.current ?? saved;
+  const keepsHistory = saved?.version === STATE_VERSION || saved?.current !== undefined;
   return {
     version: STATE_VERSION,
-    current: { answers: saved?.answers ?? {}, confirmed: saved?.confirmed ?? {} },
-    history: [],
+    current: {
+      answers: asAnswerMap(run?.answers),
+      confirmed: run?.confirmed ?? {},
+    },
+    history: keepsHistory && Array.isArray(saved?.history) ? saved.history : [],
   };
+}
+
+function asAnswerMap(saved: any): AnswerMap {
+  const answers: AnswerMap = {};
+  for (const [questionId, selection] of Object.entries(saved ?? {})) {
+    answers[Number(questionId)] = asSelection(selection);
+  }
+  return answers;
+}
+
+function asSelection(saved: unknown): number[] {
+  if (Array.isArray(saved)) return saved.filter(optionIndex => typeof optionIndex === 'number');
+  return typeof saved === 'number' ? [saved] : [];
 }
 
 export type QuizStatus = 'none' | 'in-progress' | 'completed';

@@ -7,13 +7,7 @@ import ProgressBar from '../shared/ProgressBar.astro';
 import ConfirmDialog from '../shared/ConfirmDialog.astro';
 import ScrollToTopButton from '../shared/ScrollToTopButton.astro';
 import QuestionCard from './QuestionCard.astro';
-
-interface Question {
-  id: number;
-  question: string;
-  options: string[];
-  answerIndex: number;
-}
+import type { Question } from './question';
 
 interface Props {
   quizId: string;
