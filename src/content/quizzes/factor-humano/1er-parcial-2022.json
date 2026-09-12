@@ -5,6 +5,7 @@
     "id": "quiz-fh-p1-2022",
     "title": "Modelo 1er Parcial - 2022",
     "description": "Preguntas de un modelo real",
+    "ignoredBiasChecks": ["answer-length"],
     "questions": [
         {
             "id": 1,

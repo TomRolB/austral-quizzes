@@ -5,6 +5,7 @@
     "id": "quiz-sector-publico-2026",
     "title": "Sector Público y Política Fiscal",
     "description": "1º cuatrimestre - año 2026. Preguntas basadas en apuntes de clase (contenido para el final)",
+    "ignoredBiasChecks": ["answer-length"],
     "questions": [
         {
             "id": 1,

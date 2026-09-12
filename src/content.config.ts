@@ -1,5 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { BIAS_CHECKS } from './content/biasChecks';
 
 const questionSchema = z
   .object({
@@ -23,6 +24,7 @@ const quizzes = defineCollection({
     id: z.string(),
     title: z.string(),
     description: z.string(),
+    ignoredBiasChecks: z.array(z.enum(BIAS_CHECKS)).optional(),
     questions: z.array(questionSchema),
   }),
 });

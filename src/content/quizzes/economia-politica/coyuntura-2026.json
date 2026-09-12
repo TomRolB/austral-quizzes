@@ -5,6 +5,7 @@
     "id": "quiz-datos-coyuntura-2026",
     "title": "Coyuntura 2026",
     "description": "Preguntas de coyuntura, basadas en investigación",
+    "ignoredBiasChecks": ["answer-length"],
     "questions": [
         {
             "id": 1,

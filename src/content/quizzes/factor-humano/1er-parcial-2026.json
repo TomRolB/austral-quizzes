@@ -5,6 +5,7 @@
     "id": "quiz-fh-p1-2026",
     "title": "Modelo 1er Parcial - 2026",
     "description": "Preguntas de un modelo real",
+    "ignoredBiasChecks": ["answer-length"],
     "questions": [
         {
             "id": 1,
