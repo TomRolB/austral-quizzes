@@ -1,0 +1,113 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-p2-adicional",
+    "title": "Modelo 2do Parcial - Adicional",
+    "description": "Preguntas de un modelo real, sin fecha registrada",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Señalar la respuesta correcta. La evaluación del desempeño de una persona es una medición:",
+            "options": [
+                "a) Relativa y absoluta en función del momento en que se realice",
+                "b) Absoluta",
+                "c) Relativa"
+            ],
+            "answerIndexes": [2]
+        },
+        {
+            "id": 2,
+            "question": "Modelo de liderazgo situacional. Uno de sus colaboradores mostró desde el principio fuerte disposición a utilizar el nuevo sistema. Aprendió rápidamente, valora sus beneficios, y hoy se desempeña al mismo nivel de excelencia que antes del cambio. ¿Qué es más efectivo hacer?",
+            "options": [
+                "a) Darle autonomía para que se acomode solo a la nueva situación.",
+                "b) Darle soporte con precisas instrucciones y controlarlo con más frecuencia para evitar que cometa errores.",
+                "c) Reunirse con su colaborador para explicitarle los beneficios de operar con el nuevo sistema y dar argumentos sobre la conveniencia de su uso."
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 3,
+            "question": "Las menores oportunidades de aprendizaje en el trabajo se me darán a partir de:",
+            "options": [
+                "a) Del feedback recibido de parte de mi líder y la reflexión que hago al respecto.",
+                "b) Los cursos de capacitación que participo",
+                "c) Los objetivos y responsabilidades que me son asignadas."
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 4,
+            "question": "Señalar las respuestas correctas. Para realizar un contrato de desempeño productivo con mi propio Jefe debo:",
+            "options": [
+                "a) Hacer valer ante todo mis preferencias personales en torno a mi desarrollo profesional",
+                "b) Suspender por un momento las propias ideas, hacer que hable el jefe, y escuchar con atención",
+                "c) Abrir la cabeza y los oídos para recibir el mandato del Jefe",
+                "d) Vincular mis objetivos con los de otras personas, del mismo u otro sector"
+            ],
+            "answerIndexes": [1, 2, 3]
+        },
+        {
+            "id": 5,
+            "question": "Señalar las respuestas correctas. Con respecto al aprendizaje, ante situaciones nuevas las personas responden de modos diferentes. Esto depende de:",
+            "options": [
+                "a) Cómo percibimos aquello que procesamos",
+                "b) Cómo percibimos nuevas informaciones/situaciones",
+                "c) Cómo procesamos aquello que percibimos"
+            ],
+            "answerIndexes": [1, 2]
+        },
+        {
+            "id": 6,
+            "question": "Tomando en cuenta el modelo desarrollado por Roger D'Aprix en su libro \"La comunicación para el cambio\" donde habla del \"papel de comunicación del jefe\", señale cuál es la primera pregunta que se realiza una persona en su trabajo:",
+            "options": [
+                "a) ¿Cuál es mi tarea?",
+                "b) ¿Cómo puedo ayudar?",
+                "c) ¿A dónde vamos?"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 7,
+            "question": "Modelo de liderazgo situacional. Usted cuenta con un colaborador muy eficiente y confiable en el manejo de procesos administrativos. Se están por implementar algunos ajustes en los procesos de actualización de archivos de documentación. ¿Qué es más efectivo hacer?",
+            "options": [
+                "a) Explica al colaborador las razones de los cambios que fueron decididos y da fundamentos sobre el valor de tener un sistema confiable de archivo de documentos",
+                "b) Diseña el nuevo procedimiento y lo comunica al colaborador para que lo implemente",
+                "c) Hace intervenir al colaborador en las discusiones y delega en él la forma de implementar los cambios"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 8,
+            "question": "Señalar las declaraciones correctas:",
+            "options": [
+                "a) La gestión del desempeño legitima el disenso y la posibilidad de acuerdos",
+                "b) La gestión del desempeño permite a los miembros de una empresa alcanzar su máxima satisfacción",
+                "c) En la gestión del desempeño se hace una medición absoluta de la contribución de las personas a la organización",
+                "d) En la gestión del desempeño, el error no debe ser tratado como oportunidad de aprender",
+                "e) La gestión del desempeño es un proceso compartido entre evaluador y evaluado"
+            ],
+            "answerIndexes": [0, 1, 4]
+        },
+        {
+            "id": 9,
+            "question": "Señalar las respuestas correctas. Para ser experto en “mi negocio” y conseguir resultados en forma consciente debo:",
+            "options": [
+                "a) Poder explicar mis errores",
+                "b) Identificar las actividades y procesos clave que explican los resultados que debo obtener",
+                "c) Reconocer los indicadores que reflejan los resultados esperados de mi puesto de trabajo"
+            ],
+            "answerIndexes": [0, 1, 2]
+        },
+        {
+            "id": 10,
+            "question": "Señalar las respuestas verdaderas. Un sistema de gestión de desempeño que promueva la calibración de los objetivos personales a nivel inter e intra sectorial permitirá, entre otras cosas:",
+            "options": [
+                "a) Que haya congruencia en el nivel de exigencia de los objetivos definidos en una empresa",
+                "b) Alineación entre los objetivos estratégicos de la empresa y los definidos a sus miembros",
+                "c) Reducir la alineación entre los objetivos de la empresa y los personales"
+            ],
+            "answerIndexes": [0, 1]
+        }
+    ]
+}

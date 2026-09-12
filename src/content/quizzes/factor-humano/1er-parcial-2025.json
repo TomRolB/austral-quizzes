@@ -1,0 +1,113 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-p1-2025",
+    "title": "Modelo 1er Parcial - 2025",
+    "description": "Preguntas de un modelo real",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Dave Ulrich refiere que RRHH tiene 4 roles y a cada uno lo identifica con una metáfora que se detallan abajo. ¿Cuál de esas metáforas corresponde al rol \"Management de la Infraestructura\"?",
+            "options": [
+                "a) Socio Estratégico",
+                "b) Agente de cambio",
+                "c) Experto Administrativo",
+                "d) Adalid de los empleados"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 2,
+            "question": "Un líder que muestra el problema con claridad, pregunta por qué, repasa el modo correcto de actuar y comprueba la mejora está aplicando:",
+            "options": [
+                "a) Un contrato de desempeño.",
+                "b) Un proceso de feedback efectivo.",
+                "c) Una evaluación de desempeño."
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 3,
+            "question": "Las empresas y los colaboradores que las conforman tienen expectativas mutuas y día a día se generan transacciones al respecto que se espera sean de beneficio mutuo. ¿Cómo se deben administrar diariamente esas expectativas?",
+            "options": [
+                "a) A través exclusivamente del plantel Gerencial de la empresa aplicando procesos/herramientas de gestión que facilita la Gerencia de RRHH",
+                "b) A través de los Líderes en general de la empresa aplicando procesos/herramientas de gestión que facilita la Gerencia de RRHH",
+                "c) A través de los Líderes en general de la empresa aplicando su experiencia y buen criterio en la gestión de personas"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 4,
+            "question": "Si un colaborador da estas señales: requiere frecuentemente ayuda para recibir información o se detiene en su trabajo para consultar a otros; sus preocupaciones están fundamentalmente centradas en la ejecución de la tarea. ¿Qué nivel de autonomía tiene según el modelo de liderazgo situacional?",
+            "options": [
+                "a) Nivel 1",
+                "b) Nivel 3",
+                "c) Nivel 4",
+                "d) Nivel 2"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 5,
+            "question": "En el modelo de liderazgo situacional, ¿cuál sería la consecuencia de aplicar el estilo “Delegar” a un colaborador en Nivel 1 de autonomía?",
+            "options": [
+                "a) Recibiría la supervisión adecuada para su etapa",
+                "b) El desempeño mejoraría por la confianza depositada.",
+                "c) Se sentiría frustrado o paralizado por la falta de guía.",
+                "d) El colaborador podría crecer rápidamente al enfrentar desafíos"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 6,
+            "question": "¿Qué elemento NO forma parte de la cultura organizacional según Edgar Schein?",
+            "options": [
+                "a) Valores",
+                "b) Supuestos inconscientes",
+                "c) Indicadores de gestión"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 7,
+            "question": "Señale las respuestas correctas. La \"Red Operacional\" de una descripción de puesto me indica, entre otras cosas:",
+            "options": [
+                "a) Conocer el nivel de conocimientos requeridos para tener buenas relaciones internas y/o externas",
+                "b) Con qué personas/entidades/instituciones fuera de la organización deberá interactuar su ocupante",
+                "c) Con qué personas dentro de la organización deberá interactuar su ocupante"
+            ],
+            "answerIndexes": [1, 2]
+        },
+        {
+            "id": 8,
+            "question": "Modelo de liderazgo situacional. Uno de sus colaboradores mostró desde el principio fuerte disposición a utilizar el nuevo sistema. Aprendió rápidamente, valora sus beneficios, y hoy se desempeña al mismo nivel de excelencia que antes del cambio. ¿Qué es más efectivo hacer?",
+            "options": [
+                "a) Darle soporte con precisas instrucciones y controlarlo con más frecuencia para evitar que cometa errores.",
+                "b) Reunirse con su colaborador para explicitarle los beneficios de operar con el nuevo sistema y dar argumentos sobre la conveniencia de su uso.",
+                "c) Darle autonomía para que se acomode solo a la nueva situación."
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 9,
+            "question": "En una compañía con personas diversas y líderes diferentes, asegurar acuerdos sin favoritismos es un desafío político y metodológico. ¿Cuál es la diferencia clave entre ambos desafíos?",
+            "options": [
+                "a) El político depende de los supervisores, mientras que el metodológico corresponde al área de Recursos Humanos.",
+                "b) El político se relaciona con valores compartidos, mientras que el metodológico con procedimientos y herramientas.",
+                "c) El político busca definir premios y castigos, mientras que el metodológico se centra en su aplicación."
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 10,
+            "question": "Señale la respuesta correcta",
+            "options": [
+                "a) Es indistinto hacer primero una u otra",
+                "b) Para hacer la descripción de un puesto de trabajo primero debo hacer la valuación del mismo",
+                "c) Para hacer la valuación de un puesto de trabajo primero debo hacer la descripción del mismo"
+            ],
+            "answerIndex": 2
+        }
+    ]
+}

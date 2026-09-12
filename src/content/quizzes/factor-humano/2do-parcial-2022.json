@@ -1,0 +1,112 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-p2-2022",
+    "title": "Modelo 2do Parcial - 2022",
+    "description": "Preguntas de un modelo real",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Señalar las respuestas correctas. Dar y recibir feedback permite:",
+            "options": [
+                "a) Aprender algo nuevo sobre los procesos que se supervisa",
+                "b) La corrección en tiempo real de los desvíos o problemas observados",
+                "c) Perfeccionar el contrato de desempeño"
+            ],
+            "answerIndexes": [0, 1, 2]
+        },
+        {
+            "id": 2,
+            "question": "Señalar la respuesta correcta. Al momento de dar feedback a un colaborador, le digo lo que veo y le pregunto...:",
+            "options": [
+                "a) ¿por qué?",
+                "b) ¿para qué?",
+                "c) cómo lo hizo"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 3,
+            "question": "Señalar las respuestas verdaderas. Un sistema de gestión de desempeño que promueva la calibración de los objetivos personales a nivel inter e intra sectorial permitirá, entre otras cosas:",
+            "options": [
+                "a) Alineación entre los objetivos estratégicos de la empresa y los definidos a sus miembros",
+                "b) Reducir la alineación entre los objetivos de la empresa y los personales",
+                "c) Que haya congruencia en el nivel de exigencia de los objetivos definidos en una empresa"
+            ],
+            "answerIndexes": [0, 2]
+        },
+        {
+            "id": 4,
+            "question": "Señalar las condiciones que deben darse para aprender (no tener en cuenta su orden cronológico):",
+            "options": [
+                "a) Tomar conciencia de la brecha que hay entre su meta y su realidad",
+                "b) Identificar un área de incompetencia",
+                "c) Admitir el problema “No sé” y comprometerse con el aprendizaje"
+            ],
+            "answerIndexes": [0, 1, 2]
+        },
+        {
+            "id": 5,
+            "question": "Señalar las declaraciones correctas: En la gestión del desempeño…",
+            "options": [
+                "a) Si analizamos los objetivos \"de arriba hacia abajo\" de la estructura organizacional, éstos deben estar alineados",
+                "b) Si analizamos los objetivos \"de abajo hacia arriba\" de la estructura organizacional, éstos deben ser constructivos",
+                "c) Si analizamos los objetivos \"de abajo hacia arriba\" de la estructura organizacional, éstos deben estar alineados",
+                "d) Si analizamos los objetivos \"de arriba hacia abajo\" de la estructura organizacional, éstos deben ser constructivos"
+            ],
+            "answerIndexes": [0, 1]
+        },
+        {
+            "id": 6,
+            "question": "Modelo de liderazgo situacional. Usted tiene un colaborador que no ha respondido a sus indicaciones sobre cómo encarar una nueva tarea. El rendimiento del colaborador viene decayendo. ¿Qué es más efectivo hacer?",
+            "options": [
+                "a) Proponer al colaborador una charla en privado para que éste le presente sus sugerencias de cómo mejorar la realización de la tarea",
+                "b) Tener una charla con él para fijar nuevamente las instrucciones para operar la nueva tarea y seguir de cerca su desempeño con estrictos controles",
+                "c) Comunicar al colaborador sus expectativas confiando en que sabrá cómo adecuar su comportamiento para cumplir correctamente con su tarea"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 7,
+            "question": "Algunas de las razones por las cuales las empresas diseñan y ejecutan sistemas de gestión de desempeño son:",
+            "options": [
+                "a) Legitimar el disenso entre líder y liderado",
+                "b) Promover la amistad entre líder y liderado",
+                "c) Obtener la máxima contribución de los accionistas",
+                "d) Contar con información para la toma de decisiones"
+            ],
+            "answerIndexes": [0, 3]
+        },
+        {
+            "id": 8,
+            "question": "Las menores oportunidades de aprendizaje en el trabajo se me darán a partir de:",
+            "options": [
+                "a) Del feedback recibido de parte de mi líder y la reflexión que hago al respecto.",
+                "b) Los cursos de capacitación que participo",
+                "c) Los objetivos y responsabilidades que me son asignadas."
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 9,
+            "question": "¿Cuáles de estas acciones o canales de comunicación son ascendentes?",
+            "options": [
+                "a) Reclamos y sugerencias de los colaboradores",
+                "b) Encuesta de satisfacción a los empleados",
+                "c) Acuerdos de servicio entre las áreas de la empresa"
+            ],
+            "answerIndexes": [0, 1]
+        },
+        {
+            "id": 10,
+            "question": "Modelo de liderazgo situacional. Uno de sus colaboradores mostró desde el principio fuerte disposición a utilizar el nuevo sistema. Aprendió rápidamente, valora sus beneficios, y hoy se desempeña al mismo nivel de excelencia que antes del cambio. ¿Qué es más efectivo hacer?",
+            "options": [
+                "a) Reunirse con su colaborador para explicitarle los beneficios de operar con el nuevo sistema y dar argumentos sobre la conveniencia de su uso.",
+                "b) Darle autonomía para que se acomode solo a la nueva situación.",
+                "c) Darle soporte con precisas instrucciones y controlarlo con más frecuencia para evitar que cometa errores."
+            ],
+            "answerIndex": 1
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-p1-2023",
+    "title": "Modelo 1er Parcial - 2023",
+    "description": "Preguntas de un modelo real",
+    "questions": [
+        {
+            "id": 1,
+            "question": "¿En qué debo poner foco para detectar necesidades de capacitación?",
+            "options": [
+                "a) Tendencias en gestión de personas y proveedores",
+                "b) Preferencias del colaborador en función de sus responsabilidades principales",
+                "c) Requerimientos de desempeño"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 2,
+            "question": "Señale las declaraciones correctas con respecto a las Relaciones Laborales:",
+            "options": [
+                "a) El Delegado Gremial es elegido por el Sindicato con Personería Jurídica",
+                "b) Las Relaciones Laborales de una empresa son aquellas que se establecen entre las personas del mismo nivel Jerárquico",
+                "c) El fuero o tutela sindical protege al Delegado Gremial de un posible comportamiento antisindical del empleador",
+                "d) Los Sindicatos se definen por “Profesión/Oficio”, “Actividad” y \"Empresa\""
+            ],
+            "answerIndexes": [2, 3]
+        },
+        {
+            "id": 3,
+            "question": "El derecho del trabajo argentino busca lograr:",
+            "options": [
+                "a) Equilibrar la disparidad de poder que existe entre trabajador y empleador",
+                "b) Ninguna de las dos",
+                "c) Mantener la disparidad de poder que existe entre trabajador y empleador"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 4,
+            "question": "Las empresas y los colaboradores que las conforman tienen expectativas mutuas y día a día se generan transacciones al respecto que se espera sean de beneficio mutuo. ¿Cómo se deben administrar diariamente esas expectativas?",
+            "options": [
+                "a) A través de los Líderes en general de la empresa aplicando su experiencia y buen criterio en la gestión de personas",
+                "b) A través exclusivamente del plantel Gerencial de la empresa aplicando procesos/herramientas de gestión que facilita la Gerencia de RRHH",
+                "c) A través de los Líderes en general de la empresa aplicando procesos/herramientas de gestión que facilita la Gerencia de RRHH"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 5,
+            "question": "¿Cuál es estas 4 palabras es la correcta para completar esta declaración? La ..... le da identidad y personalidad a una organización y sus miembros.",
+            "options": [
+                "a) Estrategia",
+                "b) Misión",
+                "c) Promesa institucional",
+                "d) Visión"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 6,
+            "question": "¿Esta definición a qué hace referencia? => Proceso por el cual se identifica el contenido significativo de un puesto de trabajo desde un punto de vista organizacional.",
+            "options": [
+                "a) Descripción de un puesto de trabajo",
+                "b) Valuación de un puesto de trabajo",
+                "c) Ambas respuestas son correctas"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 7,
+            "question": "Frente a las necesidades de capacitación por \"Cambio\" el mayor problema que se presenta es:",
+            "options": [
+                "a) La resistencia al cambio/lo nuevo",
+                "b) Que la persona no admita que debe mejorar su desempeño",
+                "c) La necesidad de producir un desaprendizaje"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 8,
+            "question": "Señale las respuestas correctas. La \"Red Operacional\" de una descripción de puesto me indica, entre otras cosas:",
+            "options": [
+                "a) Conocer el nivel de conocimientos requeridos para tener buenas relaciones internas y/o externas",
+                "b) Con qué personas dentro de la organización deberá interactuar su ocupante",
+                "c) Con qué personas/entidades/instituciones fuera de la organización deberá interactuar su ocupante"
+            ],
+            "answerIndexes": [1, 2]
+        },
+        {
+            "id": 9,
+            "question": "Según el nuevo paradigma, la capacitación en una empresa:",
+            "options": [
+                "a) Siempre hace la diferencia",
+                "b) Debe satisfacer a los participantes",
+                "c) Mide sus resultados en el rendimiento de su gente"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 10,
+            "question": "Tomando en cuenta el autor Dave Ulrich en su libro RRHH Champions cuando se refiere a los Roles de RRHH, indicar cuáles de estas declaraciones son incorrectas:",
+            "options": [
+                "a) El rol de conducir la transformación y el cambio está orientado a los procesos y lo estratégico",
+                "b) El rol de gerenciamiento de recursos humanos estratégicos está orientado a las personas y lo estratégico",
+                "c) El rol líder de gerenciamiento de la contribución de los empleados orientado a las personas y lo operativo/cotidiano",
+                "d) El rol de gerenciamiento de la infraestructura de la empresa está orientado a los procesos y lo cotidiano/operativo"
+            ],
+            "answerIndexes": [0, 1]
+        }
+    ]
+}

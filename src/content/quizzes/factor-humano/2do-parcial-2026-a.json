@@ -1,0 +1,112 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-p2-2026-a",
+    "title": "Modelo 2do Parcial - 2026 (A)",
+    "description": "Preguntas de un modelo real",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Este objetivo, ¿cumple el criterio SMART? \"Capacitación sobre trabajo en alturas a todos los empleados del sector de Acería. Medición: Reducción en un 50% de los accidentes en alturas antes del 30 de Junio de 2026\"",
+            "options": [
+                "a) No, no es SMART",
+                "b) Sí, es SMART"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 2,
+            "question": "El estilo Convergente de aprendizaje se caracteriza por:",
+            "options": [
+                "a) Preferir la expresión creativa y el trabajo grupal",
+                "b) Focalizarse en la observación y el análisis de experiencias pasadas",
+                "c) Aplicar la teoría en la práctica, resolviendo problemas concretos"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 3,
+            "question": "Identificar los impulsores y barreras que condicionan mi performance me ayuda a:",
+            "options": [
+                "a) Medir los resultados de mi gestión.",
+                "b) Potenciar lo que favorece mis resultados y reducir lo que los dificulta.",
+                "c) Delegar todas mis responsabilidades."
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 4,
+            "question": "¿Qué situación podría indicar un desajuste entre el desempeño y el potencial en un colaborador?",
+            "options": [
+                "a) Tiene bajo rendimiento, pero presenta interés en ser promovido",
+                "b) Está en proceso de onboarding y aún no se mide su gestión",
+                "c) Tiene resultados correctos, pero su motivación y adaptación bajan al asumir tareas nuevas",
+                "d) Obtiene resultados excelentes en tareas complejas y asume nuevos desafíos con autonomía"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 5,
+            "question": "Según Stanislas Dehaene, el primer pilar del aprendizaje eficaz es la:",
+            "options": [
+                "a) Priorización",
+                "b) Consolidación",
+                "c) Atención"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 6,
+            "question": "Los sesgos inconscientes afectan el desarrollo profesional porque:",
+            "options": [
+                "a) Reducen la capacidad de juicio y decisión.",
+                "b) Impiden repetir experiencias previas que aseguren resultados conocidos",
+                "c) Funcionan como atajos mentales que impiden ver el verdadero talento"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 7,
+            "question": "La evaluación de desempeño es...",
+            "options": [
+                "a) El proceso de comparar el desempeño y las calificaciones del empleado en relación con los requerimientos del puesto para el que fuese contratado.",
+                "b) Un proceso anual en la que el líder valora los resultados cuantitativos alcanzados por los colaboradores, sin necesidad de retroalimentación, ya que los datos hablan por sí solos. Es un proceso estandarizado que no requiere adaptación al contexto o al rol de cada persona.",
+                "c) Un proceso correctivo que busca señalar errores individuales para mantener la disciplina dentro del equipo."
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 8,
+            "question": "Según la presentación de Tenaris ¿quiénes intervienen en la \"evaluación 360\"?",
+            "options": [
+                "a) Autoevaluación (empleado) • Evaluación primaria (supervisor) • Evaluación ascendente (equipo) • Evaluación Cliente-Proveedor (stakeholders)",
+                "b) Evaluación primaria (supervisor) • Autoevaluación (empleado) • Evaluación ascendente (equipo) • Evaluación Cliente-Proveedor (stakeholders)",
+                "c) Autoevaluación (empleado) • Evaluación ascendente (equipo) • Evaluación Cliente-Proveedor (stakeholders) • Evaluación secundaria (supervisor)"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 9,
+            "question": "¿Cuál de las siguientes acciones NO es parte de un contrato de desempeño productivo con el jefe?",
+            "options": [
+                "a) Evaluar límites y capacidades",
+                "b) Clarificar la demanda",
+                "c) Aceptar pasivamente todos los objetivos asignados",
+                "d) Negociar recursos necesarios"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 10,
+            "question": "En el modelo de liderazgo situacional, ¿cuál sería la consecuencia de aplicar el estilo “Delegar” a un colaborador en Nivel 1 de autonomía?",
+            "options": [
+                "a) Se sentiría frustrado o paralizado por la falta de guía.",
+                "b) El desempeño mejoraría por la confianza depositada.",
+                "c) Recibiría la supervisión adecuada para su etapa",
+                "d) El colaborador podría crecer rápidamente al enfrentar desafíos"
+            ],
+            "answerIndex": 0
+        }
+    ]
+}

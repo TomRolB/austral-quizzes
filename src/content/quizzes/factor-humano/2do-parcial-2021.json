@@ -1,0 +1,114 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-p2-2021",
+    "title": "Modelo 2do Parcial - 2021",
+    "description": "Preguntas de un modelo real",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Señalar la respuesta verdadera. Un sistema de gestión de desempeño que promueva la calibración de los objetivos personales a nivel inter e intra sectorial permitirá, entre otras cosas:",
+            "options": [
+                "a) Que haya congruencia en el nivel de exigencia de los objetivos definidos en una empresa",
+                "b) Que los errores se tomen como oportunidad de aprendizaje",
+                "c) Que haya una mirada en común entre líder y liderado en cuanto a qué espera uno del otro"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 2,
+            "question": "Señalar las respuestas correctas. Para realizar un contrato de desempeño productivo con mi propio Jefe debo:",
+            "options": [
+                "a) Suspender por un momento las propias ideas, hacer que hable el jefe, y escuchar con atención",
+                "b) Vincular mis objetivos con los de otras personas, del mismo u otro sector",
+                "c) Hacer valer ante todo mis preferencias personales en torno a mi desarrollo profesional",
+                "d) Abrir la cabeza y los oídos para recibir el mandato del Jefe"
+            ],
+            "answerIndexes": [0, 1, 3]
+        },
+        {
+            "id": 3,
+            "question": "¿Cuáles de estas acciones o canales de comunicación son descendentes?",
+            "options": [
+                "a) Difusión de actividades de capacitación para los colaboradores de la empresa",
+                "b) Acuerdos de servicio entre las áreas de la empresa",
+                "c) Políticas, normas, procedimientos e instructivos de trabajo"
+            ],
+            "answerIndexes": [0, 2]
+        },
+        {
+            "id": 4,
+            "question": "Señale las respuestas correctas con relación a estas consideraciones acerca del modelo del liderazgo situacional:",
+            "options": [
+                "a) Las características de cada colaborador en cada situación son diferentes y cambiantes, por lo tanto es el líder el que puede y debe adecuar su estilo de liderazgo según sea necesario.",
+                "b) El liderazgo es un servicio que se brinda al colaborador",
+                "c) Llamamos autonomía o madurez a la capacidad que demuestra el colaborador para asumir sus errores en tiempo y forma"
+            ],
+            "answerIndexes": [0, 1]
+        },
+        {
+            "id": 5,
+            "question": "¿Cuál es el orden cronológico del círculo virtuoso del aprendizaje?",
+            "options": [
+                "a) Evaluar / Reflexionar / Aprender / Practicar",
+                "b) Aprender / Evaluar / Reflexionar / Practicar",
+                "c) Reflexionar / Evaluar / Aprender / Practicar"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 6,
+            "question": "Señalar las declaraciones correctas:",
+            "options": [
+                "a) La gestión del desempeño permite a los miembros de una empresa alcanzar su máxima satisfacción",
+                "b) La gestión del desempeño es un proceso compartido entre evaluador y evaluado",
+                "c) La gestión del desempeño legitima el disenso y la posibilidad de acuerdos",
+                "d) En la gestión del desempeño se hace una medición absoluta de la contribución de las personas a la organización",
+                "e) En la gestión del desempeño, el error no debe ser tratado como oportunidad de aprender"
+            ],
+            "answerIndexes": [0, 1, 2]
+        },
+        {
+            "id": 7,
+            "question": "Las menores oportunidades de aprendizaje en el trabajo se me darán a partir de:",
+            "options": [
+                "a) Los objetivos y responsabilidades que me son asignadas.",
+                "b) Del feedback recibido de parte de mi líder y la reflexión que hago al respecto.",
+                "c) Los cursos de capacitación que participo"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 8,
+            "question": "Señalar las declaraciones correctas: En la gestión del desempeño…",
+            "options": [
+                "a) Si analizamos los objetivos \"de arriba hacia abajo\" de la estructura organizacional, éstos deben estar alineados",
+                "b) Si analizamos los objetivos \"de arriba hacia abajo\" de la estructura organizacional, éstos deben ser constructivos",
+                "c) Si analizamos los objetivos \"de abajo hacia arriba\" de la estructura organizacional, éstos deben estar alineados",
+                "d) Si analizamos los objetivos \"de abajo hacia arriba\" de la estructura organizacional, éstos deben ser constructivos"
+            ],
+            "answerIndexes": [0, 3]
+        },
+        {
+            "id": 9,
+            "question": "Modelo de liderazgo situacional. Usted tiene un colaborador que no ha respondido a sus indicaciones sobre cómo encarar una nueva tarea. El rendimiento del colaborador viene decayendo. ¿Qué es más efectivo hacer?",
+            "options": [
+                "a) Comunicar al colaborador sus expectativas confiando en que sabrá cómo adecuar su comportamiento para cumplir correctamente con su tarea",
+                "b) Tener una charla con él para fijar nuevamente las instrucciones para operar la nueva tarea y seguir de cerca su desempeño con estrictos controles",
+                "c) Proponer al colaborador una charla en privado para que éste le presente sus sugerencias de cómo mejorar la realización de la tarea"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 10,
+            "question": "Modelo de liderazgo situacional. Uno de sus colaboradores ha venido obteniendo logros en una tarea que se le asignó recientemente. Usted ha estado controlando y contribuyendo con indicaciones precisas a estos logros. El colaborador va ganando en seguridad para realizar la tarea. ¿Qué es más efectivo hacer?",
+            "options": [
+                "a) Dejar que el colaborador se desempeñe con total autonomía en esta tarea.",
+                "b) Reunirse con el colaborador y conversar sobre el trabajo realizado, dar argumentos sobre la importancia de cumplir los procedimientos pautados y acordar cómo continuará monitoreando la tarea en el futuro.",
+                "c) Pedir al colaborador sugerencias de cómo mejorar la realización de la tarea."
+            ],
+            "answerIndex": 1
+        }
+    ]
+}

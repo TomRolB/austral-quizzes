@@ -1,0 +1,112 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-p2-2025-b",
+    "title": "Modelo 2do Parcial - 2025 (B)",
+    "description": "Preguntas de un modelo real",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Señalar la respuesta verdadera. Un sistema de gestión de desempeño que no promueva la calibración de los objetivos personales a nivel inter e intra sectorial permitirá, entre otras cosas:",
+            "options": [
+                "a) Alineación entre los objetivos estratégicos de la empresa y los definidos a sus miembros",
+                "b) Que haya congruencia en el nivel de exigencia de los objetivos definidos en una empresa",
+                "c) Reducir la alineación entre los objetivos de la empresa y los personales"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 2,
+            "question": "En términos del rendimiento esperado de las personas, la brecha entre “lo que se tiene” y “lo que se necesita” se reduce principalmente mediante:",
+            "options": [
+                "a) La evaluación periódica del clima organizacional.",
+                "b) El rediseño de procesos y la automatización tecnológica.",
+                "c) El desarrollo de las personas que componen la organización"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 3,
+            "question": "¿Cuáles de las siguientes no son estrategias que podemos utilizar para la gestión del tiempo?",
+            "options": [
+                "a) Establecer los no negociables y las pequeñas tareas",
+                "b) Establecer los no negociables y los bloques y tareas",
+                "c) Enfocarse en la procrastinación y la autosuficiencia"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 4,
+            "question": "El concepto de ancla de carrera según Edgar Schein se refiere a:",
+            "options": [
+                "a) El puesto más estable que una persona ocupa en su vida profesional",
+                "b) La especialización técnica que una persona mantiene a lo largo de su trayectoria",
+                "c) El conjunto de motivaciones y valores que orientan las decisiones laborales"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 5,
+            "question": "¿La Ley de Teletrabajo en Argentina permite que el trabajador acuerde voluntariamente renunciar a su derecho a la desconexión digital?",
+            "options": [
+                "a) Sí, pero solo en casos de fuerza mayor.",
+                "b) No, salvo que se encuentre en período de prueba.",
+                "c) No, porque el derecho a la desconexión es irrenunciable.",
+                "d) Sí, si lo acuerdan las partes en el contrato individual de trabajo."
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 6,
+            "question": "La matriz de priorización se basa en:",
+            "options": [
+                "a) Conocer - delegar - planificar - hacer",
+                "b) Conocer - planificar - participar - eliminar",
+                "c) Hacer - planificar - delegar - eliminar"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 7,
+            "question": "Cuando un jefe pide a RRHH “una lista de cursos para su gente”, según la metáfora del material, se considera un error porque:",
+            "options": [
+                "a) Prioriza la autonomía de los empleados por sobre la estrategia de negocio",
+                "b) Se enfoca en actividades aisladas en lugar de en un diagnóstico del rendimiento esperado",
+                "c) No garantiza la satisfacción de los participantes"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 8,
+            "question": "¿Cuál de las siguientes afirmaciones no es correcta según la Ley de Teletrabajo en Argentina?",
+            "options": [
+                "a) El teletrabajador no tiene derecho a revertir el teletrabajo y regresar a la modalidad presencial.",
+                "b) El empleador debe proveer los elementos de trabajo necesarios para la prestación de tareas.",
+                "c) El teletrabajador debe tener los mismos derechos y obligaciones que quienes trabajan de manera presencial.",
+                "d) La jornada laboral debe ser acordada previamente respetando los límites legales de trabajo."
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 9,
+            "question": "En el proceso de gestión del desempeño, en la etapa \"seguimiento\", se debe establecer:",
+            "options": [
+                "a) Las posibles desviaciones propias o ajenas al evaluado",
+                "b) La matriz de competencias",
+                "c) El descriptor de la competencia y el nivel esperado"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 10,
+            "question": "La metacognición consiste en:",
+            "options": [
+                "a) El pensamiento lógico aplicado a problemas complejos",
+                "b) Comprender los propios procesos mentales y poder intervenir sobre ellos",
+                "c) La capacidad de memorizar información de manera automática"
+            ],
+            "answerIndex": 1
+        }
+    ]
+}

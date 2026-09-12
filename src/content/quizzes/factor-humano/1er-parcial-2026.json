@@ -1,0 +1,111 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-p1-2026",
+    "title": "Modelo 1er Parcial - 2026",
+    "description": "Preguntas de un modelo real",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Cuando un jefe pide a RRHH “una lista de cursos para su gente”, según la metáfora del material, se considera un error porque:",
+            "options": [
+                "a) Prioriza la autonomía de los empleados por sobre la estrategia de negocio",
+                "b) No garantiza la satisfacción de los participantes",
+                "c) Se enfoca en actividades aisladas en lugar de en un diagnóstico del rendimiento esperado"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 2,
+            "question": "¿Cuál de las siguientes afirmaciones no es correcta según la Ley de Teletrabajo en Argentina?",
+            "options": [
+                "a) El empleador debe proveer los elementos de trabajo necesarios para la prestación de tareas.",
+                "b) El teletrabajador no tiene derecho a revertir el teletrabajo y regresar a la modalidad presencial.",
+                "c) El teletrabajador debe tener los mismos derechos y obligaciones que quienes trabajan de manera presencial.",
+                "d) La jornada laboral debe ser acordada previamente respetando los límites legales de trabajo."
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 3,
+            "question": "¿La Ley de Teletrabajo en Argentina permite que el trabajador acuerde voluntariamente renunciar a su derecho a la desconexión digital?",
+            "options": [
+                "a) No, salvo que se encuentre en período de prueba.",
+                "b) Sí, si lo acuerdan las partes en el contrato individual de trabajo.",
+                "c) No, porque el derecho a la desconexión es irrenunciable.",
+                "d) Sí, pero solo en casos de fuerza mayor."
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 4,
+            "question": "La Ley Bases establece que el periodo de prueba legal de un trabajador en relación de dependencia es de:",
+            "options": [
+                "a) Grandes empresas: 6 meses, PYMES: 8 meses, Microempresas: 12 meses",
+                "b) Grandes empresas: 8 meses, PYMES: 6 meses, Microempresas: 3 meses"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 5,
+            "question": "¿Qué elemento NO forma parte de la cultura organizacional según Edgar Schein?",
+            "options": [
+                "a) Supuestos inconscientes",
+                "b) Valores",
+                "c) Indicadores de gestión"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 6,
+            "question": "Ser dueño de una carrera disruptiva en la actualidad hace referencia a:",
+            "options": [
+                "a) La autogestión de carrera y una carrera por proyectos",
+                "b) Un plan de carrera bien definido con mesetas y logros"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 7,
+            "question": "Dave Ulrich refiere que RRHH tiene 4 roles y a cada uno lo identifica con una metáfora que se detallan abajo. ¿Cuál de esas metáforas corresponde al rol \"Management de la Infraestructura\"?",
+            "options": [
+                "a) Experto Administrativo",
+                "b) Agente de cambio",
+                "c) Socio Estratégico",
+                "d) Adalid de los empleados"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 8,
+            "question": "Una Descripción de puesto estándar contiene la siguiente información:",
+            "options": [
+                "a) Código y Nombre, Visión, Misión, Principales Responsabilidades, Experiencia, Red de trabajo",
+                "b) Gerencia, Identidad, Principales Responsabilidades y Conocimientos, Red de contactos",
+                "c) Identidad, Misión, Principales Responsabilidades, Dimensiones, Conocimientos y Experiencia, Red operacional"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 9,
+            "question": "En términos del rendimiento esperado de las personas, la brecha entre “lo que se tiene” y “lo que se necesita” se reduce principalmente mediante:",
+            "options": [
+                "a) El rediseño de procesos y la automatización tecnológica.",
+                "b) El desarrollo de las personas que componen la organización",
+                "c) La evaluación periódica del clima organizacional."
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 10,
+            "question": "Un gerente solicita capacitación para su equipo “porque bajó la productividad”. RRHH descubre que la causa principal es falta de insumos por problemas del proveedor. ¿Qué concepto ilustra este caso?",
+            "options": [
+                "a) Confusión entre el nivel del rendimiento observado y la necesidad de capacitación",
+                "b) Carencia de convenios de aprendizaje con el cliente interno",
+                "c) Falta de alineación entre nivel 2 y nivel 3 del modelo de Kirkpatrick"
+            ],
+            "answerIndex": 0
+        }
+    ]
+}

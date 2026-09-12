@@ -1,0 +1,111 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-p2-2026-b",
+    "title": "Modelo 2do Parcial - 2026 (B)",
+    "description": "Preguntas de un modelo real",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Según la presentación de Tenaris ¿quiénes intervienen en la \"evaluación 360\"?",
+            "options": [
+                "a) Autoevaluación (empleado) • Evaluación ascendente (equipo) • Evaluación Cliente-Proveedor (stakeholders) • Evaluación secundaria (supervisor)",
+                "b) Evaluación primaria (supervisor) • Autoevaluación (empleado) • Evaluación ascendente (equipo) • Evaluación Cliente-Proveedor (stakeholders)",
+                "c) Autoevaluación (empleado) • Evaluación primaria (supervisor) • Evaluación ascendente (equipo) • Evaluación Cliente-Proveedor (stakeholders)"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 2,
+            "question": "Los sesgos inconscientes afectan el desarrollo profesional porque:",
+            "options": [
+                "a) Impiden repetir experiencias previas que aseguren resultados conocidos",
+                "b) Funcionan como atajos mentales que impiden ver el verdadero talento",
+                "c) Reducen la capacidad de juicio y decisión."
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 3,
+            "question": "¿Cuál de las siguientes acciones NO es parte de un contrato de desempeño productivo con el jefe?",
+            "options": [
+                "a) Aceptar pasivamente todos los objetivos asignados",
+                "b) Clarificar la demanda",
+                "c) Evaluar límites y capacidades",
+                "d) Negociar recursos necesarios"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 4,
+            "question": "El estilo de aprendizaje Divergente se asocia con personas:",
+            "options": [
+                "a) Creativas, emocionales y empáticas, que prefieren el trabajo grupal",
+                "b) Pragmáticas, enfocadas en la aplicación práctica inmediata",
+                "c) Analíticas, sistemáticas y planificadoras"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 5,
+            "question": "¿Cuál es estas acciones corresponde al nivel 1 del modelo de Paul Hersey y Kenneth H. Blanchard?",
+            "options": [
+                "a) Dar precisas instrucciones.",
+                "b) Mostrar el impacto de una tarea.",
+                "c) Habilitar para actuar."
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 6,
+            "question": "Un colaborador que domina completamente su tarea y la ejecuta con responsabilidad se encuentra en el nivel de autonomía:",
+            "options": [
+                "a) 4",
+                "b) 1",
+                "c) 3",
+                "d) 2"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 7,
+            "question": "El estilo de aprendizaje que combina experiencia concreta y experimentación activa se denomina:",
+            "options": [
+                "a) Divergente",
+                "b) Acomodador",
+                "c) Convergente"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 8,
+            "question": "Según Stanislas Dehaene, el segundo pilar del aprendizaje es el compromiso activo, e implica:",
+            "options": [
+                "a) Repetir experiencias previas que aseguren resultados conocidos",
+                "b) Memorizar contenidos para aplicarlos sin modificación",
+                "c) Rechazar la pasividad y explorar activamente hipótesis en interacción con el entorno"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 9,
+            "question": "La evaluación de desempeño es una herramienta para que el líder...",
+            "options": [
+                "a) Evalúe solamente el cumplimiento de la técnica que su equipo utiliza para realizar su trabajo.",
+                "b) Alinee su área con las metas de la empresa.",
+                "c) Aplique sanciones disciplinarias de forma inmediata y fehaciente."
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 10,
+            "question": "Este objetivo, ¿cumple el criterio SMART? \"Capacitación sobre trabajo en alturas a todos los empleados del sector de Acería. Medición: Reducción en un 50% de los accidentes en alturas antes del 30 de Junio de 2026\"",
+            "options": [
+                "a) No, no es SMART",
+                "b) Sí, es SMART"
+            ],
+            "answerIndex": 1
+        }
+    ]
+}

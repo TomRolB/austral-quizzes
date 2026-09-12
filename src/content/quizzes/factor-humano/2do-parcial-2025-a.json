@@ -1,0 +1,111 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-p2-2025-a",
+    "title": "Modelo 2do Parcial - 2025 (A)",
+    "description": "Preguntas de un modelo real",
+    "questions": [
+        {
+            "id": 1,
+            "question": "¿Cuáles de las siguientes no son estrategias que podemos utilizar para la gestión del tiempo?",
+            "options": [
+                "a) Establecer los no negociables y las pequeñas tareas",
+                "b) Enfocarse en la procrastinación y la autosuficiencia",
+                "c) Establecer los no negociables y los bloques y tareas"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 2,
+            "question": "En el modelo de Donald Kirkpatrick, evaluar si los participantes aplican lo aprendido al regresar a su puesto corresponde al nivel:",
+            "options": [
+                "a) Aprendizaje",
+                "b) Resultados",
+                "c) Comportamiento"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 3,
+            "question": "Las personas con ancla de carrera \"competencia gerencial\" se sienten motivadas principalmente por:",
+            "options": [
+                "a) El poder, la toma de decisiones y la responsabilidad por los resultados",
+                "b) El dominio técnico de una tarea específica",
+                "c) La seguridad que les brinda un empleo estable"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 4,
+            "question": "¿Cuáles son los pasos para identificar/administrar nuestras tareas?",
+            "options": [
+                "a) Identificar objetivos - establecer roles - reflexionar",
+                "b) Medir las tareas - identificar rutinas - usar la técnica SMART",
+                "c) Identificar roles - establecer objetivos - reflexionar"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 5,
+            "question": "¿Cuál es la herramienta que permite mantener la brecha de conocimientos en un nivel manejable?",
+            "options": [
+                "a) La capacitación",
+                "b) El feedback en tiempo y forma sobre el desempeño demostrado",
+                "c) La rotación de tareas"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 6,
+            "question": "La evaluación de desempeño es...",
+            "options": [
+                "a) El proceso de comparar el desempeño y las calificaciones del empleado en relación con los requerimientos del puesto para el que fuese contratado.",
+                "b) Un proceso anual en la que el líder valora los resultados cuantitativos alcanzados por los colaboradores, sin necesidad de retroalimentación, ya que los datos hablan por sí solos. Es un proceso estandarizado que no requiere adaptación al contexto o al rol de cada persona.",
+                "c) Un proceso correctivo que busca señalar errores individuales para mantener la disciplina dentro del equipo."
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 7,
+            "question": "Los sesgos inconscientes afectan el desarrollo profesional porque:",
+            "options": [
+                "a) Reducen la capacidad de juicio y decisión.",
+                "b) Funcionan como atajos mentales que impiden ver el verdadero talento",
+                "c) Impiden repetir experiencias previas que aseguren resultados conocidos"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 8,
+            "question": "De qué facultad se habla en este caso: \"establecer un manual de la empresa y un manual de comportamiento\"",
+            "options": [
+                "a) Facultad de Ius variandi",
+                "b) Facultad de relaciones individuales",
+                "c) Facultad de organización y dirección"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 9,
+            "question": "Señalar la respuesta verdadera. Un sistema de gestión de desempeño que no promueva la calibración de los objetivos personales a nivel inter e intra sectorial permitirá, entre otras cosas:",
+            "options": [
+                "a) Que haya congruencia en el nivel de exigencia de los objetivos definidos en una empresa",
+                "b) Reducir la alineación entre los objetivos de la empresa y los personales",
+                "c) Alineación entre los objetivos estratégicos de la empresa y los definidos a sus miembros"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 10,
+            "question": "¿Cuál de las siguientes afirmaciones no es correcta según la Ley de Teletrabajo en Argentina?",
+            "options": [
+                "a) El empleador debe proveer los elementos de trabajo necesarios para la prestación de tareas.",
+                "b) La jornada laboral debe ser acordada previamente respetando los límites legales de trabajo.",
+                "c) El teletrabajador no tiene derecho a revertir el teletrabajo y regresar a la modalidad presencial.",
+                "d) El teletrabajador debe tener los mismos derechos y obligaciones que quienes trabajan de manera presencial."
+            ],
+            "answerIndex": 2
+        }
+    ]
+}

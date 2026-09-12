@@ -1,0 +1,116 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-p1-adicional",
+    "title": "Modelo 1er Parcial - Adicional",
+    "description": "Preguntas de un modelo real, sin fecha registrada",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Señale la respuesta correcta",
+            "options": [
+                "a) Para hacer la descripción de un puesto de trabajo primero debo hacer la valuación del mismo",
+                "b) Es indistinto hacer primero una u otra",
+                "c) Para hacer la valuación de un puesto de trabajo primero debo hacer la descripción del mismo"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 2,
+            "question": "¿Cuál es estas 4 palabras es la correcta para completar esta declaración? La ....... de una empresa es una declaración duradera del objeto, propósito o razón de ser de la misma ante la sociedad.",
+            "options": [
+                "a) Promesa institucional",
+                "b) Estrategia",
+                "c) Visión",
+                "d) Misión"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 3,
+            "question": "Tomando en cuenta el autor Dave Ulrich cuando se refiere a los Roles de RRHH, indicar cuáles de estas declaraciones son correctas:",
+            "options": [
+                "a) El rol Management de la infraestructura está orientado a los procesos y lo operativo",
+                "b) El rol Management de la transformación y el cambio está orientado a los procesos y lo estratégico",
+                "c) El rol Management de los recursos humanos estratégicos está orientado a las personas y lo estratégico",
+                "d) El rol Management de la contribución de los empleados está orientado a las personas y lo operativo"
+            ],
+            "answerIndexes": [0, 3]
+        },
+        {
+            "id": 4,
+            "question": "El puesto de trabajo de una organización está compuesto por diferentes elementos, señale cuáles son:",
+            "options": [
+                "a) Procesos",
+                "b) Resultados",
+                "c) Competencias",
+                "d) Expectativas"
+            ],
+            "answerIndexes": [0, 1, 2]
+        },
+        {
+            "id": 5,
+            "question": "Si una necesidad de capacitación se origina por un cambio en el puesto de trabajo o en la organización se la considera que está enmarcada dentro del área de:",
+            "options": [
+                "a) Corrección",
+                "b) Ninguna de las dos",
+                "c) Prevención"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 6,
+            "question": "Señale las declaraciones correctas con respecto a las Relaciones Laborales:",
+            "options": [
+                "a) Los Sindicatos se definen por “Profesión/Oficio”, “Actividad” y \"Empresa\"",
+                "b) El fuero o tutela sindical protege al Delegado Gremial de un posible comportamiento antisindical del empleador",
+                "c) Las Relaciones Laborales de una empresa son aquellas que se establecen entre las personas del mismo nivel Jerárquico",
+                "d) El Delegado Gremial es elegido por el Sindicato con Personería Jurídica"
+            ],
+            "answerIndexes": [0, 1]
+        },
+        {
+            "id": 7,
+            "question": "Señale cuáles de estas decisiones pueden generar necesidades de capacitación",
+            "options": [
+                "a) Renovación de maquinaria",
+                "b) Reducción de personal",
+                "c) Mejoramiento de la línea de crédito",
+                "d) Lanzamiento de una nueva versión de un producto existente"
+            ],
+            "answerIndexes": [0, 1, 3]
+        },
+        {
+            "id": 8,
+            "question": "Señale la declaración que describe correctamente el \"Sistema Sindical Argentino\":",
+            "options": [
+                "a) El Sistema Sindical Argentino tiene 3 niveles: 1er grado los Sindicatos, 2do grado las Federaciones y 3er grado las Confederaciones",
+                "b) El Sistema Sindical Argentino tiene 3 niveles; 1er grado los Sindicatos, 2do grado las Confederaciones, y 3er Grado las Federaciones",
+                "c) El Sistema Sindical Argentino tiene 3 niveles: 1er grado las Confederaciones, 2do grado las Federaciones y 3er Grado los Sindicatos"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 9,
+            "question": "Señale cuáles de estas declaraciones -según el modelo de Donald L. Kirkpatrick sobre evaluación de eficacia de la capacitación- permiten evaluar la eficacia de la capacitación:",
+            "options": [
+                "a) El grado en que los participantes encuentran a la capacitación favorable, atractiva y relevante para sus trabajos.",
+                "b) El grado en el que los participantes aplican lo aprendido durante la capacitación cuando están de regreso en sus posiciones de trabajo.",
+                "c) El grado en que los participantes adquieren el conocimiento objetivo, las habilidades, la actitud, la confianza y el compromiso basados en su participación en el entrenamiento.",
+                "d) El grado en el que se producen los resultados esperados del programa y estos contribuyen al resultado más alto de la organización"
+            ],
+            "answerIndexes": [0, 1, 2, 3]
+        },
+        {
+            "id": 10,
+            "question": "Las empresas y los colaboradores que las conforman tienen expectativas mutuas y día a día se generan transacciones al respecto que se espera sean de beneficio mutuo. ¿Cómo se deben administrar diariamente esas expectativas?",
+            "options": [
+                "a) A través de los Líderes en general de la empresa aplicando procesos/herramientas de gestión que facilita la Gerencia de RRHH",
+                "b) A través de los Líderes en general de la empresa aplicando su experiencia y buen criterio en la gestión de personas",
+                "c) A través exclusivamente del plantel Gerencial de la empresa aplicando procesos/herramientas de gestión que facilita la Gerencia de RRHH"
+            ],
+            "answerIndex": 0
+        }
+    ]
+}

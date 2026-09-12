@@ -1,0 +1,114 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-p1-2021-septiembre",
+    "title": "Modelo 1er Parcial - Septiembre 2021",
+    "description": "Preguntas de un modelo real",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Según el derecho del trabajo argentino, el \"Ius Variandi\" es la facultad que tiene el trabajador:",
+            "options": [
+                "a) De modificar las formas y modalidades del trabajo",
+                "b) Ninguna de las dos",
+                "c) De ser Delegado Gremial"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 2,
+            "question": "Señale cuáles de estas decisiones pueden generar necesidades de capacitación",
+            "options": [
+                "a) Renovación de maquinaria",
+                "b) Lanzamiento de una nueva versión de un producto existente",
+                "c) Mejoramiento de la línea de crédito",
+                "d) Reducción de personal"
+            ],
+            "answerIndexes": [0, 1, 3]
+        },
+        {
+            "id": 3,
+            "question": "Señale la declaración que describe correctamente el \"Sistema Sindical Argentino\":",
+            "options": [
+                "a) El Sistema Sindical Argentino tiene 3 niveles: 1er grado los Sindicatos, 2do grado las Federaciones y 3er grado las Confederaciones",
+                "b) El Sistema Sindical Argentino tiene 3 niveles; 1er grado los Sindicatos, 2do grado las Confederaciones, y 3er Grado las Federaciones",
+                "c) El Sistema Sindical Argentino tiene 3 niveles: 1er grado las Confederaciones, 2do grado las Federaciones y 3er Grado los Sindicatos"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 4,
+            "question": "Tomando en cuenta el autor Dave Ulrich en su libro RRHH Champions cuando se refiere a los Roles de RRHH, indicar cuáles de estas declaraciones son incorrectas:",
+            "options": [
+                "a) El rol de conducir la transformación y el cambio está orientado a los procesos y lo estratégico",
+                "b) El rol de gerenciamiento de la infraestructura de la empresa está orientado a los procesos y lo cotidiano/operativo",
+                "c) El rol líder de gerenciamiento de la contribución de los empleados orientado a las personas y lo operativo/cotidiano",
+                "d) El rol de gerenciamiento de recursos humanos estratégicos está orientado a las personas y lo estratégico"
+            ],
+            "answerIndexes": [0, 3]
+        },
+        {
+            "id": 5,
+            "question": "Las herramientas de gestión o procesos de Recursos Humanos son desarrolladas para que los Líderes administren el vínculo entre la compañía y las personas con criterios comunes y transparentes de modo que todas las personas puedan:",
+            "options": [
+                "a) Identificar bases objetivas para el crecimiento y condiciones para hacer carrera",
+                "b) Hacerse cargo de su propio desempeño y de los premios y castigos que resulten como consecuencia",
+                "c) Mostrar a los proveedores el rumbo de la organización",
+                "d) Reconocer reglas de juego claras y aplicables para todos"
+            ],
+            "answerIndexes": [0, 1, 3]
+        },
+        {
+            "id": 6,
+            "question": "Señale cuáles de estas declaraciones -según el modelo de Donald L. Kirkpatrick sobre evaluación de eficacia de la capacitación- permiten evaluar la eficacia de la capacitación:",
+            "options": [
+                "a) El grado en que los participantes encuentran a la capacitación favorable, atractiva y relevante para sus trabajos.",
+                "b) El grado en el que los participantes aplican lo aprendido durante la capacitación cuando están de regreso en sus posiciones de trabajo.",
+                "c) El grado en el que se producen los resultados esperados del programa y estos contribuyen al resultado más alto de la organización",
+                "d) El grado en que los participantes adquieren el conocimiento objetivo, las habilidades, la actitud, la confianza y el compromiso basados en su participación en el entrenamiento."
+            ],
+            "answerIndexes": [0, 1, 2, 3]
+        },
+        {
+            "id": 7,
+            "question": "Señale cuáles son las ventajas que tiene una empresa, entre otras, al realizar Job Posting",
+            "options": [
+                "a) Periodo de inducción al puesto más corto",
+                "b) Mayor compromiso y sentido de pertenencia",
+                "c) Es una manera para identificar talentos externos y con mucho potencial"
+            ],
+            "answerIndexes": [0, 1]
+        },
+        {
+            "id": 8,
+            "question": "¿Esta definición a qué hace referencia? => Proceso por el cual se identifica el contenido significativo de un puesto de trabajo desde un punto de vista organizacional.",
+            "options": [
+                "a) Ambas respuestas son correctas",
+                "b) Descripción de un puesto de trabajo",
+                "c) Valuación de un puesto de trabajo"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 9,
+            "question": "Las empresas y los colaboradores que las conforman tienen expectativas mutuas y día a día se generan transacciones al respecto que se espera sean de beneficio mutuo. ¿Cómo se deben administrar diariamente esas expectativas?",
+            "options": [
+                "a) A través de los Líderes en general de la empresa aplicando procesos/herramientas de gestión que facilita la Gerencia de RRHH",
+                "b) A través de los Líderes en general de la empresa aplicando su experiencia y buen criterio en la gestión de personas",
+                "c) A través exclusivamente del plantel Gerencial de la empresa aplicando procesos/herramientas de gestión que facilita la Gerencia de RRHH"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 10,
+            "question": "Si una necesidad de capacitación se origina por un cambio en el puesto de trabajo o en la organización se la considera que está enmarcada dentro del área de:",
+            "options": [
+                "a) Prevención",
+                "b) Corrección",
+                "c) Ninguna de las dos"
+            ],
+            "answerIndex": 0
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-p2-2023",
+    "title": "Modelo 2do Parcial - 2023",
+    "description": "Preguntas de un modelo real",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Señalar las respuestas incorrectas. Al momento de dar feedback a un colaborador, le digo lo que veo y le pregunto...:",
+            "options": [
+                "a) cómo lo hizo",
+                "b) ¿para qué?",
+                "c) ¿por qué?"
+            ],
+            "answerIndexes": [0, 1]
+        },
+        {
+            "id": 2,
+            "question": "Señalar las declaraciones incorrectas: En la gestión del desempeño…",
+            "options": [
+                "a) Si analizamos los objetivos \"de abajo hacia arriba\" de la estructura organizacional, éstos deben estar alineados",
+                "b) Si analizamos los objetivos \"de arriba hacia abajo\" de la estructura organizacional, éstos deben estar alineados",
+                "c) Si analizamos los objetivos \"de arriba hacia abajo\" de la estructura organizacional, éstos deben ser constructivos",
+                "d) Si analizamos los objetivos \"de abajo hacia arriba\" de la estructura organizacional, éstos deben ser constructivos"
+            ],
+            "answerIndexes": [0, 2]
+        },
+        {
+            "id": 3,
+            "question": "Señalar las declaraciones incorrectas:",
+            "options": [
+                "a) La gestión del desempeño busca lograr la mejora del nivel de satisfacción de los proveedores de una empresa",
+                "b) La gestión del desempeño permite a los miembros de una empresa alcanzar su máxima satisfacción",
+                "c) La gestión del desempeño es un proceso estructurado pero no continuo",
+                "d) La gestión del desempeño permite hacer una medición relativa de la contribución de las personas a la organización",
+                "e) La gestión del desempeño promueve la legitimización del disenso entre líder y liderado"
+            ],
+            "answerIndexes": [0, 2]
+        },
+        {
+            "id": 4,
+            "question": "Considerando el mindset \"Mentalidad de crecimiento\" de Carol Dweck:",
+            "options": [
+                "a) El esfuerzo no es necesario para crecer",
+                "b) El esfuerzo es necesario para crecer"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 5,
+            "question": "Modelo de liderazgo situacional. Uno de sus colaboradores mostró desde el principio fuerte disposición a utilizar el nuevo sistema. Aprendió rápidamente, valora sus beneficios, y hoy se desempeña al mismo nivel de excelencia que antes del cambio. ¿Qué es más efectivo hacer?",
+            "options": [
+                "a) Darle soporte con precisas instrucciones y controlarlo con más frecuencia para evitar que cometa errores.",
+                "b) Darle autonomía para que se acomode solo a la nueva situación.",
+                "c) Reunirse con su colaborador para explicitarle los beneficios de operar con el nuevo sistema y dar argumentos sobre la conveniencia de su uso."
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 6,
+            "question": "Señalar la respuesta verdadera. Un sistema de gestión de desempeño que no promueva la calibración de los objetivos personales a nivel inter e intra sectorial puede generar, entre otras cosas:",
+            "options": [
+                "a) Que haya alineación entre los objetivos estratégicos de la empresa y los definidos a sus miembros",
+                "b) Que haya congruencia en el nivel de exigencia de los objetivos definidos en una empresa",
+                "c) Reducir la alineación entre los objetivos de la empresa y los personales"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 7,
+            "question": "Las principales oportunidades de aprendizaje en el trabajo se me darán a partir de:",
+            "options": [
+                "a) Los cursos de capacitación que participo",
+                "b) El feedback recibido de parte de mi líder y la reflexión que hago al respecto.",
+                "c) Los objetivos y responsabilidades que me son asignadas."
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 8,
+            "question": "Modelo de liderazgo situacional. Usted cuenta con un colaborador muy eficiente y confiable en el manejo de procesos administrativos. Se están por implementar algunos ajustes en los procesos de actualización de archivos de documentación. ¿Qué es más efectivo hacer?",
+            "options": [
+                "a) Explica al colaborador las razones de los cambios que fueron decididos y da fundamentos sobre el valor de tener un sistema confiable de archivo de documentos",
+                "b) Hace intervenir al colaborador en las discusiones y delega en él la forma de implementar los cambios",
+                "c) Diseña el nuevo procedimiento y lo comunica al colaborador para que lo implemente"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 9,
+            "question": "¿Cuál de estas acciones o canales de comunicación es horizontal?",
+            "options": [
+                "a) Encuesta de satisfacción a los empleados",
+                "b) Reclamos y sugerencias de los colaboradores",
+                "c) Acuerdos de servicio interárea"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 10,
+            "question": "Señale la respuesta incorrecta con relación a estas consideraciones acerca del modelo del liderazgo situacional:",
+            "options": [
+                "a) El liderazgo es un servicio que se brinda al colaborador",
+                "b) Las características de cada colaborador en cada situación son diferentes y cambiantes, por lo tanto es el líder el que puede y debe adecuar su estilo de liderazgo según sea necesario.",
+                "c) Llamamos autonomía o madurez a la capacidad que demuestra el colaborador para asumir sus errores en tiempo y forma"
+            ],
+            "answerIndex": 2
+        }
+    ]
+}
