@@ -1,0 +1,111 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-p2-2022-junio",
+    "title": "Modelo 2do Parcial - Junio 2022",
+    "description": "Preguntas de un modelo real",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Modelo de liderazgo situacional. Uno de sus colaboradores ha venido obteniendo logros en una tarea que se le asignó recientemente. Usted ha estado controlando y contribuyendo con indicaciones precisas a estos logros. El colaborador va ganando en seguridad para realizar la tarea. ¿Qué es más efectivo hacer?",
+            "options": [
+                "a) Pedir al colaborador sugerencias de cómo mejorar la realización de la tarea.",
+                "b) Reunirse con el colaborador y conversar sobre el trabajo realizado, dar argumentos sobre la importancia de cumplir los procedimientos pautados y acordar cómo continuará monitoreando la tarea en el futuro.",
+                "c) Dejar que el colaborador se desempeñe con total autonomía en esta tarea."
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 2,
+            "question": "Señalar la respuesta verdadera. Un sistema de gestión de desempeño que no promueva la calibración de los objetivos personales a nivel inter e intra sectorial puede generar, entre otras cosas:",
+            "options": [
+                "a) Reducir la alineación entre los objetivos de la empresa y los personales",
+                "b) Que haya congruencia en el nivel de exigencia de los objetivos definidos en una empresa",
+                "c) Que haya alineación entre los objetivos estratégicos de la empresa y los definidos a sus miembros"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 3,
+            "question": "Señalar la declaración incorrecta:",
+            "options": [
+                "a) En la gestión del desempeño, los responsables de todo el proceso son los evaluadores",
+                "b) En la gestión del desempeño se hace una medición relativa de la contribución de las personas a la organización",
+                "c) En la gestión del desempeño, no hay espacio para el disenso entre líder y liderado"
+            ],
+            "answerIndexes": [2]
+        },
+        {
+            "id": 4,
+            "question": "Las principales oportunidades de aprendizaje en el trabajo se me darán a partir de:",
+            "options": [
+                "a) Los cursos de capacitación que participo",
+                "b) Los objetivos y responsabilidades que me son asignadas.",
+                "c) El feedback recibido de parte de mi líder y la reflexión que hago al respecto."
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 5,
+            "question": "¿Cuál es el orden cronológico del círculo virtuoso del aprendizaje?",
+            "options": [
+                "a) Aprender / Evaluar / Reflexionar / Practicar",
+                "b) Reflexionar / Evaluar / Aprender / Practicar",
+                "c) Evaluar / Reflexionar / Aprender / Practicar"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 6,
+            "question": "Señalar la respuesta correcta. Al momento de dar feedback a un colaborador, le digo lo que veo y le pregunto...:",
+            "options": [
+                "a) cómo lo hizo",
+                "b) para qué?",
+                "c) por qué?"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 7,
+            "question": "Modelo de liderazgo situacional. Usted cuenta con un colaborador muy eficiente y confiable en el manejo de procesos administrativos. Se están por implementar algunos ajustes en los procesos de actualización de archivos de documentación. ¿Qué es más efectivo hacer?",
+            "options": [
+                "a) Explica al colaborador las razones de los cambios que fueron decididos y da fundamentos sobre el valor de tener un sistema confiable de archivo de documentos",
+                "b) Diseña el nuevo procedimiento y lo comunica al colaborador para que lo implemente",
+                "c) Hace intervenir al colaborador en las discusiones y delega en él la forma de implementar los cambios"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 8,
+            "question": "Señalar las respuestas correctas. Para realizar un contrato de desempeño productivo con mi propio Jefe debo:",
+            "options": [
+                "a) Suspender por un momento las propias ideas, hacer que hable el jefe, y escuchar con atención",
+                "b) Abrir la cabeza y los oídos para recibir el mandato del Jefe",
+                "c) Hacer valer ante todo mis preferencias personales en torno a mi desarrollo profesional",
+                "d) Vincular mis objetivos con los de otras personas, del mismo u otro sector"
+            ],
+            "answerIndexes": [0, 1, 3]
+        },
+        {
+            "id": 9,
+            "question": "Señalar la respuesta incorrecta. La evaluación del desempeño de una persona es una medición:",
+            "options": [
+                "a) Absoluta",
+                "b) Relativa"
+            ],
+            "answerIndexes": [0]
+        },
+        {
+            "id": 10,
+            "question": "Ud. es el líder de una persona en una empresa y debe establecerle los objetivos para el año en curso. ¿Cuál de estas acciones debería hacer primero?",
+            "options": [
+                "a) Identificar necesidades de formación",
+                "b) Clarificar mi demanda",
+                "c) Definir y comunicar los objetivos",
+                "d) Establecer el desempeño esperado"
+            ],
+            "answerIndex": 1
+        }
+    ]
+}
