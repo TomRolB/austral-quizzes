@@ -1,0 +1,387 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-u5",
+    "kind": "practice",
+    "title": "Unidad 5 - Gestión del desempeño",
+    "description": "Preguntas de práctica sobre etapas, objetivos, competencias, calibración, la charla de Tenaris y el material de lectura (no es un modelo real)",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Según la frase de William Thomson Kelvin que abre la unidad: \"Lo que no se define no se puede medir. Lo que no se mide, no se puede mejorar. Lo que no se mejora...\"",
+            "options": [
+                "a) se vuelve irrelevante para el negocio",
+                "b) termina siendo reemplazado por otra cosa",
+                "c) se degrada siempre"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 2,
+            "question": "Señalar lo que permite la medición de resultados en las organizaciones, según la unidad:",
+            "options": [
+                "a) Verificar el grado de efectividad de las acciones implementadas",
+                "b) Reemplazar el diálogo entre líder y liderado por indicadores automáticos",
+                "c) Establecer criterios objetivos para la toma de decisiones futuras",
+                "d) Eliminar por completo la subjetividad de las decisiones de la gerencia"
+            ],
+            "answerIndexes": [0, 2]
+        },
+        {
+            "id": 3,
+            "question": "La gestión del desempeño integra \"el qué\" y \"el cómo\". ¿A qué corresponde cada uno?",
+            "options": [
+                "a) El qué: los objetivos (cuantitativo); el cómo: las competencias (cualitativo)",
+                "b) El qué: las competencias (cualitativo); el cómo: los objetivos (cuantitativo)",
+                "c) El qué: el presupuesto del sector; el cómo: los procedimientos del puesto"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 4,
+            "question": "En la etapa de Planificación y acuerdo, las preguntas que se responden son:",
+            "options": [
+                "a) ¿Qué estamos logrando? y ¿Cómo lo estamos logrando?",
+                "b) ¿Qué debemos lograr? y ¿Cómo lo debemos lograr?",
+                "c) ¿Qué hemos logrado? y ¿Cómo lo hemos logrado?"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 5,
+            "question": "Según la unidad, ¿quiénes son los responsables de todo el proceso de gestión del desempeño?",
+            "options": [
+                "a) Recursos Humanos, que lo diseña y lo conduce en cada una de sus etapas",
+                "b) Los colaboradores evaluados, a través de su propia autoevaluación anual",
+                "c) Los evaluadores: gerentes, jefes, supervisores y coordinadores"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 6,
+            "question": "En el proceso de gestión del desempeño, el rol de Recursos Humanos es:",
+            "options": [
+                "a) Actuar de soporte, consejero y coordinador en cada una de las etapas",
+                "b) Conducir el proceso y fijar los objetivos de cada uno de los colaboradores",
+                "c) Calificar a todos los colaboradores con un criterio neutral y externo al sector"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 7,
+            "question": "Señalar las premisas funcionales de la gestión del desempeño:",
+            "options": [
+                "a) Requiere confrontación con la verdad",
+                "b) El evaluador decide los objetivos sin necesidad de acordarlos",
+                "c) El error debe ser tratado como oportunidad de aprender",
+                "d) Debe evitar conversaciones incómodas para cuidar el clima",
+                "e) Se legitima el disenso y la posibilidad de acuerdos"
+            ],
+            "answerIndexes": [0, 2, 4]
+        },
+        {
+            "id": 8,
+            "question": "En las slides de la cátedra los objetivos deben ser \"Específicos, Medibles, A..., Realistas y con Tiempo\". ¿Qué significa esa A?",
+            "options": [
+                "a) Ambiciosos, para que exijan más que el año anterior",
+                "b) Acordados entre el líder y el liderado",
+                "c) Alineados con el presupuesto del área de RRHH"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 9,
+            "question": "¿Cuál de estos objetivos está bien formulado?",
+            "options": [
+                "a) Reducir la rotación del personal para mejorar la estabilidad del equipo y el clima laboral",
+                "b) Mejorar los procesos de comunicación interna para que la información llegue más clara a todos",
+                "c) Implementar acciones para mejorar la motivación de los empleados y fortalecer su compromiso",
+                "d) Reducir en un 15% el tiempo promedio de cobertura de vacantes antes de junio de 2026"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 10,
+            "question": "¿Qué le falta al objetivo \"Desarrollar un plan de capacitación para fortalecer las habilidades del personal en liderazgo y trabajo en equipo\"?",
+            "options": [
+                "a) No está vinculado a ninguna competencia organizacional de la empresa",
+                "b) No indica qué persona del área de RRHH debe aprobarlo y firmarlo",
+                "c) No tiene una medida de logro ni un plazo para cumplirlo"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 11,
+            "question": "Señalar para qué le sirven al liderado (evaluado) sus objetivos personales:",
+            "options": [
+                "a) Tener mayor autonomía y ser facultado para tomar decisiones",
+                "b) Entender su contribución individual al objetivo colectivo",
+                "c) Delegar y generar tiempo para enfocarse en temas estratégicos",
+                "d) Disponer de una herramienta formal y objetiva para que se reconozcan sus logros"
+            ],
+            "answerIndexes": [0, 1, 3]
+        },
+        {
+            "id": 12,
+            "question": "Las competencias son:",
+            "options": [
+                "a) Los resultados cuantitativos que el colaborador acuerda con su líder al inicio del año",
+                "b) Conocimientos, habilidades y valores asociados a un desempeño exitoso; conductas observables",
+                "c) Los títulos y certificaciones que acreditan la formación necesaria para ocupar el puesto"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 13,
+            "question": "Las competencias que deben asumir quienes tienen la responsabilidad de conducir un equipo de trabajo se denominan:",
+            "options": [
+                "a) Organizacionales o genéricas",
+                "b) Funcionales operativas",
+                "c) Funcionales de conducción",
+                "d) Específicas técnicas"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 14,
+            "question": "Las competencias que todas las personas de la empresa deben desarrollar, independientemente de su nivel jerárquico o función, son las:",
+            "options": [
+                "a) Organizacionales o genéricas",
+                "b) Funcionales de conducción",
+                "c) Específicas técnicas",
+                "d) Funcionales operativas"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 15,
+            "question": "Señalar lo correcto sobre la etapa de Seguimiento:",
+            "options": [
+                "a) Es habitual un monitoreo informal frecuente y uno formal cada 6 meses",
+                "b) Conviene agendar el encuentro formal con tiempo y que ambos lleguen preparados",
+                "c) La calificación asignada en esta etapa es definitiva y no puede modificarse",
+                "d) Si cambia un objetivo o una meta, el cambio debe registrarse o formalizarse",
+                "e) Solo se realiza si el colaborador está rindiendo por debajo de lo esperado"
+            ],
+            "answerIndexes": [0, 1, 3]
+        },
+        {
+            "id": 16,
+            "question": "Para evaluar las competencias en la etapa de Evaluación de cumplimiento, se recomienda:",
+            "options": [
+                "a) Basarse en la impresión general del año para no sesgarse con hechos puntuales",
+                "b) Evaluar solo el último trimestre, que es el período más representativo del año",
+                "c) Recolectar ejemplos concretos que fundamenten el feedback y la opinión de otros evaluadores"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 17,
+            "question": "Si en la evaluación de cumplimiento un objetivo no se alcanzó, ¿qué conviene preguntarse primero?",
+            "options": [
+                "a) Qué porcentaje del bono corresponde descontarle según la escala vigente",
+                "b) Si la persona tuvo el apoyo o los recursos necesarios, o si necesita más tiempo",
+                "c) Si corresponde reemplazar a la persona por alguien con más experiencia en el rol"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 18,
+            "question": "En la distribución por Campana de Gauss, un ejemplo de porcentajes de referencia que dan algunas organizaciones es:",
+            "options": [
+                "a) 50% esperado, 25% por encima y 25% por debajo",
+                "b) 70% esperado, 15% por encima y 15% por debajo",
+                "c) 80% esperado, 10% por encima y 10% por debajo",
+                "d) 60% esperado, 30% por encima y 10% por debajo"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 19,
+            "question": "¿Por qué la Campana de Gauss puede ser un método cuestionable?",
+            "options": [
+                "a) Porque impide identificar a los mejores para reconocerlos, promoverlos o retenerlos",
+                "b) Porque obliga a que todos los empleados reciban exactamente la misma calificación",
+                "c) Porque fuerza los resultados: aunque todos trabajen bien, algunos quedarán debajo del promedio"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 20,
+            "question": "Señalar las afirmaciones correctas según los comentarios finales de la unidad:",
+            "options": [
+                "a) Todas las empresas deben dar el mismo peso a las metas que a los comportamientos",
+                "b) Las personas son evaluadas siempre, haya o no un sistema formalmente definido",
+                "c) El sistema funciona igual de bien aunque los evaluadores no lo dominen",
+                "d) Es errado ver la gestión del desempeño como algo que \"lo pide RRHH\""
+            ],
+            "answerIndexes": [1, 3]
+        },
+        {
+            "id": 21,
+            "question": "Según la charla de Tenaris, ¿cuántos objetivos tiene cada empleado y cómo se definen?",
+            "options": [
+                "a) Entre 4 y 7, acordados entre el empleado y su supervisor",
+                "b) Entre 2 y 3, fijados por Recursos Humanos para cada puesto",
+                "c) Entre 8 y 10, fijados por la dirección para toda la compañía"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 22,
+            "question": "En la escala de evaluación de Tenaris (de 1 a 5), el 3 significa:",
+            "options": [
+                "a) Cumple con la mayoría de las expectativas",
+                "b) Supera las expectativas",
+                "c) No cumple las expectativas",
+                "d) Cumple con las expectativas"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 23,
+            "question": "Señalar quiénes conforman el comité de calibración de Tenaris:",
+            "options": [
+                "a) Un representante sindical de la planta",
+                "b) Un presidente, que media y tiene la decisión final",
+                "c) El supervisor de cada empleado evaluado",
+                "d) El propio empleado que está siendo evaluado",
+                "e) Un representante de Recursos Humanos"
+            ],
+            "answerIndexes": [1, 2, 4]
+        },
+        {
+            "id": 24,
+            "question": "En Tenaris, ¿qué promedio de evaluación debe cumplir el comité al definir la distribución relativa del desempeño de la población profesional?",
+            "options": [
+                "a) 3,0",
+                "b) 4,0",
+                "c) 3,3"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 25,
+            "question": "Según la charla de Tenaris, el plan de desarrollo:",
+            "options": [
+                "a) Se define con responsable y fecha límite para asegurar su cumplimiento",
+                "b) Lo arma el empleado por su cuenta, sin seguimiento de su supervisor",
+                "c) Se aplica solamente a quienes obtuvieron la calificación más baja"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 26,
+            "question": "Según el material de lectura, ¿por qué el autor prefiere hablar de \"análisis\" antes que de \"evaluación\" del desempeño?",
+            "options": [
+                "a) Porque la evaluación la hace RRHH y el análisis lo hace el propio colaborador",
+                "b) Porque el análisis informa fortalezas y debilidades (áreas de mejora), no solo una nota",
+                "c) Porque el análisis se realiza una única vez, al momento de ingresar a la empresa"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 27,
+            "question": "Según el material de lectura, para lograr mejorar el desempeño del personal es necesario:",
+            "options": [
+                "a) Hacerle conocer claramente nuestras observaciones",
+                "b) Que la empresa detecte las áreas de mejora, aunque el empleado no coincida",
+                "c) Asegurarnos de que el empleado concuerde con lo señalado en áreas de mejora",
+                "d) Que el empleado esté dispuesto a lograr el cambio o mejora"
+            ],
+            "answerIndexes": [0, 2, 3]
+        },
+        {
+            "id": 28,
+            "question": "El material de lectura sostiene que es difícil \"mejorar a una persona\". ¿Qué considera más factible?",
+            "options": [
+                "a) Cambiar su personalidad",
+                "b) Modificar sus valores",
+                "c) Mejorar su performance"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 29,
+            "question": "¿Qué recomienda el material de lectura sobre vincular el programa de desempeño con la asignación de recompensas?",
+            "options": [
+                "a) No vincularlos: dejar que cada jefe distribuya las sumas disponibles según su criterio",
+                "b) Vincularlos siempre, asignando el aumento según la calificación que obtuvo cada uno",
+                "c) Vincularlos solo para el personal operativo y nunca para el personal de conducción"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 30,
+            "question": "Según el material de lectura, las variantes clásicas de análisis del desempeño son:",
+            "options": [
+                "a) Por antigüedad, por títulos obtenidos y por evaluación de pares",
+                "b) Por ranking, por campana de Gauss y por autoevaluación",
+                "c) Por competencias técnicas, de conducción y genéricas",
+                "d) Por factores (el cómo), por resultados u objetivos (el qué) y mixtos"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 31,
+            "question": "El \"principio de Peter\" citado en el material de lectura advierte que:",
+            "options": [
+                "a) Si el buen desempeño decide cada promoción, terminamos en nuestro nivel de incompetencia",
+                "b) El desempeño de un equipo depende siempre del integrante de menor rendimiento",
+                "c) Las personas rinden más cuando conocen los objetivos personales de su jefe"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 32,
+            "question": "En la recomendación práctica del material de lectura, el formulario de análisis de desempeño:",
+            "options": [
+                "a) Lo completa solo el responsable y se lo entrega firmado al colaborador",
+                "b) Lo completan ambos antes de la reunión, sin conocer la opinión del otro",
+                "c) Lo completa RRHH a partir de los indicadores de gestión del sector"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 33,
+            "question": "Según el material de lectura, la elección entre un sistema por factores, por objetivos o mixto debe fundarse, más que en criterios técnicos, en:",
+            "options": [
+                "a) El sistema que use la competencia directa del mismo rubro",
+                "b) La pericia y capacidad de quienes lo aplican (los supervisores)",
+                "c) La cantidad total de empleados que tenga la empresa"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 34,
+            "question": "Según el material de lectura, un sistema de desempeño que privilegia la cantidad de trabajo tiende a reforzar:",
+            "options": [
+                "a) La cultura de los resultados",
+                "b) La cultura del aprendizaje",
+                "c) La cultura del esfuerzo"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 35,
+            "question": "Según el material de lectura, el coaching es:",
+            "options": [
+                "a) Un programa de capacitación grupal, dictado en seminarios para todo un sector",
+                "b) Una forma de psicoterapia aplicada a los problemas personales del empleado",
+                "c) Una \"consultoría personalizada\" para descubrir los puntos ciegos de la propia gestión"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 36,
+            "question": "El material de lectura asocia el \"afilar la sierra\" de Stephen Covey con:",
+            "options": [
+                "a) El kaizen o la mejora continua",
+                "b) La reducción de costos del sistema",
+                "c) La distribución forzada de calificaciones"
+            ],
+            "answerIndex": 0
+        }
+    ]
+}

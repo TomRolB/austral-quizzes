@@ -1,0 +1,384 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-u7",
+    "kind": "practice",
+    "title": "Unidad 7 - Desarrollo profesional",
+    "description": "Preguntas de práctica sobre conceptos de carrera, desempeño y potencial, anclas de carrera, mindsets, estilos de Kolb y capacidades del futuro del trabajo (no es un modelo real)",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Ante la pregunta \"¿Somos lo que hacemos, o hacemos lo que somos?\", la unidad concluye que:",
+            "options": [
+                "a) Solo somos lo que hacemos: la identidad se construye únicamente con hábitos",
+                "b) Ambas ocurren a la vez: hay una relación circular entre pensamientos, hábitos e identidad",
+                "c) Solo hacemos lo que somos: la conducta visible es reflejo de una manera de ser previa"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 2,
+            "question": "Según la unidad, el desarrollo profesional:",
+            "options": [
+                "a) Depende exclusivamente de los programas formales que ofrezca la empresa",
+                "b) Solo existe cuando hay un plan de carrera formal y con cronología definida",
+                "c) Puede darse por esfuerzos individuales o con apoyo de la empresa"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 3,
+            "question": "La capacidad potencial de obtener un empleo similar o mejor al actual, compitiendo con otros en el mercado de trabajo, se llama:",
+            "options": [
+                "a) Carrera",
+                "b) Desarrollo",
+                "c) Plan de carrera",
+                "d) Empleabilidad"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 4,
+            "question": "Las iniciativas y actividades planificadas, no necesariamente con una cronología establecida, para que una persona pueda acceder a una nueva posición (generalmente más compleja) son:",
+            "options": [
+                "a) El plan o mapa de carrera",
+                "b) La empleabilidad",
+                "c) El cuadro de reemplazo",
+                "d) La matriz de talento"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 5,
+            "question": "Señalar las dimensiones de carrera vistas en la unidad:",
+            "options": [
+                "a) Crecimiento vertical o jerárquico",
+                "b) Crecimiento por antigüedad automática",
+                "c) Crecimiento horizontal o inter funcional",
+                "d) Crecimiento por inclusión (de la periferia al centro)",
+                "e) Crecimiento por rotación obligatoria anual"
+            ],
+            "answerIndexes": [0, 2, 3]
+        },
+        {
+            "id": 6,
+            "question": "Según la unidad, una persona que acaba de asumir un puesto nuevo puede tener temporalmente:",
+            "options": [
+                "a) Desempeño bajo, mientras su potencial es alto",
+                "b) Desempeño alto, mientras su potencial es bajo",
+                "c) Desempeño y potencial bajos de forma permanente"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 7,
+            "question": "Señalar para qué se usa el análisis de desempeño/potencial:",
+            "options": [
+                "a) Armar la matriz de talento (personas clave)",
+                "b) Definir planes de sucesión de puestos clave",
+                "c) Redactar la misión y la visión de la empresa",
+                "d) Armar cuadros de reemplazo",
+                "e) Decidir salarios, desvinculaciones, nuevos puestos y asignaciones"
+            ],
+            "answerIndexes": [0, 1, 3, 4]
+        },
+        {
+            "id": 8,
+            "question": "Según la unidad, ¿cuál es el primer paso para lograr el desarrollo profesional?",
+            "options": [
+                "a) Aprendizaje",
+                "b) Autoconocimiento",
+                "c) Definición de nuevos objetivos",
+                "d) Acompañamiento/supervisión"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 9,
+            "question": "Según la unidad, el propósito profesional:",
+            "options": [
+                "a) Lo define la empresa a partir de su misión y su visión institucional",
+                "b) Se define una única vez, al elegir la carrera universitaria, y ya no cambia",
+                "c) Es personal, recibe influencias internas y externas, y cambia con la vida"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 10,
+            "question": "Señalar para qué funcionan como guía las anclas de carrera en la vida laboral:",
+            "options": [
+                "a) Generar criterios para elegir los roles en los que uno quiere desempeñarse",
+                "b) Fijar el salario de mercado que corresponde a cada puesto de la empresa",
+                "c) Identificar patrones de ambición y criterios de éxito",
+                "d) Orientar el autodesarrollo e identificar la propia área de contribución"
+            ],
+            "answerIndexes": [0, 2, 3]
+        },
+        {
+            "id": 11,
+            "question": "¿Puede cambiar el ancla de carrera de una persona?",
+            "options": [
+                "a) No, es una característica innata que se mantiene toda la vida",
+                "b) Sí, conforme adquiere experiencia o amplía su frontera de conocimientos",
+                "c) Solo si la persona cambia de empresa o de rubro de actividad"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 12,
+            "question": "Personas que necesitan desarrollar su actividad a su propio modo y ritmo, a las que les cuesta someterse a reglamentaciones, horarios y normas; suelen inclinarse por proyectos, docencia o consultoría. ¿Qué ancla de carrera es?",
+            "options": [
+                "a) Estilo de vida",
+                "b) Creatividad empresarial",
+                "c) Autonomía / Independencia",
+                "d) Desafío puro"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 13,
+            "question": "Personas que tienen la necesidad de crear su propio proyecto (organizaciones, productos o servicios), conocidas como \"emprendedores\". ¿Qué ancla de carrera es?",
+            "options": [
+                "a) Creatividad empresarial",
+                "b) Competencia gerencial",
+                "c) Autonomía / Independencia",
+                "d) Servicio / Dedicación a una causa"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 14,
+            "question": "Personas altamente competitivas, para quienes el éxito es sobrepasar dificultades y resolver problemas muy complejos. ¿Qué ancla de carrera es?",
+            "options": [
+                "a) Competencia técnico / funcional",
+                "b) Seguridad / Estabilidad",
+                "c) Competencia gerencial",
+                "d) Desafío puro"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 15,
+            "question": "Personas que relegan una carrera ascendente para balancear sus necesidades personales, familiares y profesionales, y que necesitan flexibilidad en la contratación. ¿Qué ancla de carrera es?",
+            "options": [
+                "a) Seguridad / Estabilidad",
+                "b) Estilo de vida",
+                "c) Servicio / Dedicación a una causa",
+                "d) Autonomía / Independencia"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 16,
+            "question": "Personas que necesitan que su futuro sea previsible y priorizan las condiciones de contratación y la estabilidad en la compañía. ¿Qué ancla de carrera es?",
+            "options": [
+                "a) Estilo de vida",
+                "b) Competencia técnico / funcional",
+                "c) Seguridad / Estabilidad",
+                "d) Desafío puro"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 17,
+            "question": "Personas con alta motivación por aplicar sus habilidades en un área específica hasta un nivel muy alto, que se centran en el contenido del trabajo y buscan desafíos técnicos. ¿Qué ancla de carrera es?",
+            "options": [
+                "a) Competencia técnico / funcional",
+                "b) Competencia gerencial",
+                "c) Desafío puro",
+                "d) Creatividad empresarial"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 18,
+            "question": "Para las áreas de RRHH, las anclas de carrera ayudan a diseñar planes de carrera, cuadros de reemplazo y planes de sucesión, priorizando:",
+            "options": [
+                "a) Únicamente la capacidad actual de las personas, medida en su evaluación",
+                "b) Únicamente el potencial, medido por el comité de calibración anual",
+                "c) Además de capacidad y potencial, lo que hace sentir cómodas y contentas a las personas"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 19,
+            "question": "Según Carol Dweck, frente a la crítica, una persona con mentalidad de crecimiento:",
+            "options": [
+                "a) Se pone a la defensiva y se lo toma como algo personal",
+                "b) La aprecia y la usa para aprender",
+                "c) La ignora, porque cree que sus habilidades ya están dadas"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 20,
+            "question": "Según Carol Dweck, frente a los obstáculos, una persona con mentalidad fija tiende a:",
+            "options": [
+                "a) Echarse para atrás y evitarlos, porque los vive como una amenaza",
+                "b) Abrazarlos como una oportunidad para aprender y seguir creciendo",
+                "c) Pedir feedback a otros para encontrar una forma de superarlos"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 21,
+            "question": "En el modelo de Kolb, la dimensión \"cómo percibimos nuevas informaciones\" va entre:",
+            "options": [
+                "a) Experimentación activa y observación reflexiva",
+                "b) Observación reflexiva y conceptualización abstracta",
+                "c) Experiencia concreta y conceptualización abstracta"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 22,
+            "question": "En el modelo de Kolb, la dimensión \"cómo procesamos aquello que percibimos\" va entre:",
+            "options": [
+                "a) Experiencia concreta y conceptualización abstracta",
+                "b) Experimentación activa y observación reflexiva",
+                "c) Experiencia concreta y experimentación activa"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 23,
+            "question": "El estilo de aprendizaje que combina la conceptualización abstracta y la observación reflexiva es el:",
+            "options": [
+                "a) Acomodador",
+                "b) Divergente",
+                "c) Convergente",
+                "d) Asimilador"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 24,
+            "question": "Según la lectura de Kolb, ¿cuál es el orden del ciclo de conductas de aprendizaje?",
+            "options": [
+                "a) Experiencia concreta → Observación reflexiva → Conceptualización abstracta → Experimentación activa",
+                "b) Conceptualización abstracta → Experiencia concreta → Experimentación activa → Observación reflexiva",
+                "c) Observación reflexiva → Experimentación activa → Experiencia concreta → Conceptualización abstracta"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 25,
+            "question": "Según la lectura de Kolb, sin reflexión:",
+            "options": [
+                "a) Solo se aprende por ensayo y error repetitivo",
+                "b) No hay aprendizaje de la experiencia",
+                "c) Se aprende igual, aunque de forma más lenta"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 26,
+            "question": "Un estilo que \"no leerá nunca un manual\", trabaja rodeado de personas, consigue recursos, asume riesgos y se adapta a las circunstancias corresponde al:",
+            "options": [
+                "a) Asimilador",
+                "b) Convergente",
+                "c) Acomodador",
+                "d) Divergente"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 27,
+            "question": "Un estilo pragmático, que se pierde con muchas alternativas y es bueno en situaciones con una única vía de solución, corresponde al:",
+            "options": [
+                "a) Convergente",
+                "b) Divergente",
+                "c) Asimilador",
+                "d) Acomodador"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 28,
+            "question": "Según la lectura de Kolb, las dos formas de aprender de la experiencia son:",
+            "options": [
+                "a) Leyendo manuales y asistiendo a cursos formales de capacitación",
+                "b) Imitando al líder y recibiendo su evaluación de desempeño anual",
+                "c) Por ensayo y error (automatizando conductas) y reflexionando sobre ella"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 29,
+            "question": "Señalar cuáles son actividades formales de autodesarrollo:",
+            "options": [
+                "a) Rotaciones temporales en otra área",
+                "b) Cursos o talleres dentro o fuera de la empresa",
+                "c) Tutorías a un nuevo colaborador",
+                "d) Lectura de bibliografía especializada"
+            ],
+            "answerIndexes": [1, 3]
+        },
+        {
+            "id": 30,
+            "question": "Señalar cuáles son experiencias no convencionales de autodesarrollo:",
+            "options": [
+                "a) Ver videos o tutoriales de temas de interés",
+                "b) Actuar como instructor interno",
+                "c) Coordinar un grupo o comité de trabajo",
+                "d) Participar en eventos o charlas",
+                "e) Analizar causas o razones de un logro o error"
+            ],
+            "answerIndexes": [1, 2, 4]
+        },
+        {
+            "id": 31,
+            "question": "Según el artículo de Alejandro Melamed (basado en un informe del Foro Económico Mundial), la habilidad más demandada para el futuro del trabajo es:",
+            "options": [
+                "a) Liderazgo e influencia social",
+                "b) Pensamiento analítico e innovación",
+                "c) Diseño de tecnología y programación"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 32,
+            "question": "Según el artículo de Melamed, la segunda habilidad más demandada, cuya clave es \"aprender a aprender\", es:",
+            "options": [
+                "a) Aprendizaje activo y estrategias de aprendizaje",
+                "b) Resiliencia, tolerancia al estrés y flexibilidad",
+                "c) Creatividad, originalidad e iniciativa"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 33,
+            "question": "Según el informe citado por Melamed, ¿qué proporción de los empleados deberá volver a educarse (reskilling)?",
+            "options": [
+                "a) Uno de cada diez",
+                "b) Todos, sin excepción",
+                "c) La mitad"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 34,
+            "question": "Según Melamed, \"la nueva responsabilidad social empresaria\" se llama:",
+            "options": [
+                "a) Transformación digital",
+                "b) Empleabilidad",
+                "c) Reskilling"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 35,
+            "question": "Señalar lo que, según el cierre de la unidad, ayuda en el desarrollo profesional:",
+            "options": [
+                "a) Saber qué se espera de mí",
+                "b) Evitar las tareas desafiantes",
+                "c) Trabajo con significado",
+                "d) Recibir retroalimentación y reconocimiento",
+                "e) Trabajar aislado del equipo",
+                "f) Sentirme acompañado"
+            ],
+            "answerIndexes": [0, 2, 3, 5]
+        }
+    ]
+}

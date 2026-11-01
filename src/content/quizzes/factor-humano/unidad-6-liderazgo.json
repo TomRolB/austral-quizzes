@@ -1,0 +1,473 @@
+{
+    "courseId": "factor-humano",
+    "courseName": "Factor Humano",
+    "courseIcon": "👥",
+    "id": "quiz-fh-u6",
+    "kind": "practice",
+    "title": "Unidad 6 - Liderazgo",
+    "description": "Preguntas de práctica sobre el rol del líder, acuerdos de desempeño, feedback, liderazgo situacional, valores y la charla de Tenaris (no es un modelo real)",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Señalar cuáles figuran entre las variables que afectan al desempeño:",
+            "options": [
+                "a) Capacidades personales",
+                "b) Relación con el entorno",
+                "c) Cantidad de accionistas de la empresa",
+                "d) Actuación del líder",
+                "e) Ubicación geográfica de la sede central"
+            ],
+            "answerIndexes": [0, 1, 3]
+        },
+        {
+            "id": 2,
+            "question": "Según lo visto en clase, las variables que afectan al desempeño son responsabilidad del líder:",
+            "options": [
+                "a) Solo cuando fue él mismo quien las decidió",
+                "b) Ya sea por omisión o por decisión",
+                "c) Solo si RRHH se lo delegó formalmente"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 3,
+            "question": "En la relación entre la empresa y las personas, el líder:",
+            "options": [
+                "a) Representa a los trabajadores ante la empresa y negocia sus convenios colectivos",
+                "b) Es un observador neutral que no interviene en las transacciones entre las partes",
+                "c) Representa a la empresa, gestiona el beneficio mutuo y logra resultados \"haciendo hacer\""
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 4,
+            "question": "Señalar lo que habitualmente piden las personas a las compañías:",
+            "options": [
+                "a) Continuidad en el trabajo",
+                "b) Logros repetibles y sostenidos en el tiempo",
+                "c) Recompensas justas",
+                "d) Actuación de acuerdo a normas, procesos y funciones"
+            ],
+            "answerIndexes": [0, 2]
+        },
+        {
+            "id": 5,
+            "question": "Según la unidad, cuanto mayor tiempo dure el vínculo laboral en condiciones de satisfacción mutua:",
+            "options": [
+                "a) Más rentable se torna la inversión que cada parte puso en la relación",
+                "b) Menos necesario se vuelve renegociar las expectativas de cada parte",
+                "c) Mayor es el riesgo de que alguna de las partes decida disolverlo"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 6,
+            "question": "Señalar las oportunidades que tienen los líderes en la gestión de sus equipos a lo largo del tiempo:",
+            "options": [
+                "a) Construir el \"primer contrato\" acordando prestaciones mutuas y satisfactorias",
+                "b) Fijar la remuneración por fuera de las políticas de la compañía",
+                "c) Exigir ajustes en el desempeño si no se logran los resultados deseados",
+                "d) Disolver el vínculo si se agotan los recursos para una relación productiva"
+            ],
+            "answerIndexes": [0, 2, 3]
+        },
+        {
+            "id": 7,
+            "question": "Asegurar que los acuerdos entre líderes y colaboradores se establezcan sobre bases compatibles en toda la compañía, evitando favoritismos, es para RRHH un desafío:",
+            "options": [
+                "a) Legal y sindical",
+                "b) Político y metodológico",
+                "c) Económico y financiero"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 8,
+            "question": "¿Por qué ese desafío se considera metodológico?",
+            "options": [
+                "a) Porque cada compañía tiene valores acerca de quiénes son las personas y cómo tratarlas",
+                "b) Porque los líderes deben elegir personalmente la metodología que aplica cada uno",
+                "c) Porque hacen falta herramientas comunes para que personas diversas actúen de modo semejante"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 9,
+            "question": "Las herramientas de gestión de RRHH buscan que todas las personas puedan:",
+            "options": [
+                "a) Negociar individualmente excepciones a las políticas generales",
+                "b) Reconocer reglas de juego claras y aplicables para todos",
+                "c) Hacerse cargo de su propio desempeño y de sus consecuencias",
+                "d) Identificar bases objetivas para crecer y hacer carrera",
+                "e) Evitar que su líder les exija ajustes en su desempeño"
+            ],
+            "answerIndexes": [1, 2, 3]
+        },
+        {
+            "id": 10,
+            "question": "Según la unidad, una persona \"consciente\" en su trabajo es aquella que:",
+            "options": [
+                "a) Siente, piensa y actúa con conocimiento de lo que hace",
+                "b) Cumple su horario y las normas sin cuestionarlas nunca",
+                "c) Conoce los objetivos de todos los sectores de la empresa"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 11,
+            "question": "¿Cuál es el primer paso para hacer un acuerdo de desempeño con nuestros colaboradores?",
+            "options": [
+                "a) Definir y comunicar los objetivos",
+                "b) Establecer el desempeño esperado",
+                "c) Monitorear el desempeño",
+                "d) Clarificar mi demanda"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 12,
+            "question": "¿Cuál es el orden correcto de los pasos para hacer un acuerdo de desempeño con los colaboradores?",
+            "options": [
+                "a) Definir objetivos → Clarificar demanda → Monitorear → Identificar necesidades de formación → Indagar limitaciones → Establecer desempeño esperado",
+                "b) Clarificar demanda → Definir y comunicar objetivos → Establecer desempeño esperado → Identificar necesidades de formación → Indagar limitaciones → Monitorear",
+                "c) Establecer desempeño esperado → Indagar limitaciones → Clarificar demanda → Definir objetivos → Monitorear → Identificar necesidades de formación"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 13,
+            "question": "Según la unidad, cuando negocian dos personas con jerarquía (poder) diferente:",
+            "options": [
+                "a) Siempre se impone el de mayor jerarquía, lo que garantiza mejores resultados",
+                "b) Lo justo es que RRHH intervenga como árbitro en cada una de las negociaciones",
+                "c) Hay negociación si el más poderoso quiere; si no, hay imposición, peligrosa para ambos"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 14,
+            "question": "Si como líder se observa algo que está mal y no se reacciona:",
+            "options": [
+                "a) Lo \"incorrecto\" pasa a ser permitido o tolerado",
+                "b) El colaborador lo termina corrigiendo solo con el tiempo",
+                "c) Recursos Humanos interviene automáticamente para corregirlo"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 15,
+            "question": "Monitorear el desempeño y actuar ante los desvíos es responsabilidad excluyente del líder. ¿Puede delegarla?",
+            "options": [
+                "a) No, bajo ninguna circunstancia puede delegarla en otra persona",
+                "b) Sí, pero debe dejarle en claro al liderado quién será esa persona",
+                "c) Sí, en RRHH, sin necesidad de avisarle al colaborador del cambio"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 16,
+            "question": "¿Cuál es el orden de los pasos del feedback para mejorar el desempeño?",
+            "options": [
+                "a) Preguntar por qué → Mostrar el problema → Comprobar la mejora → Repasar el modo correcto",
+                "b) Repasar el modo correcto → Mostrar el problema → Preguntar por qué → Comprobar la mejora",
+                "c) Mostrar el problema → Repasar el modo correcto → Comprobar la mejora → Preguntar por qué",
+                "d) Mostrar el problema → Preguntar por qué → Repasar el modo correcto → Comprobar la mejora"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 17,
+            "question": "En el primer paso del feedback (mostrar el problema con claridad), el líder debe:",
+            "options": [
+                "a) Explicar las consecuencias que el error tendrá sobre su performance",
+                "b) Señalar solo lo que ve, sin expresar juicios ni adelantar conclusiones",
+                "c) Volver a enseñarle la tarea con una demostración paso por paso"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 18,
+            "question": "\"Ponga la pelota en su campo y que juegue él\" se refiere al paso de:",
+            "options": [
+                "a) Preguntar por qué y guardar silencio para explorar las causas del desvío",
+                "b) Comprobar la mejora observando de cerca el trabajo después del coaching",
+                "c) Repasar el modo correcto mostrando modelos internos como referencia"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 19,
+            "question": "Al repasar el modo de desempeño correcto, el líder:",
+            "options": [
+                "a) Evita mencionar las consecuencias para no desmotivar al colaborador",
+                "b) Muestra con rigor las consecuencias de no trabajar bien",
+                "c) Aplica directamente una sanción formal, sin explicar el modo correcto",
+                "d) Vuelve a enseñar cómo ejecutar la tarea, con una demostración si hace falta"
+            ],
+            "answerIndexes": [1, 3]
+        },
+        {
+            "id": 20,
+            "question": "Según la unidad, ¿cuál es la premisa a la hora de señalar un problema a un colaborador?",
+            "options": [
+                "a) Dejar registro escrito del error para usarlo en la evaluación anual",
+                "b) Señalarlo frente al equipo para que todos aprendan del mismo error",
+                "c) Tratarlo como un adulto responsable y que el reclamo sea una oportunidad de aprendizaje"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 21,
+            "question": "Señalar los supuestos en los que se basa el modelo de liderazgo situacional de Hersey y Blanchard:",
+            "options": [
+                "a) El liderazgo es un servicio que se brinda al colaborador",
+                "b) Es el colaborador quien debe adaptarse al estilo del líder",
+                "c) No hay un estilo único: existen estilos pertinentes según la situación",
+                "d) Como el colaborador cambia, es el líder quien debe cambiar su comportamiento",
+                "e) Cada líder tiene un estilo natural que conviene mantener siempre igual"
+            ],
+            "answerIndexes": [0, 2, 3]
+        },
+        {
+            "id": 22,
+            "question": "Según el modelo de liderazgo situacional, la autonomía o madurez de un colaborador:",
+            "options": [
+                "a) Es un rasgo estable de su personalidad, que no cambia de una tarea a otra",
+                "b) Se mide en relación con la tarea que realiza y la situación en que la ejecuta",
+                "c) Depende sobre todo de su antigüedad en la empresa y de su nivel jerárquico"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 23,
+            "question": "En el modelo, ¿en qué niveles de autonomía la situación se describe como \"es simple, no es conflictivo\" y \"no es simple, es conflictivo\", respectivamente?",
+            "options": [
+                "a) Niveles 3 y 4",
+                "b) Niveles 2 y 3",
+                "c) Niveles 1 y 2"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 24,
+            "question": "Un colaborador ya no hace tantas preguntas sobre la tarea, pero pide justificaciones (por qué, para qué) y no respeta todas las indicaciones por no comprender su importancia. ¿Qué estilo corresponde?",
+            "options": [
+                "a) Dirigir",
+                "b) Convencer",
+                "c) Participar",
+                "d) Delegar"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 25,
+            "question": "Un colaborador aporta sugerencias y propuestas de innovación, y necesita que le den seguridad de que hace lo correcto. ¿Qué acciones corresponden?",
+            "options": [
+                "a) Dar precisas instrucciones, mostrar cómo se hace y fijar reglas de juego",
+                "b) Mostrar el impacto de su tarea, indagar problemas y explicitar consecuencias",
+                "c) Habilitar para actuar y compartir con él la medición de los resultados",
+                "d) Reconocer sus logros, darle confianza e involucrarlo en iniciativas"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 26,
+            "question": "En la metáfora del puente y la escalera, el líder como \"escalera\" representa:",
+            "options": [
+                "a) La etapa en que impulsa y eleva a un colaborador que ya ganó autonomía",
+                "b) La etapa en que acompaña de cerca a quien todavía necesita orientación",
+                "c) El reflejo del líder que permanece en el equipo cuando ya no interviene"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 27,
+            "question": "En el ejercicio de explicarle el liderazgo a un niño de 6 años, ¿qué deja afuera la metáfora de Messi en la selección?",
+            "options": [
+                "a) La inspiración y el ejemplo que el líder transmite a todo el grupo",
+                "b) Que ser el mejor técnicamente no implica conducir todo el sistema",
+                "c) La experiencia y el compromiso que lo vuelven referente del equipo"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 28,
+            "question": "¿Qué deja afuera la imagen del carro, con el \"jefe\" arriba dando órdenes y el \"líder\" abajo empujando junto al equipo?",
+            "options": [
+                "a) La cercanía y el involucramiento del líder con el trabajo de su gente",
+                "b) La colaboración y el compromiso que el líder comparte con el equipo",
+                "c) Que el líder a veces debe estar \"arriba\" para mirar lejos y anticipar"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 29,
+            "question": "Según la síntesis del ejercicio del niño de 6 años, liderar:",
+            "options": [
+                "a) Es sobre todo motivar personas y evitar las situaciones que generan malestar",
+                "b) No es solo motivar personas: también es gestionar tensiones humanas",
+                "c) Depende principalmente del talento técnico y de la admiración que genera el líder"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 30,
+            "question": "Desde la Ontología del Lenguaje, la unidad considera a los valores como:",
+            "options": [
+                "a) Una \"declaración\" hecha por alguien, que existe por el accionar congruente con ella",
+                "b) Cualidades objetivas que preexisten en el mundo y que cada persona descubre",
+                "c) Normas escritas por la organización para encauzar la conducta de su personal"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 31,
+            "question": "El juicio de honestidad o deshonestidad que emitimos sobre alguien depende de:",
+            "options": [
+                "a) La jerarquía que esa persona ocupa en la organización",
+                "b) La congruencia entre su conducta y el valor declarado",
+                "c) La cantidad de valores que esa persona haya declarado",
+                "d) Nuestro modelo mental subyacente, desde el observador que somos"
+            ],
+            "answerIndexes": [1, 3]
+        },
+        {
+            "id": 32,
+            "question": "Los \"andariveles congruentes\" que generan nuestra identidad pública y nuestra capacidad de logro son:",
+            "options": [
+                "a) Misión, visión y valores",
+                "b) Creencias, normas y actitudes",
+                "c) Lo que pienso, lo que digo y lo que hago"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 33,
+            "question": "Señalar las declaraciones de valores que, según la unidad, coexisten en una organización:",
+            "options": [
+                "a) Estratégicos",
+                "b) Contables",
+                "c) Éticos",
+                "d) Operativos",
+                "e) Sindicales",
+                "f) Compartidos"
+            ],
+            "answerIndexes": [0, 2, 3, 5]
+        },
+        {
+            "id": 34,
+            "question": "Cuando la declaración de valores de una organización fracasa y queda olvidada en un afiche, el verdadero quiebre está en:",
+            "options": [
+                "a) Que los valores elegidos eran incorrectos para el negocio",
+                "b) La desalineación del compromiso y las conductas con lo declarado",
+                "c) Que la declaración no fue redactada por especialistas en RRHH"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 35,
+            "question": "Honestidad, sinceridad, lealtad, respeto y solidaridad son ejemplos de valores:",
+            "options": [
+                "a) Ético-morales (instrumentales)",
+                "b) De competencia (instrumentales)",
+                "c) Personales (finales)",
+                "d) Ético-sociales (finales)"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 36,
+            "question": "Paz, defensa de la ecología y justicia son ejemplos de valores:",
+            "options": [
+                "a) Personales (finales)",
+                "b) Ético-morales (instrumentales)",
+                "c) De competencia (instrumentales)",
+                "d) Ético-sociales (finales)"
+            ],
+            "answerIndex": 3
+        },
+        {
+            "id": 37,
+            "question": "Según Fredy Kofman, los valores fundamentales (felicidad, plenitud, libertad, paz, amor):",
+            "options": [
+                "a) Son medios para alcanzar otros valores más importantes",
+                "b) Varían según la cultura de cada organización",
+                "c) Son universales y constituyen \"la llegada a la meta\""
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 38,
+            "question": "Según la unidad, las creencias:",
+            "options": [
+                "a) Preceden a los valores: replantear un valor implica antes \"desaprender\" creencias",
+                "b) Son reglas de conducta consensuadas por un grupo para encauzar la conducta",
+                "c) Son la manifestación práctica de nuestro \"estar siendo\" en la acción diaria"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 39,
+            "question": "Una tendencia o predisposición respecto de las personas o las situaciones, que predice nuestra manera de actuar, es:",
+            "options": [
+                "a) Una norma",
+                "b) Una creencia",
+                "c) Una actitud",
+                "d) Una conducta"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 40,
+            "question": "Señalar los tres \"pilares\" fundacionales de los valores de una organización (las creencias y valores de...):",
+            "options": [
+                "a) Sus clientes",
+                "b) Sus socios fundadores",
+                "c) Sus managers",
+                "d) Sus competidores",
+                "e) Su personal"
+            ],
+            "answerIndexes": [1, 2, 4]
+        },
+        {
+            "id": 41,
+            "question": "Según la charla de Tenaris sobre liderazgo, \"El talento entra por la empresa y...\"",
+            "options": [
+                "a) se queda por el salario",
+                "b) se queda por el líder",
+                "c) se va por la competencia"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "id": 42,
+            "question": "En la \"anatomía de un líder\" de Tenaris, cuando alguien se equivoca, el líder que todos queremos:",
+            "options": [
+                "a) Lo expone en público para que todo el equipo aprenda del error",
+                "b) Se hace cargo él mismo del error para evitar cualquier conflicto",
+                "c) Enseña en vez de castigar y explica el error en privado"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "id": 43,
+            "question": "En Tenaris, el programa ME (Management Essentials) está pensado para:",
+            "options": [
+                "a) Quienes están en su primer año como people managers",
+                "b) Gerentes y directores, en Rice University (Houston)",
+                "c) El top management, en Dalmine (Italia)"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "id": 44,
+            "question": "Según la charla de Tenaris, \"La cultura de una compañía se parece mucho a...\"",
+            "options": [
+                "a) sus productos",
+                "b) su mercado",
+                "c) sus líderes"
+            ],
+            "answerIndex": 2
+        }
+    ]
+}
