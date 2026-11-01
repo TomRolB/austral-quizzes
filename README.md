@@ -1,4 +1,4 @@
-# Simulador de Exámenes Universitarios
+# Modelos de Exámenes Universitarios
 
 Aplicación web interactiva basada en Astro para practicar simulacros de exámenes universitarios, organizada de forma dinámica mediante colecciones de contenido.
 
