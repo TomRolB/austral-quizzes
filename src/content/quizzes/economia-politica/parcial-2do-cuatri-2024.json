@@ -3,6 +3,7 @@
     "courseName": "Macroeconomía",
     "courseIcon": "📊",
     "id": "quiz-economia-2024-c2",
+    "kind": "model",
     "title": "Modelo 2do Cuatrimestre 2024",
     "description": "Preguntas de un modelo real",
     "questions": [

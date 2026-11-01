@@ -3,6 +3,7 @@
     "courseName": "Factor Humano",
     "courseIcon": "👥",
     "id": "quiz-fh-p1-2021-septiembre",
+    "kind": "model",
     "title": "Modelo 1er Parcial - Septiembre 2021",
     "description": "Preguntas de un modelo real",
     "questions": [

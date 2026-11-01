@@ -3,6 +3,7 @@
     "courseName": "Factor Humano",
     "courseIcon": "👥",
     "id": "quiz-fh-u4",
+    "kind": "practice",
     "title": "Unidad 4 - Capacitación",
     "description": "Preguntas de práctica sobre necesidades de capacitación, su detección y evaluación de eficacia (no es un modelo real)",
     "questions": [

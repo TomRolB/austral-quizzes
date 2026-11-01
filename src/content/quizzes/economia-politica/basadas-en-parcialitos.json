@@ -3,6 +3,7 @@
     "courseName": "Macroeconomía",
     "courseIcon": "📊",
     "id": "quiz-parcialitos-macro-2026",
+    "kind": "model",
     "title": "Preguntas basadas en parcialitos",
     "description": "1º cuatrimestre - año 2026. Preguntas basadas en parcialitos",
     "questions": [

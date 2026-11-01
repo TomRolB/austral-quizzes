@@ -3,6 +3,7 @@
     "courseName": "Factor Humano",
     "courseIcon": "👥",
     "id": "quiz-fh-p2-2022-junio",
+    "kind": "model",
     "title": "Modelo 2do Parcial - Junio 2022",
     "description": "Preguntas de un modelo real",
     "questions": [

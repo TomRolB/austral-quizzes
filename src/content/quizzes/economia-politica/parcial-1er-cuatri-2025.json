@@ -3,6 +3,7 @@
     "courseName": "Macroeconomía",
     "courseIcon": "📊",
     "id": "quiz-economia-2025",
+    "kind": "model",
     "title": "Modelo 1er Cuatrimestre 2025",
     "description": "Preguntas de un modelo real",
     "questions": [

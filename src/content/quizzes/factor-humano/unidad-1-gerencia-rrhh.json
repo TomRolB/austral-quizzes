@@ -3,6 +3,7 @@
     "courseName": "Factor Humano",
     "courseIcon": "👥",
     "id": "quiz-fh-u1",
+    "kind": "practice",
     "title": "Unidad 1 - Gerencia de RRHH",
     "description": "Preguntas de práctica sobre empresa, cultura organizacional y roles de RRHH (no es un modelo real)",
     "questions": [

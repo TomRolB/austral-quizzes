@@ -1,20 +1,32 @@
 ---
 import ProgressBar from '../shared/ProgressBar.astro';
+import { QUIZ_KIND_LABELS, type QuizKind } from '../../content/quizKinds';
 
 interface Props {
   quizId: string;
+  kind: QuizKind;
   title: string;
   description: string;
   questionCount: number;
   href: string;
 }
 
-const { quizId, title, description, questionCount, href } = Astro.props;
+const { quizId, kind, title, description, questionCount, href } = Astro.props;
 ---
-<a href={href} class="quiz-card surface animate-fade-in-up" id={`quiz-${quizId}`} data-quiz-id={quizId} data-question-count={questionCount}>
+<a
+  href={href}
+  class="quiz-card surface animate-fade-in-up"
+  id={`quiz-${quizId}`}
+  data-quiz-id={quizId}
+  data-quiz-kind={kind}
+  data-question-count={questionCount}
+>
   <div class="quiz-card__header">
     <h2 class="quiz-card__title">{title}</h2>
-    <span class="badge badge--muted quiz-card__count">{questionCount} preguntas</span>
+    <div class="quiz-card__badges">
+      <span class={`badge quiz-card__kind quiz-card__kind--${kind}`}>{QUIZ_KIND_LABELS[kind]}</span>
+      <span class="badge badge--muted quiz-card__count">{questionCount} preguntas</span>
+    </div>
   </div>
   <p class="quiz-card__description">{description}</p>
   <div class="quiz-card__footer">
@@ -27,7 +39,8 @@ const { quizId, title, description, questionCount, href } = Astro.props;
 </a>
 
 <script>
-  import { parseQuizState, summarizeProgress, storageKeyFor, type QuizProgress } from '../quiz/quizStorage';
+  import type { QuizProgress } from '../quiz/quizStorage';
+  import { loadStoredProgress } from './storedProgress';
 
   const STATUS_TEXT: Record<string, string> = {
     none: 'Sin comenzar',
@@ -43,7 +56,7 @@ const { quizId, title, description, questionCount, href } = Astro.props;
   function renderCard(card: HTMLElement): void {
     const quizId = card.dataset.quizId!;
     const total = Number(card.dataset.questionCount);
-    const progress = summarizeProgress(parseQuizState(localStorage.getItem(storageKeyFor(quizId))), total);
+    const progress = loadStoredProgress(quizId, total);
 
     const key = presentationKey(progress);
     card.dataset.progressStatus = key;
@@ -78,6 +91,8 @@ const { quizId, title, description, questionCount, href } = Astro.props;
     transition: box-shadow var(--transition-base), transform var(--transition-base);
   }
 
+  .quiz-card[hidden] { display: none; }
+
   .quiz-card:hover {
     box-shadow: var(--shadow-card-hover);
     transform: translateY(-2px);
@@ -94,6 +109,22 @@ const { quizId, title, description, questionCount, href } = Astro.props;
     font-size: 1rem;
     font-weight: 700;
     color: var(--color-text);
+  }
+
+  .quiz-card__badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+  }
+
+  .quiz-card__kind--model {
+    background: var(--color-accent-subtle);
+    color: var(--color-accent-hover);
+  }
+
+  .quiz-card__kind--practice {
+    background: var(--color-correct-bg);
+    color: var(--color-correct);
   }
 
   .quiz-card__description {

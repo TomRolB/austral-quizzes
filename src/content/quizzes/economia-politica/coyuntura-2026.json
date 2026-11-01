@@ -3,6 +3,7 @@
     "courseName": "Macroeconomía",
     "courseIcon": "📊",
     "id": "quiz-datos-coyuntura-2026",
+    "kind": "practice",
     "title": "Coyuntura 2026",
     "description": "Preguntas de coyuntura, basadas en investigación",
     "ignoredBiasChecks": ["answer-length"],

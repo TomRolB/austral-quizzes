@@ -1,0 +1,247 @@
+---
+import { QUIZ_KIND_LABELS, type QuizKind } from '../../content/quizKinds';
+
+interface Props {
+  kindsInCourse: QuizKind[];
+}
+
+const { kindsInCourse } = Astro.props;
+
+const kindChoices = [
+  { value: 'all', label: 'Todos' },
+  ...kindsInCourse.map(kind => ({ value: kind, label: QUIZ_KIND_LABELS[kind] })),
+];
+const offersKindChoice = kindsInCourse.length > 1;
+---
+<div class="quiz-filters" data-quiz-filters>
+  {offersKindChoice && (
+    <div class="quiz-filters__kinds" role="group" aria-label="Tipo de examen">
+      {kindChoices.map(choice => (
+        <button
+          type="button"
+          class="quiz-filters__chip"
+          data-kind-choice={choice.value}
+          aria-pressed={choice.value === 'all' ? 'true' : 'false'}
+        >
+          {choice.label}
+        </button>
+      ))}
+    </div>
+  )}
+  <button type="button" role="switch" aria-checked="false" class="quiz-filters__switch" data-unsolved-only>
+    <span class="quiz-filters__switch-track" aria-hidden="true">
+      <span class="quiz-filters__switch-knob"></span>
+    </span>
+    Sin resolver
+    <span class="quiz-filters__switch-count" data-unsolved-count></span>
+  </button>
+</div>
+<p class="quiz-filters__empty" data-no-quiz-matches hidden>Ningún examen coincide con los filtros elegidos.</p>
+
+<script>
+  import type { QuizKind } from '../../content/quizKinds';
+  import { type KindFilter, type ListedQuiz, type QuizListFilters, SHOW_EVERY_QUIZ, isListed } from './quizListFilter';
+  import { loadStoredProgress } from './storedProgress';
+
+  class QuizListFilterController {
+    private filters: QuizListFilters = { ...SHOW_EVERY_QUIZ };
+    private readonly quizzesByCard: Map<HTMLElement, ListedQuiz>;
+
+    constructor(
+      private readonly filterBar: HTMLElement,
+      cards: HTMLElement[],
+      private readonly noMatchesMessage: HTMLElement
+    ) {
+      this.quizzesByCard = new Map(cards.map(card => [card, listedQuizFrom(card)]));
+    }
+
+    bind(): void {
+      this.kindChoiceButtons().forEach(button => button.addEventListener('click', () => this.chooseKind(button)));
+      this.unsolvedOnlySwitch()?.addEventListener('click', () => this.toggleUnsolvedOnly());
+      this.showUnsolvedCount();
+    }
+
+    private toggleUnsolvedOnly(): void {
+      this.filters = { ...this.filters, onlyUnsolved: !this.filters.onlyUnsolved };
+      this.unsolvedOnlySwitch()?.setAttribute('aria-checked', String(this.filters.onlyUnsolved));
+      this.apply();
+    }
+
+    private chooseKind(chosenButton: HTMLButtonElement): void {
+      this.filters = { ...this.filters, kind: chosenButton.dataset.kindChoice as KindFilter };
+      this.kindChoiceButtons().forEach(button => button.setAttribute('aria-pressed', String(button === chosenButton)));
+      this.apply();
+    }
+
+    private apply(): void {
+      this.quizzesByCard.forEach((quiz, card) => {
+        card.hidden = !isListed(quiz, this.filters);
+      });
+      this.noMatchesMessage.hidden = [...this.quizzesByCard.keys()].some(card => !card.hidden);
+      this.showUnsolvedCount();
+    }
+
+    private showUnsolvedCount(): void {
+      const unsolvedOfChosenKind = { ...this.filters, onlyUnsolved: true };
+      const unsolvedQuizCount = [...this.quizzesByCard.values()].filter(quiz => isListed(quiz, unsolvedOfChosenKind)).length;
+      const countBadge = this.filterBar.querySelector<HTMLElement>('[data-unsolved-count]');
+      if (countBadge) countBadge.textContent = String(unsolvedQuizCount);
+    }
+
+    private kindChoiceButtons(): HTMLButtonElement[] {
+      return [...this.filterBar.querySelectorAll<HTMLButtonElement>('[data-kind-choice]')];
+    }
+
+    private unsolvedOnlySwitch(): HTMLButtonElement | null {
+      return this.filterBar.querySelector<HTMLButtonElement>('[data-unsolved-only]');
+    }
+  }
+
+  function listedQuizFrom(card: HTMLElement): ListedQuiz {
+    return {
+      kind: card.dataset.quizKind as QuizKind,
+      progress: loadStoredProgress(card.dataset.quizId!, Number(card.dataset.questionCount)),
+    };
+  }
+
+  const filterBar = document.querySelector<HTMLElement>('[data-quiz-filters]');
+  const noMatchesMessage = document.querySelector<HTMLElement>('[data-no-quiz-matches]');
+  if (filterBar && noMatchesMessage) {
+    const cards = [...document.querySelectorAll<HTMLElement>('[data-quiz-id]')];
+    new QuizListFilterController(filterBar, cards, noMatchesMessage).bind();
+  }
+</script>
+
+<style>
+  .quiz-filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-md);
+  }
+
+  .quiz-filters__kinds {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+  }
+
+  .quiz-filters__chip {
+    padding: 0.35rem var(--space-md);
+    border-radius: 999px;
+    border: 1px solid var(--color-border);
+    background: transparent;
+    color: var(--color-text-muted);
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+  }
+
+  .quiz-filters__chip:hover {
+    color: var(--color-text);
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+
+  .quiz-filters__chip[aria-pressed="true"] {
+    background: var(--color-accent-subtle);
+    border-color: var(--color-accent);
+    color: var(--color-accent-hover);
+  }
+
+  .quiz-filters__chip:focus-visible,
+  .quiz-filters__switch:focus-visible {
+    outline: none;
+    box-shadow: var(--shadow-focus);
+  }
+
+  .quiz-filters__switch {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: 0.3rem 0.35rem 0.3rem 0.4rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-border);
+    background: transparent;
+    color: var(--color-text-muted);
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-base);
+  }
+
+  .quiz-filters__switch:hover {
+    color: var(--color-text);
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+
+  .quiz-filters__switch-track {
+    position: relative;
+    width: 1.9rem;
+    height: 1.1rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    transition: background var(--transition-base);
+  }
+
+  .quiz-filters__switch-knob {
+    position: absolute;
+    top: 0.15rem;
+    left: 0.15rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background: var(--color-text-muted);
+    transition: transform var(--transition-base), background var(--transition-base);
+  }
+
+  .quiz-filters__switch-count {
+    min-width: 1.6rem;
+    padding: 0.05rem 0.45rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.06);
+    font-variant-numeric: tabular-nums;
+    text-align: center;
+    transition: all var(--transition-base);
+  }
+
+  .quiz-filters__switch[aria-checked="true"] {
+    border-color: var(--color-correct-border);
+    background: var(--color-correct-bg);
+    color: var(--color-correct);
+  }
+
+  .quiz-filters__switch[aria-checked="true"] .quiz-filters__switch-track {
+    background: var(--color-correct-border);
+  }
+
+  .quiz-filters__switch[aria-checked="true"] .quiz-filters__switch-knob {
+    transform: translateX(0.8rem);
+    background: var(--color-correct);
+  }
+
+  .quiz-filters__switch[aria-checked="true"] .quiz-filters__switch-count {
+    background: var(--color-correct);
+    color: var(--color-bg);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .quiz-filters__switch,
+    .quiz-filters__switch-track,
+    .quiz-filters__switch-knob,
+    .quiz-filters__switch-count {
+      transition: none;
+    }
+  }
+
+  .quiz-filters__empty {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    text-align: center;
+  }
+
+  .quiz-filters__empty[hidden] { display: none; }
+</style>

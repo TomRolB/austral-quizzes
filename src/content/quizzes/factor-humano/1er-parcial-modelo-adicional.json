@@ -3,6 +3,7 @@
     "courseName": "Factor Humano",
     "courseIcon": "👥",
     "id": "quiz-fh-p1-adicional",
+    "kind": "model",
     "title": "Modelo 1er Parcial - Adicional",
     "description": "Preguntas de un modelo real, sin fecha registrada",
     "questions": [

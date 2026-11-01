@@ -3,6 +3,7 @@
     "courseName": "Factor Humano",
     "courseIcon": "👥",
     "id": "quiz-fh-p1-2026",
+    "kind": "model",
     "title": "Modelo 1er Parcial - 2026",
     "description": "Preguntas de un modelo real",
     "ignoredBiasChecks": ["answer-length"],

@@ -3,6 +3,7 @@
     "courseName": "Factor Humano",
     "courseIcon": "👥",
     "id": "quiz-fh-p1-2023",
+    "kind": "model",
     "title": "Modelo 1er Parcial - 2023",
     "description": "Preguntas de un modelo real",
     "questions": [

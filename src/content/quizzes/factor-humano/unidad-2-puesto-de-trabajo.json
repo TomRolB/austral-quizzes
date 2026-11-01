@@ -3,6 +3,7 @@
     "courseName": "Factor Humano",
     "courseIcon": "👥",
     "id": "quiz-fh-u2",
+    "kind": "practice",
     "title": "Unidad 2 - El puesto de trabajo",
     "description": "Preguntas de práctica sobre descripción y valuación de puestos, estructura salarial, selección e inducción (no es un modelo real)",
     "questions": [

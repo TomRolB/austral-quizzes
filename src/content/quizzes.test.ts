@@ -13,6 +13,7 @@ import {
   mostBiasedPosition,
   mostCommonAnswerShape,
 } from './biasChecks';
+import { QUIZ_KINDS, type QuizKind } from './quizKinds';
 
 const QUIZZES_DIR = join(import.meta.dirname, 'quizzes');
 
@@ -21,6 +22,7 @@ interface Quiz {
   courseName: string;
   courseIcon: string;
   id: string;
+  kind: QuizKind;
   title: string;
   description: string;
   ignoredBiasChecks?: BiasCheck[];
@@ -68,6 +70,10 @@ describe.each(quizFiles)('$name', ({ quiz }) => {
     for (const field of ['courseId', 'courseName', 'courseIcon', 'id', 'title', 'description'] as const) {
       expect(quiz[field], `missing "${field}"`).toBeTruthy();
     }
+  });
+
+  test('declares whether it is a real exam model or practice built from course content', () => {
+    expect(QUIZ_KINDS).toContain(quiz.kind);
   });
 
   test('has questions', () => {

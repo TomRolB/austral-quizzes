@@ -3,6 +3,7 @@
     "courseName": "Factor Humano",
     "courseIcon": "👥",
     "id": "quiz-fh-u3",
+    "kind": "practice",
     "title": "Unidad 3 - Relaciones Laborales",
     "description": "Preguntas de práctica sobre sistema sindical, derecho laboral, teletrabajo y reforma laboral (no es un modelo real)",
     "questions": [
